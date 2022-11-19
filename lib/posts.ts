@@ -7,18 +7,29 @@ import { remark } from 'remark';
 
 
 export async function getPostData(id: string) {
-  const fullPath = path.join("posts", `${id}.md`);
+  const fullPath = path.join(process.cwd(), "posts", `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   
 
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
 
+  let hrlineCount = 0;
+  
+  const matterHTMLContent = matterResult.orig.toString().split("\n")
+    .filter((text)=> {
+      if (text === "---" && hrlineCount < 2) {
+        hrlineCount++;
+        return false;
+      }
+      return hrlineCount >= 2;
+    })
+
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(remarkParse)
     .use(html, {sanitize: false})
-    .process(matterResult.content);
+    .process(matterHTMLContent.join("\n"));
   const contentHtml = processedContent.toString();
 
   // Combine the data with the id and contentHtml
@@ -30,8 +41,8 @@ export async function getPostData(id: string) {
 }
 
 export function createListJson() {
-  const dirs = fs.readdirSync("posts");
-  const filePaths = dirs.map(dir => path.join("posts", dir));
+  const dirs = fs.readdirSync(path.join(process.cwd(), "posts"));
+  const filePaths = dirs.map(dir => path.join(process.cwd(), "posts", dir));
   const fileContents = filePaths.map(filePath => fs.readFileSync(filePath, 'utf8'));
   const matterResults: any = fileContents.map(contents => matter(contents));
 
