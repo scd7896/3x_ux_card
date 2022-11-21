@@ -1,0 +1,29 @@
+.wrapper {
+	font-family: 'Pretendard';
+	color: var(--gray_0);
+	letter-spacing: -0.002em;
+}
+
+.wrapper.level-1 {
+	font-size: 18px;	
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.wrapper.level-2 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.wrapper.level-3 {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: bold;
+}
+
+.wrapper.level-4 {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+}

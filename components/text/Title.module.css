@@ -1,0 +1,25 @@
+.wrapper {
+	font-family: 'Pretendard';
+	color: var(--gray_0);
+	letter-spacing: -0.002em;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper h1 {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 52px;	
+}
+
+.wrapper h2 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 46px;
+}
+
+.wrapper h3 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+}
