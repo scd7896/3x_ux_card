@@ -7,11 +7,12 @@ body {
   --yellow: #FFDE9E;
   --orange: #FF985D;
   --gray_0: #222;
-  --gary_100: #4E4E4E;
+  --gray_100: #4E4E4E;
   --gray_200: #7A7A7A;
   --gray_300: #A7A7A7;
   --gray_400: #D3D3D3;
   --gray_500: #E9E9E9;
   --gray_600: #F4F4F4;
   --black: #333;
+  --white: #fff;
 }

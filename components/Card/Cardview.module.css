@@ -1,0 +1,29 @@
+.wrapper {
+	width: 384px;
+	height: 434px;
+	padding: 32px;
+	box-sizing: border-box;
+	background-color: var(--white);
+	border-radius: 32px;
+	border: 1px solid var(--gray_500);
+}
+
+.imageWrapper {
+	width: 100%;
+	height: 200px;
+	background-color: #FF40B3;
+	margin-bottom: 24px;
+}
+
+.titleWrapper {
+	font-weight: 600;
+	font-size: 24px;
+	color: var(--gray_0);
+	margin-bottom: 8px;
+}
+
+.contentsWrapper {
+	color: #555;
+	font-weight: 400;
+	
+}

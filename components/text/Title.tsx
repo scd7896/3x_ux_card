@@ -2,7 +2,7 @@ import styles from "./Title.module.css";
 
 interface IProp {
 	level: 1 | 2 | 3;
-	children: string;
+	children: React.ReactNode;
 }
 
 export default function Title({ level, children }: IProp) {
