@@ -1,4 +1,4 @@
-.root {
+body {
   --puple: #C7B9FF;
   --blue: #B1C3FF;
   --green: #D2E585;
@@ -13,4 +13,5 @@
   --gray_400: #D3D3D3;
   --gray_500: #E9E9E9;
   --gray_600: #F4F4F4;
+  --black: #333;
 }
