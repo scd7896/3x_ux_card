@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import Link from "../components/Link/Link";
+import Link from "../../components/Link/Link";
 
 export default {
 	title: "Typho/Link",

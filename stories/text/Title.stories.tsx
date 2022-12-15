@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import Title from "../components/text/Title";
+import Title from "../../components/text/Title";
 
 export default {
 	title: "Typho/Title",

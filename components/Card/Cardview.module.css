@@ -6,6 +6,7 @@
 	background-color: var(--white);
 	border-radius: 32px;
 	border: 1px solid var(--gray_500);
+	position: relative;
 }
 
 .imageWrapper {
@@ -16,14 +17,16 @@
 }
 
 .titleWrapper {
-	font-weight: 600;
-	font-size: 24px;
-	color: var(--gray_0);
 	margin-bottom: 8px;
 }
 
 .contentsWrapper {
-	color: #555;
-	font-weight: 400;
-	
+	margin-bottom: 64px;
+}
+
+.footerWrapper {
+	position: absolute;
+	width: 100%;
+	left: 32px;
+	bottom: 32px;
 }
