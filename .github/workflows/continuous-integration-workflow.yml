@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build-test-deploy:
@@ -13,7 +13,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -21,13 +21,23 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
       - run: rm -rf node_modules && rm -rf .next && rm -rf out
       - run: npm install
       - run: npm run build
+
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: shallwefootball/s3-upload-action@master
+        name: Upload S3
+        id: S3
         with:
-          github_token: ${{ secrets.REPO_TOKEN }}
-          publish_dir: ./out
-      
+          aws_key_id: ${{ secrets.AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_bucket: ${{ secrets.AWS_BUCKET }}
+          source_dir: "out"
+
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.REPO_TOKEN }}
+      #     publish_dir: ./out
