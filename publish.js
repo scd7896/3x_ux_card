@@ -51,6 +51,10 @@ const uploadDir = function (s3Path, bucketName) {
 };
 
 s3.listObjects({ Bucket: "3xuxcard" }, (err, data) => {
+	if (err) {
+		console.log(err);
+		console.log(process.env.AWS_KEY_ID === undefined);
+	}
 	s3.deleteObjects(
 		{
 			Bucket: "3xuxcard",
