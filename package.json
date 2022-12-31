@@ -10,12 +10,14 @@
     "test": "jest",
     "deploy": "gh-pages -d out",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish": "node ./publish.js"
   },
   "dependencies": {
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
+    "aws-sdk": "^2.1286.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "gray-matter": "^4.0.3",
