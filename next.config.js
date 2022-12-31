@@ -2,13 +2,13 @@
 
 const basePath = {
 	development: "",
-	production: "/nextjs-markdown-base",
+	production: "/",
 };
 
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  basePath: basePath[process.env.NODE_ENV]
-}
+	reactStrictMode: true,
+	swcMinify: true,
+	basePath: basePath[process.env.NODE_ENV],
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
