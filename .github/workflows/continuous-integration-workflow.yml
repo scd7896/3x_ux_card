@@ -25,6 +25,8 @@ jobs:
       - run: rm -rf node_modules && rm -rf .next && rm -rf out
       - run: npm install
       - run: npm run build
+      - run: npm run build-storybook
+      - run: mv storybook-static/color.css out/color.css
       - name: Deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}

@@ -17,7 +17,7 @@ const contentType = {
 	js: "application/javascript",
 };
 
-const uploadDir = function (s3Path, bucketName) {
+const uploadDir = function (s3Path, bucketName, bucketBaseUploadPath = "") {
 	function walkSync(currentDirPath, callback) {
 		fs.readdirSync(currentDirPath).forEach(function (name) {
 			var filePath = path.join(currentDirPath, name);
@@ -35,12 +35,12 @@ const uploadDir = function (s3Path, bucketName) {
 		const type = filePath.split(".").pop();
 		let params = {
 			Bucket: bucketName,
-			Key: bucketPath,
+			Key: path.join(bucketBaseUploadPath, bucketPath),
 			Body: fs.readFileSync(filePath),
 			ContentType: `${contentType[type]}; charset=utf8` || "text/plain",
 		};
 
-		s3.putObject(params, function (err, data) {
+		s3.putObject({ ...params }, function (err, data) {
 			if (err) {
 				console.log(err);
 			} else {
@@ -64,6 +64,7 @@ s3.listObjects({ Bucket: "3xuxcard" }, (err, data) => {
 		},
 		(err, data) => {
 			uploadDir(path.join(__dirname, "out"), "3xuxcard");
+			uploadDir(path.join(__dirname, "storybook-static"), "3xuxcard", "storybook-static");
 		}
 	);
 });

@@ -11,4 +11,17 @@ module.exports = {
 		builder: "@storybook/builder-webpack5",
 	},
 	staticDirs: [{ from: "../public", to: "/" }],
+	webpackFinal: async (config, { configType }) => {
+		if (config.mode === "production") {
+			config.output.publicPath = "/storybook-static/";
+		}
+		return config;
+	},
+	managerWebpack: async (config) => {
+		console.log(config.mode);
+		if (config.mode === "production") {
+			config.output.publicPath = "/storybook-static/";
+		}
+		return config;
+	},
 };
