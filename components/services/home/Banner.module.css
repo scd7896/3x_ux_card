@@ -1,0 +1,30 @@
+.wrapper {
+	background-color: var(--gray_80);
+	width: 100%;
+	padding-top: 80px;
+}
+
+.bannerTextWrapper {
+	margin-bottom: 24px;
+}
+
+.bannerText {
+	color: var(--gray_0);
+	font-weight: 400;
+	font-size: 40px;
+	font-family: 'Pretendard';
+	text-align: center;
+	line-height: 52px;
+	letter-spacing: -0.2%;
+}
+
+.buttonWrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 24px;
+}
+
+.imgWrapper {
+	width: 100%;
+	height: 260px;
+}
