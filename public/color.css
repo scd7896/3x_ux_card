@@ -29,4 +29,7 @@ body {
   --orange_10: #FFD6BE;
   --orange_5: #FFEADF;
   --orange_0: #FFF5EF;
+
+  margin: 0;
+  padding: 0;
 }

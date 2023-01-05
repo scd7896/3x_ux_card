@@ -1,0 +1,8 @@
+.button_1 {
+	font-size: 16px;
+	color: var(--gray_90);
+	line-height: 26px;
+	letter-spacing: -0.6%;
+	font-weight: 600;
+	font-family: 'Pretendard';
+}

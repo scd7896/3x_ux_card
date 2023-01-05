@@ -1,10 +1,5 @@
-import Link from "../components/Link/Link";
+import PageLayout from "../components/layout/PageLayout";
 
 export default function Home() {
-	return (
-		<div>
-			Home
-			<Link href="/test">test</Link>
-		</div>
-	);
+	return <PageLayout></PageLayout>;
 }
