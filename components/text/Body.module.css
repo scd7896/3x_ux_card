@@ -1,5 +1,5 @@
 .level_1 {
 	font-size: 18px;
-	color: #555;
+	color: var(--gray_70);
 	line-height: 1.65;
 }
