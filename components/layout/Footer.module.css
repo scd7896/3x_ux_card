@@ -1,0 +1,12 @@
+
+.wrapper {
+	text-align: center;
+
+	background-color: var(--gray_0);
+	border-top: 1px solid var(--gray_80);
+	padding: 48px 0;
+}
+
+.subTitleWrapper {
+	margin-bottom: 8px;
+}
