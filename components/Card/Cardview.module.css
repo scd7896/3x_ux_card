@@ -3,7 +3,7 @@
 	height: 434px;
 	padding: 32px;
 	box-sizing: border-box;
-	background-color: var(--white);
+	background-color: var(--gray_0);
 	border-radius: 32px;
 	border: 1px solid var(--gray_500);
 	position: relative;

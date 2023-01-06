@@ -1,9 +1,9 @@
 .anchor {
 	font-size: 18px;
-	color: var(--black);
+	color: var(--gray_90);
 	text-decoration: underline;
 }
 
 .anchor:visited {
-	color: var(--black);
+	color: var(--gray_90);
 }

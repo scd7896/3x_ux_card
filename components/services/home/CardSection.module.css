@@ -1,0 +1,20 @@
+.wrapper {
+	background-color: var(--gray_10);
+	padding: 80px 0 100px;
+	box-sizing: border-box;
+}
+
+.titleWrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+
+.cardWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.card + .card {
+	margin-left: 24px;
+}
