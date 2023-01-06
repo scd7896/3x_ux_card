@@ -2,7 +2,7 @@ import Button from "../../Button/Button";
 import { ButtonText } from "../../text/Text";
 import styles from "./Banner.module.css";
 
-export default function HoneBanner() {
+export default function HomeBanner() {
 	return (
 		<section className={styles.wrapper}>
 			<div className={styles.bannerTextWrapper}>
