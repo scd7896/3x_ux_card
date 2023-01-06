@@ -1,0 +1,26 @@
+.wrapper {
+	padding: 80px 0 120px;
+}
+
+.titleWrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+
+.sheetDownloadWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.sheetDownloadContainer {
+	width: 1200px;
+}
+
+.hr {
+	height: 1px;
+	width: 100%;
+	content: " ";
+	background-color: #e6e6e6;
+	margin: 32px 0;
+}
