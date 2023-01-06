@@ -30,6 +30,28 @@ body {
   --orange_5: #FFEADF;
   --orange_0: #FFF5EF;
 
+  --cardlight_yellow: #FFDE9E;
+  --cardlight_peach: #FFC5BD;
+  --cardlight_green: #D2E585;
+  --cardlight_mint: #9ADAB7;
+  --cardlight_blue: #C8D4FF;
+  --cardlight_purple: #DED6FF;
+
+  --carddark_yellow: #FFC162;
+  --carddark_peach: #F5AEA5;
+  --carddark_green: #B5D23C;
+  --carddark_mint: #68C091;
+  --carddark_blue: #A8BAFC;
+  --carddark_purple: #C9BCFF;
+  
+  --cardtrans_yellow: rgba(255, 222, 158, 0.5);
+  --cardtrans_peach: rgba(255, 197, 189, 0.5);
+  --cardtrans_green: rgba(210, 229, 133, 0.5);;
+  --cardtrans_mint: rgba(154, 218, 183, 0.5);
+  --cardtrans_blue: rgba(200, 212, 255, 0.5);
+  --cardtrans_purple: rgba(222, 214, 255, 0.5);
+  --cardtrans_white: rgba(255, 255, 255, 0.3);
+
   margin: 0;
   padding: 0;
 }

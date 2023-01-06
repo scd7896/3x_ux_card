@@ -1,0 +1,113 @@
+.wrapper {
+	width: 282px;
+	height: 353px;
+	box-sizing: border-box;
+	padding: 32px 24px 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 16px;
+}
+
+.wrapper.공감 {
+	background-color: var(--cardlight_yellow);
+	border: 1px solid var(--carddark_yellow);
+}
+
+.wrapper.아이디어 {
+	background-color: var(--cardlight_peach);
+	border: 1px solid var(--carddark_peach);
+}
+
+.wrapper.프로토타입 {
+	background-color: var(--cardlight_green);
+	border: 1px solid var(--carddark_green);
+}
+
+.wrapper.테스트 {
+	background-color: var(--cardlight_mint);
+	border: 1px solid var(--carddark_mint);
+}
+
+.wrapper.출시 {
+	background-color: var(--cardlight_purple);
+	border: 1px solid var(--carddark_purple);
+}
+
+.badgeWrapper {
+	width: 100%;
+}
+
+.badge {
+	padding: 3px 8px;
+	border-radius: 100px;	
+	display: inline-block;
+}
+
+
+.badge.공감 {
+	background: var(--cardtrans_yellow);
+	mix-blend-mode: multiply;
+}
+
+.badge.아이디어 {
+	background: var(--cardtrans_peach);
+	mix-blend-mode: multiply;
+}
+
+.badge.프로토타입 {
+	background: var(--cardtrans_green);
+	mix-blend-mode: multiply;
+}
+
+.badge.테스트 {
+	background: var(--cardtrans_mint);
+	mix-blend-mode: multiply;
+}
+
+.badge.출시 {
+	background: var(--cardtrans_purple);
+	mix-blend-mode: multiply;
+}
+
+
+
+
+.badgeGap {
+	box-sizing: border-box;
+}
+
+.badgeGap + .badgeGap {
+	margin-top: 10px;
+}
+
+
+.bottomWrapper {
+	display: flex;
+}
+
+.iconWrapper {
+	width: 100%;
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+
+	background: var(--cardtrans_white);
+}
+
+.iconImg {
+	width: 48px;
+	height: 48px;
+	background-color: #FF40B3CC;
+}
