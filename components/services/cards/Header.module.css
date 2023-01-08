@@ -1,0 +1,12 @@
+.wrapper {
+	width: 100%;
+	padding: 80px 0 32px;
+	background-color: var(--gray_10);
+
+	display: flex;
+	justify-content: center;
+}
+
+.contentWrapper {
+	width: 1200px;
+}
