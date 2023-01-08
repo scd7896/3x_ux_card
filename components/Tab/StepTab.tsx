@@ -1,4 +1,5 @@
 import { useCallback, useState } from "react";
+import SubTitle from "../text/SubTitle";
 
 import styles from "./StepTab.module.css";
 
@@ -28,11 +29,7 @@ export default function StepTab({ steps, defaultStep, onChange, arrowStartIndex 
 		<section className={styles.wrapper}>
 			{steps.map((it, index) => (
 				<>
-					{currentStep === it.key ? (
-						<Selected>{it.label || it.key}</Selected>
-					) : (
-						<div key={it.key}>{it.label || it.key}</div>
-					)}
+					<Item selected={currentStep === it.key}>{it.label || it.key}</Item>
 
 					{getShowArrow(index) && <StepArrow />}
 				</>
@@ -51,8 +48,13 @@ function StepArrow() {
 
 interface ISelectProp {
 	children?: React.ReactNode;
+	selected: boolean;
 }
 
-function Selected({ children }: ISelectProp) {
-	return <section>{children}</section>;
+function Item({ children, selected }: ISelectProp) {
+	return (
+		<section className={`${styles.item} ${selected && styles.selected}`}>
+			<SubTitle level={2}>{children}</SubTitle>
+		</section>
+	);
 }

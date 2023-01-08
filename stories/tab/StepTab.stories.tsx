@@ -24,4 +24,5 @@ StepTab1.args = {
 		{ key: "테스트" },
 		{ key: "출시" },
 	],
+	arrowStartIndex: 1,
 };

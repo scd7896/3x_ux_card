@@ -16,5 +16,25 @@
 }
 
 .arrow {
+	content: " ";
+	width: 32px;
+}
 
+.item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+	width: 100%;
+	padding: 12px 0;
+}
+
+.selected {
+	background-color: var(--gray_90);
+	border-radius: 100px;
+}
+
+.selected span {
+	color: var(--gray_0);
 }

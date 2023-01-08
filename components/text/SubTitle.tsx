@@ -2,7 +2,7 @@ import styles from "./SubTitle.module.css";
 
 interface IProp {
 	level: 1 | 2 | 3 | 4;
-	children: string;
+	children: React.ReactNode;
 }
 
 export default function SubTitle({ level, children }: IProp) {
