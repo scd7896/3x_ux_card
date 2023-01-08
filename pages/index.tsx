@@ -5,10 +5,10 @@ import SheetDownloadSection from "../components/services/home/SheetDownloadSecti
 
 export default function Home() {
 	return (
-		<PageLayout>
+		<>
 			<HomeBanner />
 			<CardSection />
 			<SheetDownloadSection />
-		</PageLayout>
+		</>
 	);
 }
