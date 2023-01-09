@@ -29,7 +29,15 @@ export default function StepTab({ steps, defaultStep, onChange, arrowStartIndex 
 		<section className={styles.wrapper}>
 			{steps.map((it, index) => (
 				<>
-					<Item selected={currentStep === it.key}>{it.label || it.key}</Item>
+					<Item
+						onClick={() => {
+							setCurrentStep(it.key);
+							onChange?.(it.key);
+						}}
+						selected={currentStep === it.key}
+					>
+						{it.label || it.key}
+					</Item>
 
 					{getShowArrow(index) && <StepArrow />}
 				</>
@@ -46,14 +54,15 @@ function StepArrow() {
 	);
 }
 
-interface ISelectProp {
+interface IItemProp {
 	children?: React.ReactNode;
+	onClick?: () => void;
 	selected: boolean;
 }
 
-function Item({ children, selected }: ISelectProp) {
+function Item({ children, selected, onClick }: IItemProp) {
 	return (
-		<section className={`${styles.item} ${selected && styles.selected}`}>
+		<section className={`${styles.item} ${selected && styles.selected}`} onClick={onClick}>
 			<SubTitle level={2}>{children}</SubTitle>
 		</section>
 	);
