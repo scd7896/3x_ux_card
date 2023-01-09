@@ -7,6 +7,10 @@
 	justify-content: center;
 }
 
+.titleWrapper {
+	margin-bottom: 48px;
+}
+
 .contentWrapper {
 	width: 1200px;
 }
