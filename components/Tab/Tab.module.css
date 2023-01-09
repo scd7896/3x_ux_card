@@ -1,0 +1,22 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+}
+
+.item {
+	cursor: pointer;
+}
+
+.item h3 {
+	color: var(--gray_40);
+}
+
+.selected h3 {
+	color: var(--gray_90);
+}
+
+.item + .item {
+	margin-left: 16px;
+}
