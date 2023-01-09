@@ -18,6 +18,7 @@ export default function Tab({ steps, defaultStep, onChange }: IProp) {
 		<section className={styles.wrapper}>
 			{steps.map((it) => (
 				<Item
+					key={it.key}
 					onClick={() => {
 						setCurrentStep(it.key);
 						onChange?.(it.key);

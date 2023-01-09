@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { Fragment, useCallback, useState } from "react";
 import SubTitle from "../text/SubTitle";
 
 import styles from "./StepTab.module.css";
@@ -28,7 +28,7 @@ export default function StepTab({ steps, defaultStep, onChange, arrowStartIndex 
 	return (
 		<section className={styles.wrapper}>
 			{steps.map((it, index) => (
-				<>
+				<Fragment key={it.key}>
 					<Item
 						onClick={() => {
 							setCurrentStep(it.key);
@@ -40,7 +40,7 @@ export default function StepTab({ steps, defaultStep, onChange, arrowStartIndex 
 					</Item>
 
 					{getShowArrow(index) && <StepArrow />}
-				</>
+				</Fragment>
 			))}
 		</section>
 	);
