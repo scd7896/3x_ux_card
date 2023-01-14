@@ -1,19 +1,10 @@
+import { ICard } from "../../types/card";
 import SubTitle from "../text/SubTitle";
 import { Caption } from "../text/Text";
 import Title from "../text/Title";
 import styles from "./UXCardview.module.css";
 
-interface IProp {
-	step: "공감" | "아이디어" | "프로토타입" | "테스트" | "출시";
-	title?: string;
-	enTitle?: string;
-	members?: string[];
-	icon?: string;
-	description?: string;
-	level?: string;
-}
-
-export default function UXCardview({ title, enTitle, members, icon, step }: IProp) {
+export default function UXCardview({ title, enTitle, members, icon, step }: ICard["data"]) {
 	return (
 		<div className={`${styles.wrapper} ${styles[step]}`}>
 			<section>
@@ -36,7 +27,7 @@ export default function UXCardview({ title, enTitle, members, icon, step }: IPro
 	);
 }
 
-interface IBadge extends Pick<IProp, "step"> {
+interface IBadge extends Pick<ICard["data"], "step"> {
 	member: string;
 }
 

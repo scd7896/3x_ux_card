@@ -8,14 +8,12 @@ interface IProp {
 		key: string;
 		label?: React.ReactNode;
 	}>;
-	defaultStep?: string;
+	currentStep?: string;
 	onChange?: (key: string) => void;
 	arrowStartIndex?: number;
 }
 
-export default function StepTab({ steps, defaultStep, onChange, arrowStartIndex = 0 }: IProp) {
-	const [currentStep, setCurrentStep] = useState(defaultStep || steps[0]?.key || "");
-
+export default function StepTab({ steps, currentStep, onChange, arrowStartIndex = 0 }: IProp) {
 	const getShowArrow = useCallback(
 		(index: number) => {
 			if (steps.length - 1 === index) return false;
@@ -31,7 +29,6 @@ export default function StepTab({ steps, defaultStep, onChange, arrowStartIndex 
 				<Fragment key={it.key}>
 					<Item
 						onClick={() => {
-							setCurrentStep(it.key);
 							onChange?.(it.key);
 						}}
 						selected={currentStep === it.key}
