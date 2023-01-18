@@ -1,8 +1,16 @@
 ---
-title: title-hello
+title: 김서버 테스트 Title
 author: kimserver
+step: 공감
+enTitle: kimserver Title
+members: UX UI전문가, 팀 구성원, 사용자, 고객사, 누구나
+description: 김서버가 테스트로 만든 카드입니다.
+level: 쉬움
+duration: 30
 ---
+
 # hello
+
 ## myname is kimserver
 
 # updatess1

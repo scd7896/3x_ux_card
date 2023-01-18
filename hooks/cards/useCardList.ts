@@ -1,16 +1,10 @@
 import { useEffect, useState } from "react";
+import { ICard } from "../../types/card";
 
 interface IFilter {
 	category?: string;
 	step?: string;
 	members?: string;
-}
-
-interface ICard {
-	data: {
-		title: string;
-		author: string;
-	};
 }
 
 export default function useCardList() {
@@ -22,9 +16,9 @@ export default function useCardList() {
 			.then((res) => res.json())
 			.then((data) => {
 				console.log(data);
-				setCards(data.data);
+				setCards(data.map(({ data, _id }: any) => ({ ...data, members: data.members?.split(", "), id: _id })));
 			});
 	}, []);
 
-	return {};
+	return { cards };
 }

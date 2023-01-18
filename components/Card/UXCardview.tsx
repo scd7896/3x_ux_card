@@ -4,7 +4,7 @@ import { Caption } from "../text/Text";
 import Title from "../text/Title";
 import styles from "./UXCardview.module.css";
 
-export default function UXCardview({ title, enTitle, members, icon, step }: ICard["data"]) {
+export default function UXCardview({ title, enTitle, members, icon, step }: ICard) {
 	return (
 		<div className={`${styles.wrapper} ${styles[step]}`}>
 			<section>
@@ -27,7 +27,7 @@ export default function UXCardview({ title, enTitle, members, icon, step }: ICar
 	);
 }
 
-interface IBadge extends Pick<ICard["data"], "step"> {
+interface IBadge extends Pick<ICard, "step"> {
 	member: string;
 }
 

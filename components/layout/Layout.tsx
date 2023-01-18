@@ -14,7 +14,7 @@ export function Row({ children, rowGap, ...props }: IProp) {
 				gridRowGap: rowGap ? `${rowGap}px` : "",
 				...style,
 			}}
-			className={styles.wrapper}
+			className={`${styles.wrapper} ${props.className}`}
 		>
 			{children}
 		</section>
