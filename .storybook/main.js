@@ -18,7 +18,6 @@ module.exports = {
 		return config;
 	},
 	managerWebpack: async (config) => {
-		console.log(config.mode);
 		if (config.mode === "production") {
 			config.output.publicPath = "/storybook-static/";
 		}

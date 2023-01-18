@@ -15,7 +15,6 @@ export default function useCardList() {
 		fetch("/list.json")
 			.then((res) => res.json())
 			.then((data) => {
-				console.log(data);
 				setCards(data.map(({ data, _id }: any) => ({ ...data, members: data.members?.split(", "), id: _id })));
 			});
 	}, []);

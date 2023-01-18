@@ -53,7 +53,6 @@ export default function useSteps() {
 
 	useEffect(() => {
 		setSelectedStep("전체");
-		console.log(category);
 	}, [category]);
 
 	return {

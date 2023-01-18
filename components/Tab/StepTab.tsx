@@ -1,4 +1,4 @@
-import { Fragment, useCallback, useState } from "react";
+import { Fragment, useCallback } from "react";
 import SubTitle from "../text/SubTitle";
 
 import styles from "./StepTab.module.css";
@@ -20,7 +20,7 @@ export default function StepTab({ steps, currentStep, onChange, arrowStartIndex 
 			if (arrowStartIndex <= index) return true;
 			return false;
 		},
-		[steps.length]
+		[steps.length, arrowStartIndex]
 	);
 
 	return (
