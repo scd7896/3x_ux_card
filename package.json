@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
+    "test:watch": "jest --watch",
     "deploy": "gh-pages -d out",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
