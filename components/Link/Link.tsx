@@ -7,7 +7,7 @@ import styles from "./Link.module.css";
 export default function Link(props: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
 	const href = useMemo(() => {
 		const result = checkUrlByHtml(props.href || "", IS_PRODUCTION ? "production" : "");
-		console.log(result);
+
 		return result;
 	}, [props.href]);
 
