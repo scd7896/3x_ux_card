@@ -1,5 +1,5 @@
 import React from "react";
-import CardsPage from "./index";
+import CardsPage from "../../../pages/cards/index";
 import { cardListMock } from "./_mock";
 
 describe("<CardsPage />", () => {
