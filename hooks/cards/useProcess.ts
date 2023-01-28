@@ -41,26 +41,26 @@ const categories = [
 	},
 ];
 
-export default function useSteps() {
+export default function useProcess() {
 	const [category, setCategory] = useState<string>(ECategoryKey.PROCESS);
-	const [selectedStep, setSelectedStep] = useState<string>("전체");
+	const [selectedProcess, setSelectedProcess] = useState<string>("전체");
 
-	const steps = useMemo(() => {
+	const process = useMemo(() => {
 		if (category === ECategoryKey.PROCESS) return processTabs;
 		if (category === ECategoryKey.SITUATION) return situationTabs;
 		return [];
 	}, [category]);
 
 	useEffect(() => {
-		setSelectedStep("전체");
+		setSelectedProcess("전체");
 	}, [category]);
 
 	return {
 		category,
 		setCategory,
-		steps,
-		selectedStep,
+		process,
+		selectedProcess,
 		categories,
-		setSelectedStep,
+		setSelectedProcess,
 	};
 }

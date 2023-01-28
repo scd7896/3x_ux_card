@@ -1,37 +1,37 @@
 import { Fragment, useCallback } from "react";
 import SubTitle from "../text/SubTitle";
 
-import styles from "./StepTab.module.css";
+import styles from "./ProcessTab.module.css";
 
 interface IProp {
-	steps: Array<{
+	process: Array<{
 		key: string;
 		label?: React.ReactNode;
 	}>;
-	currentStep?: string;
+	currentProcess?: string;
 	onChange?: (key: string) => void;
 	arrowStartIndex?: number;
 }
 
-export default function StepTab({ steps, currentStep, onChange, arrowStartIndex = 0 }: IProp) {
+export default function ProcessTab({ process, currentProcess, onChange, arrowStartIndex = 0 }: IProp) {
 	const getShowArrow = useCallback(
 		(index: number) => {
-			if (steps.length - 1 === index) return false;
+			if (process.length - 1 === index) return false;
 			if (arrowStartIndex <= index) return true;
 			return false;
 		},
-		[steps.length, arrowStartIndex]
+		[process.length, arrowStartIndex]
 	);
 
 	return (
 		<section className={styles.wrapper}>
-			{steps.map((it, index) => (
+			{process.map((it, index) => (
 				<Fragment key={it.key}>
 					<Item
 						onClick={() => {
 							onChange?.(it.key);
 						}}
-						selected={currentStep === it.key}
+						selected={currentProcess === it.key}
 					>
 						{it.label || it.key}
 					</Item>

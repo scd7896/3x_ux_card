@@ -1,23 +1,23 @@
 import { useEffect } from "react";
-import useSteps from "../../../hooks/cards/useSteps";
-import StepTab from "../../Tab/StepTab";
+import useProcess from "../../../hooks/cards/useProcess";
+import ProcessTab from "../../Tab/ProcessTab";
 import Tab from "../../Tab/Tab";
 import Title from "../../text/Title";
 import styles from "./Header.module.css";
 
 interface IProp {
-	onChange: (params: { step: string; category: string }) => void;
+	onChange: (params: { process: string; category: string }) => void;
 }
 
 export default function CardsHeader({ onChange }: IProp) {
-	const { selectedStep, category, setCategory, steps, categories, setSelectedStep } = useSteps();
+	const { selectedProcess, category, setCategory, process, categories, setSelectedProcess } = useProcess();
 
 	useEffect(() => {
 		onChange({
-			step: selectedStep,
+			process: selectedProcess,
 			category,
 		});
-	}, [onChange, selectedStep, category]);
+	}, [onChange, selectedProcess, category]);
 
 	return (
 		<div className={styles.wrapper}>
@@ -28,7 +28,12 @@ export default function CardsHeader({ onChange }: IProp) {
 				<section className={styles.tabWrapper}>
 					<Tab steps={categories} onChange={(key) => setCategory(key)} defaultStep={category} />
 				</section>
-				<StepTab steps={steps} arrowStartIndex={1} currentStep={selectedStep} onChange={setSelectedStep} />
+				<ProcessTab
+					process={process}
+					arrowStartIndex={1}
+					currentProcess={selectedProcess}
+					onChange={setSelectedProcess}
+				/>
 			</section>
 		</div>
 	);
