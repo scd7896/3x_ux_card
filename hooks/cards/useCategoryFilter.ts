@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
+import { ECategoryKey, EProcess, ESituation } from "../../types/card.d";
 
 const processTabs = [
 	{ key: "전체" },
-	{ key: "공감" },
-	{ key: "아이디어" },
-	{ key: "프로토타입" },
-	{ key: "테스트" },
-	{ key: "출시" },
+	{ key: EProcess.EMPATHY },
+	{ key: EProcess.IDEA },
+	{ key: EProcess.PROTOTYPE },
+	{ key: EProcess.TEST },
+	{ key: EProcess.PUBLISH },
 ];
 
 const situationTabs = [
@@ -14,21 +15,16 @@ const situationTabs = [
 		key: "전체",
 	},
 	{
-		key: "개인작업",
+		key: ESituation.PRIVATE_WORK,
 	},
 	{
-		key: "신규런칭",
+		key: ESituation.NEW_LUNCH,
 	},
 	{
-		key: "리뉴얼 고도화",
+		key: ESituation.RENEWAL,
 		label: "리뉴얼 · 고도화",
 	},
 ];
-
-enum ECategoryKey {
-	PROCESS = "process",
-	SITUATION = "situation",
-}
 
 const categories = [
 	{

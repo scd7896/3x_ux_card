@@ -1,6 +1,25 @@
+export enum EProcess {
+	EMPATHY = "공감",
+	IDEA = "아이디어",
+	PROTOTYPE = "프로토타입",
+	TEST = "테스트",
+	PUBLISH = "출시",
+}
+
+export enum ESituation {
+	PRIVATE_WORK = "개인작업",
+	NEW_LUNCH = "신규런칭",
+	RENEWAL = "리뉴얼고도화",
+}
+
+export enum ECategoryKey {
+	PROCESS = "process",
+	SITUATION = "situation",
+}
+
 export interface ICard {
 	id: string;
-	process: "공감" | "아이디어" | "프로토타입" | "테스트" | "출시";
+	process: EProcess;
 	title: string;
 	author: string;
 	enTitle?: string;
@@ -8,6 +27,6 @@ export interface ICard {
 	icon?: string;
 	description?: string;
 	level?: string;
-	situation?: "개인작업" | "신규런칭" | "리뉴얼고도화";
+	situation?: ESituation;
 	createdAt?: string;
 }
