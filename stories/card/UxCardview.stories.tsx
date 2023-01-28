@@ -2,7 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import UxCardview from "../../components/Card/UXCardview";
-import { EProcess } from "../../types/card";
+import { EProcess } from "../../types/card.d";
 
 export default {
 	title: "card/UxCardview",

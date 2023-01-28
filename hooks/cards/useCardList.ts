@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { ICard } from "../../types/card";
+import { ICard } from "../../types/card.d";
 
 interface IFilter {
 	situation?: string;

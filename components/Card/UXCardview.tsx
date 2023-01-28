@@ -1,4 +1,4 @@
-import { ICard } from "../../types/card";
+import { ICard } from "../../types/card.d";
 import SubTitle from "../text/SubTitle";
 import { Caption } from "../text/Text";
 import Title from "../text/Title";

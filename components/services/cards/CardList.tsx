@@ -1,4 +1,4 @@
-import { ICard } from "../../../types/card";
+import { ICard } from "../../../types/card.d";
 import UXCardview from "../../Card/UXCardview";
 import { Col, Row } from "../../layout/Layout";
 import Link from "../../Link/Link";
