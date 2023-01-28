@@ -15,6 +15,6 @@ export const UxCardview1 = Template.bind({});
 UxCardview1.args = {
 	title: "방법론명",
 	enTitle: "Methodology name",
-	step: "공감",
+	process: "공감",
 	members: ["UIUX 전문가", "팀 구성원", "사용자", "고객사", "누구나"],
 };

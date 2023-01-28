@@ -4,9 +4,9 @@ import { Caption } from "../text/Text";
 import Title from "../text/Title";
 import styles from "./UXCardview.module.css";
 
-export default function UXCardview({ title, enTitle, members, icon, step }: ICard) {
+export default function UXCardview({ title, enTitle, members, icon, process }: ICard) {
 	return (
-		<div className={`${styles.wrapper} ${styles[step]}`}>
+		<div className={`${styles.wrapper} ${styles[process]}`}>
 			<section>
 				<Caption>{enTitle}</Caption>
 				<Title level={3}>{title}</Title>
@@ -14,7 +14,7 @@ export default function UXCardview({ title, enTitle, members, icon, step }: ICar
 			<section className={styles.bottomWrapper}>
 				<div className={styles.badgeWrapper}>
 					{members?.map((it) => (
-						<Badge key={it} step={step} member={it} />
+						<Badge key={it} process={process} member={it} />
 					))}
 				</div>
 				<div className={styles.iconWrapper}>
@@ -27,14 +27,14 @@ export default function UXCardview({ title, enTitle, members, icon, step }: ICar
 	);
 }
 
-interface IBadge extends Pick<ICard, "step"> {
+interface IBadge extends Pick<ICard, "process"> {
 	member: string;
 }
 
-function Badge({ member, step }: IBadge) {
+function Badge({ member, process }: IBadge) {
 	return (
 		<div className={styles.badgeGap}>
-			<span className={`${styles.badge} ${styles[step]}`}>
+			<span className={`${styles.badge} ${styles[process]}`}>
 				<SubTitle level={4}>{member}</SubTitle>
 			</span>
 		</div>
