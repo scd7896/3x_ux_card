@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import useProcess from "../../../hooks/cards/useProcess";
+import useCategoryFilter from "../../../hooks/cards/useCategoryFilter";
 import ProcessTab from "../../Tab/ProcessTab";
 import Tab from "../../Tab/Tab";
 import Title from "../../text/Title";
@@ -10,7 +10,7 @@ interface IProp {
 }
 
 export default function CardsHeader({ onChange }: IProp) {
-	const { selectedProcess, category, setCategory, process, categories, setSelectedProcess } = useProcess();
+	const { selectedProcess, category, setCategory, process, categories, setSelectedProcess } = useCategoryFilter();
 
 	useEffect(() => {
 		onChange({

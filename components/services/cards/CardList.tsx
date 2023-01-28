@@ -11,9 +11,9 @@ interface IProp {
 export default function CardList({ cards }: IProp) {
 	return (
 		<section className={styles.wrapper}>
-			<Row rowGap={24}>
+			<Row rowGap={24} data-cy="card_wrapper">
 				{cards.map((it, idx) => (
-					<Col col={3} key={idx}>
+					<Col col={3} key={idx} data-cy="card">
 						<Link className={styles.link} href={`/posts/${it.id}`}>
 							<UXCardview key={idx} {...it} />
 						</Link>

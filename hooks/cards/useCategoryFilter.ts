@@ -41,7 +41,7 @@ const categories = [
 	},
 ];
 
-export default function useProcess() {
+export default function useCategoryFilter() {
 	const [category, setCategory] = useState<string>(ECategoryKey.PROCESS);
 	const [selectedProcess, setSelectedProcess] = useState<string>("전체");
 

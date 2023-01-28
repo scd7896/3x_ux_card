@@ -32,6 +32,7 @@ export default function ProcessTab({ process, currentProcess, onChange, arrowSta
 							onChange?.(it.key);
 						}}
 						selected={currentProcess === it.key}
+						data-cy={it.key}
 					>
 						{it.label || it.key}
 					</Item>
@@ -51,15 +52,15 @@ function StepArrow() {
 	);
 }
 
-interface IItemProp {
+interface IItemProp extends React.HTMLAttributes<HTMLDivElement> {
 	children?: React.ReactNode;
 	onClick?: () => void;
 	selected: boolean;
 }
 
-function Item({ children, selected, onClick }: IItemProp) {
+function Item({ children, selected, onClick, ...props }: IItemProp) {
 	return (
-		<section className={`${styles.item} ${selected && styles.selected}`} onClick={onClick}>
+		<section className={`${styles.item} ${selected && styles.selected}`} onClick={onClick} {...props}>
 			<SubTitle level={2}>{children}</SubTitle>
 		</section>
 	);

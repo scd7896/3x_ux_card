@@ -24,6 +24,7 @@ export default function Tab({ steps, defaultStep, onChange }: IProp) {
 						onChange?.(it.key);
 					}}
 					selected={currentStep === it.key}
+					data-cy={`${it.key}_filter`}
 				>
 					{it.label || it.key}
 				</Item>
@@ -32,15 +33,15 @@ export default function Tab({ steps, defaultStep, onChange }: IProp) {
 	);
 }
 
-interface IItemProp {
+interface IItemProp extends React.HTMLAttributes<HTMLDivElement> {
 	children?: React.ReactNode;
 	onClick?: () => void;
 	selected: boolean;
 }
 
-function Item({ children, selected, onClick }: IItemProp) {
+function Item({ children, selected, onClick, ...props }: IItemProp) {
 	return (
-		<section className={`${styles.item} ${selected && styles.selected}`} onClick={onClick}>
+		<section className={`${styles.item} ${selected && styles.selected}`} onClick={onClick} {...props}>
 			<Title level={3}>{children}</Title>
 		</section>
 	);
