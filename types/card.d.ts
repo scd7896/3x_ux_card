@@ -8,5 +8,6 @@ export interface ICard {
 	icon?: string;
 	description?: string;
 	level?: string;
-	situation?: string;
+	situation?: "개인작업" | "신규런칭" | "리뉴얼고도화";
+	createdAt?: string;
 }
