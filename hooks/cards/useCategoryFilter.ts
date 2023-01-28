@@ -43,7 +43,7 @@ const categories = [
 
 export default function useCategoryFilter() {
 	const [category, setCategory] = useState<string>(ECategoryKey.PROCESS);
-	const [selectedProcess, setSelectedProcess] = useState<string>("전체");
+	const [value, setValue] = useState<string>("전체");
 
 	const process = useMemo(() => {
 		if (category === ECategoryKey.PROCESS) return processTabs;
@@ -52,15 +52,15 @@ export default function useCategoryFilter() {
 	}, [category]);
 
 	useEffect(() => {
-		setSelectedProcess("전체");
+		setValue("전체");
 	}, [category]);
 
 	return {
 		category,
 		setCategory,
 		process,
-		selectedProcess,
+		value,
 		categories,
-		setSelectedProcess,
+		setValue,
 	};
 }

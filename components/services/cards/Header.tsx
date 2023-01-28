@@ -6,18 +6,18 @@ import Title from "../../text/Title";
 import styles from "./Header.module.css";
 
 interface IProp {
-	onChange: (params: { process: string; category: string }) => void;
+	onChange: (params: { value?: string; category: string }) => void;
 }
 
 export default function CardsHeader({ onChange }: IProp) {
-	const { selectedProcess, category, setCategory, process, categories, setSelectedProcess } = useCategoryFilter();
+	const { value, category, setCategory, process, categories, setValue } = useCategoryFilter();
 
 	useEffect(() => {
 		onChange({
-			process: selectedProcess,
-			category,
+			value: value === "전체" ? undefined : value,
+			category: category,
 		});
-	}, [onChange, selectedProcess, category]);
+	}, [onChange, value, category]);
 
 	return (
 		<div className={styles.wrapper}>
@@ -28,12 +28,7 @@ export default function CardsHeader({ onChange }: IProp) {
 				<section className={styles.tabWrapper}>
 					<Tab steps={categories} onChange={(key) => setCategory(key)} defaultStep={category} />
 				</section>
-				<ProcessTab
-					process={process}
-					arrowStartIndex={1}
-					currentProcess={selectedProcess}
-					onChange={setSelectedProcess}
-				/>
+				<ProcessTab process={process} arrowStartIndex={1} currentProcess={value} onChange={setValue} />
 			</section>
 		</div>
 	);
