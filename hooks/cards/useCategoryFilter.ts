@@ -4,7 +4,7 @@ import { ECategoryKey, EProcess, ESituation } from "../../types/card.d";
 const processTabs = [
 	{ key: "전체" },
 	{ key: EProcess.EMPATHY },
-	{ key: EProcess.IDEA },
+	{ key: EProcess.DESIGN },
 	{ key: EProcess.PROTOTYPE },
 	{ key: EProcess.TEST },
 	{ key: EProcess.PUBLISH },

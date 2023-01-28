@@ -41,3 +41,11 @@ export function Col({ children, col = 1, row = 1, ...props }: IColProp) {
 		</div>
 	);
 }
+
+export function BodyLayout(props: React.HTMLAttributes<HTMLDivElement>) {
+	return (
+		<section className={styles.body} {...props}>
+			<div className={styles.contentWrapper}>{props.children}</div>
+		</section>
+	);
+}

@@ -1,6 +1,6 @@
 export enum EProcess {
 	EMPATHY = "공감",
-	IDEA = "아이디어",
+	DESIGN = "설계",
 	PROTOTYPE = "프로토타입",
 	TEST = "테스트",
 	PUBLISH = "출시",

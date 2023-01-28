@@ -93,5 +93,5 @@ export default function useCardList() {
 			});
 	}, [cards, filter]);
 
-	return { cards: filteredCards, setMembers, setSituation, setProcess };
+	return { cards: filteredCards, setMembers, setSituation, setProcess, filter };
 }
