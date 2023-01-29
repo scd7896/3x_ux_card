@@ -81,13 +81,13 @@ export default function useCardList() {
 				return true;
 			})
 			.filter((it) => {
-				if (filter.members?.length && it.members?.length) {
+				if (!filter.members?.length) return true;
+
+				if (it.members?.length) {
 					return filter.members.reduce((acc, filterMember) => {
 						return acc && it.members?.find((member) => member === filterMember) !== undefined;
 					}, true);
 				}
-
-				if (!filter.members?.length) return true;
 
 				return false;
 			});

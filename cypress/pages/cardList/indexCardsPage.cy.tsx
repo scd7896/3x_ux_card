@@ -47,7 +47,7 @@ describe("<CardsPage />", () => {
 		cy.mount(<CardsPage />);
 		cy.wait("@cardListMock");
 
-		const members = ["UX UI전문가", "누구나"];
+		const members = ["UXUI 전문가", "누구나"];
 		members.map((it) => cy.get(`[data-cy="${it}"]`).click());
 
 		cy.get("[data-cy=card_wrapper]")
@@ -55,9 +55,10 @@ describe("<CardsPage />", () => {
 			.should(
 				"have.length",
 				cardListMock.filter((it) => {
+					const dataMembers = it.data.members.split(", ");
+
 					return members.reduce((acc, member) => {
-						acc = it.data.members.includes(member);
-						return acc;
+						return acc && dataMembers.find((a) => a === member) !== undefined;
 					}, true);
 				}).length
 			);

@@ -2,6 +2,7 @@ import { useCallback } from "react";
 import { BodyLayout } from "../../components/layout/Layout";
 import CardList from "../../components/services/cards/CardList";
 import CardsHeader from "../../components/services/cards/Header";
+import MemberFilter from "../../components/services/cards/MemberFilter";
 import StepDescription from "../../components/services/cards/StepDescription";
 import useCardList from "../../hooks/cards/useCardList";
 
@@ -22,6 +23,7 @@ export default function CardsPage() {
 			<CardsHeader onChange={headerChangeListener} />
 			<BodyLayout>
 				<StepDescription descriptionKey={filter?.process || filter?.situation} />
+				<MemberFilter onChange={setMembers} />
 				<CardList cards={cards || []} />
 			</BodyLayout>
 		</section>

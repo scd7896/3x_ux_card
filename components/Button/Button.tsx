@@ -6,5 +6,9 @@ interface IProp extends React.HTMLAttributes<HTMLButtonElement> {
 }
 
 export default function Button({ color = "line", size = "default", children, ...props }: IProp) {
-	return <button className={`${styles.button} ${styles[color]} ${styles[size]}`}>{children}</button>;
+	return (
+		<button className={`${styles.button} ${styles[color]} ${styles[size]}`} {...props}>
+			{children}
+		</button>
+	);
 }

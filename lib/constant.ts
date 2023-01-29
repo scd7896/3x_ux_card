@@ -15,3 +15,5 @@ export const CardSubTitleDescription: Record<string, string> = {
 	[EProcess.PUBLISH]: "서비스를 출시하고 이슈를 대응 합니다.",
 	empty: "전체 방법론 입니다.",
 };
+
+export const members = ["UXUI 전문가", "팀 구성원", "사용자", "고객사", "누구나"];

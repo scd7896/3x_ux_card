@@ -1,0 +1,19 @@
+.button {
+	border: 1px solid var(--gray_80);
+	background-color: var(--gray_0);
+	padding: 7px 16px;
+	font-size: 16px;
+	line-height: 26px;
+	border-radius: 20px;
+
+	cursor: pointer;
+}
+
+.selected {
+	background-color: var(--gray_90);
+	color: var(--gray_0);
+}
+
+.button + .button {
+	margin-left: 8px;
+}
