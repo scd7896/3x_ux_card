@@ -1,0 +1,9 @@
+.wrapper {
+	padding-bottom: 24px;
+	margin: 48px 0;
+	border-bottom: 1px solid var(--gray_20);
+}
+
+.titleWrapper {
+	margin-bottom: 8px;
+}
