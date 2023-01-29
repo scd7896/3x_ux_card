@@ -42,4 +42,24 @@ describe("<CardsPage />", () => {
 
 		cy.get("[data-cy=description]").should("have.text", CardSubTitleDescription.개인작업);
 	});
+
+	it("참여자에 있는 리스트를 클릭하면 and 조건으로 포함으로 필터링을 해야한다.", () => {
+		cy.mount(<CardsPage />);
+		cy.wait("@cardListMock");
+
+		const members = ["UX UI전문가", "누구나"];
+		members.map((it) => cy.get(`[data-cy="${it}"]`).click());
+
+		cy.get("[data-cy=card_wrapper]")
+			.find("[data-cy=card]")
+			.should(
+				"have.length",
+				cardListMock.filter((it) => {
+					return members.reduce((acc, member) => {
+						acc = it.data.members.includes(member);
+						return acc;
+					}, true);
+				}).length
+			);
+	});
 });
