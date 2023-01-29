@@ -1,3 +1,9 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+
 .button {
 	border: 1px solid var(--gray_80);
 	background-color: var(--gray_0);
@@ -16,4 +22,9 @@
 
 .button + .button {
 	margin-left: 8px;
+}
+
+
+.membersWrapper {
+	margin-left: 12px;
 }

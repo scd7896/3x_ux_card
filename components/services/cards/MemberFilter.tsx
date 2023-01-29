@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { members } from "../../../lib/constant";
+import SubTitle from "../../text/SubTitle";
 
 import styles from "./MemberFilter.module.css";
 
@@ -22,25 +23,28 @@ export default function MemberFilter({ onChange }: IProp) {
 	}, [onChange, selectedMembers]);
 
 	return (
-		<section>
-			{members.map((it) => (
-				<button
-					key={it}
-					data-cy={it}
-					className={`${styles.button} ${getSelected(it) ? styles.selected : ""}`}
-					onClick={() => {
-						setSelectedMemebers((prev) => {
-							const findResult = prev.find((member) => it === member);
-							if (findResult) {
-								return prev.filter((member) => member !== findResult);
-							}
-							return [...prev, it];
-						});
-					}}
-				>
-					{it}
-				</button>
-			))}
+		<section className={styles.wrapper}>
+			<SubTitle level={1}>참여자</SubTitle>
+			<div className={styles.membersWrapper}>
+				{members.map((it) => (
+					<button
+						key={it}
+						data-cy={it}
+						className={`${styles.button} ${getSelected(it) ? styles.selected : ""}`}
+						onClick={() => {
+							setSelectedMemebers((prev) => {
+								const findResult = prev.find((member) => it === member);
+								if (findResult) {
+									return prev.filter((member) => member !== findResult);
+								}
+								return [...prev, it];
+							});
+						}}
+					>
+						{it}
+					</button>
+				))}
+			</div>
 		</section>
 	);
 }
