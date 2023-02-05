@@ -1,0 +1,26 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+
+	background-color: white;
+
+	width: 100%;
+}
+
+.contentWrapper {
+	width: 1200px;
+	padding: 64px 0 32px;
+}
+
+.content {
+	border-bottom: 1px solid var(--gray_20);
+}
+
+.content iframe {
+	border: 1px solid var(--gray_20);
+	border-radius: 20px;
+}
+
+.linkWrapper {
+	padding: 24px 0;
+}
