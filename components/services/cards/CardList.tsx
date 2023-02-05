@@ -10,7 +10,7 @@ interface IProp {
 
 export default function CardList({ cards }: IProp) {
 	return (
-		<Row rowGap={24} data-cy="card_wrapper">
+		<Row rowGap={24} data-cy="card_wrapper" style={{ marginBottom: "120px" }}>
 			{cards.map((it, idx) => (
 				<Col col={3} key={idx} data-cy="card">
 					<Link className={styles.link} href={`/posts/${it.id}`}>
