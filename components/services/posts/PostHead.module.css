@@ -1,0 +1,46 @@
+.wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper.공감 {
+	background-color: var(--cardlight_yellow);
+}
+
+
+.wrapper.아이디어 {
+	background-color: var(--cardlight_peach);
+	
+}
+
+.wrapper.프로토타입 {
+	background-color: var(--cardlight_green);
+	
+}
+
+.wrapper.테스트 {
+	background-color: var(--cardlight_mint);
+	
+}
+
+.wrapper.출시 {
+	background-color: var(--cardlight_purple);
+	
+}
+
+.contentWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 1200px;
+	height: 278px;
+	box-sizing: border-box;
+	padding: 80px 0 64px;
+}
+
+.titleWrapper {
+	margin-bottom: 2px;
+}

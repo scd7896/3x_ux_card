@@ -4,6 +4,15 @@
 	line-height: 1.65;
 }
 
+.level_2 {
+	font-family: 'Pretendard';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: var(--gray_90);
+}
+
 .level_3 {
 	font-family: 'Pretendard';
 	font-style: normal;

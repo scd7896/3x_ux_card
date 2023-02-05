@@ -1,8 +1,10 @@
+import PostHead from "../../components/services/posts/PostHead";
 import { createListJson, getPostData, getPostList } from "../../lib/posts";
 
 export default function Post({ postData }: any) {
 	return (
 		<div>
+			<PostHead {...postData} />
 			{postData.title}
 			<br />
 			{postData.author}

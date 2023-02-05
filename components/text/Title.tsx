@@ -1,12 +1,16 @@
 import styles from "./Title.module.css";
 
-interface IProp {
+interface IProp extends React.HTMLAttributes<HTMLDivElement> {
 	level: 1 | 2 | 3;
 	children: React.ReactNode;
 }
 
-export default function Title({ level, children }: IProp) {
-	const HeaderElement = `h${level}` as keyof JSX.IntrinsicElements;
+export default function Title({ level, children, ...props }: IProp) {
+	const HeaderElement = `h${level}` as any;
 
-	return <HeaderElement className={styles.wrapper}>{children}</HeaderElement>;
+	return (
+		<HeaderElement {...props} className={styles.wrapper}>
+			{children}
+		</HeaderElement>
+	);
 }
