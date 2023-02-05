@@ -2,10 +2,15 @@ import { ICard } from "../../../types/card";
 import Body from "../../text/Body";
 import { Caption } from "../../text/Text";
 import Title from "../../text/Title";
+import PostLabel from "./Label";
 
 import styles from "./PostHead.module.css";
 
-export default function PostHead({ enTitle, title, description, level, members, process }: ICard) {
+interface IProp extends Omit<ICard, "members"> {
+	members?: string;
+}
+
+export default function PostHead({ enTitle, title, description, level, members, process, duration }: IProp) {
 	return (
 		<section className={`${styles.wrapper} ${styles[process]}`}>
 			<section className={styles.contentWrapper}>
@@ -15,6 +20,11 @@ export default function PostHead({ enTitle, title, description, level, members, 
 
 				<Caption style={{ marginBottom: "16px" }}>{enTitle}</Caption>
 				<Body level={2}>{description}</Body>
+			</section>
+			<section className={styles.detailInfo}>
+				<PostLabel name="참여자" value={members || ""} />
+				<PostLabel name="소요시간" value={duration ? `${duration}분` : ""} />
+				<PostLabel name="난이도" value={level || ""} />
 			</section>
 		</section>
 	);

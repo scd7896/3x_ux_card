@@ -1,0 +1,14 @@
+.wrapper {
+	display: flex;
+}
+
+.wrapper + .wrapper {
+	margin-left: 32px;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+	background-color: #FFBAE5;
+	margin-right: 4px;
+}
