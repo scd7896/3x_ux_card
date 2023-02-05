@@ -1,4 +1,5 @@
 import PostBody from "../../components/services/posts/PostBody";
+import PostFooter from "../../components/services/posts/PostFooter";
 import PostHead from "../../components/services/posts/PostHead";
 import { createListJson, getPostData, getPostList } from "../../lib/posts";
 
@@ -7,6 +8,7 @@ export default function Post({ postData }: any) {
 		<div>
 			<PostHead {...postData} />
 			<PostBody contentHtml={postData.contentHtml} />
+			<PostFooter />
 		</div>
 	);
 }

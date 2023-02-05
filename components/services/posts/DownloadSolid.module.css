@@ -1,0 +1,16 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	
+	padding: 0 24px;
+	width: 792px;
+	height: 84px;
+	background-color: #fff;
+	border-radius: 16px;
+}
+
+.wrapper + .wrapper {
+	margin-top: 16px;
+}
