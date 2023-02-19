@@ -12,7 +12,9 @@ export default function PostLabel({ name, value }: IProp) {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.icon} />
-			<SubTitle level={2}>{name}</SubTitle>
+			<Body level={2}>
+				<b>{name}</b>
+			</Body>
 			<Body level={2} style={{ marginLeft: "4px" }}>
 				{value}
 			</Body>
