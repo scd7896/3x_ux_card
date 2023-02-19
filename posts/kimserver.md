@@ -10,14 +10,18 @@ duration: 30
 situation: 개인작업
 ---
 
-# hello
+# 이럴 때 사용해요
 
-## myname is kimserver
+사용자 조사를 통해 수집한 포괄적인 데이터들 사이에서 의미있는 규칙을 발견하는 브레인스토밍 기법
 
-# updatess1
+# 이렇게 해보세요
+
+1. 해결해야 할 문제를 명확히 정의한다.
+2. 관련 데이터를 포스트잇에 적어 나열한다.
+3. 관련성 높은 포스트잇끼리 그룹핑한다.
+4. 중복되거나 가치 없는 포스트잇은 제거한다.
+5. 그룹핑된 포스트잇에 제목을 부여한다.
+6. 상관성을 분석하며 필요하다면 다시 그룹핑한다.
+7. 개별에서 보지 못한 통찰을 얻기 위해 노력한다
 
 <iframe width="1044" height="587" src="https://www.youtube.com/embed/eUQFtpxet1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# test1
-
-<h2>예시입니다</h2>

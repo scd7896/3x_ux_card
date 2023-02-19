@@ -14,7 +14,31 @@
 
 .content {
 	border-bottom: 1px solid var(--gray_20);
+	font-size: 16px;
+	color: var(--gray_80);
+	line-height: 26px;
 }
+
+.content h1 {
+	color: var(--gary_90);
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.content ol {
+	padding-inline-start: 16px;
+}
+
+.content ol li {
+	margin-bottom: 0;
+}
+
+.content * {
+	margin-top: 0;
+	margin-bottom: 48px;
+}
+
 
 .content iframe {
 	border: 1px solid var(--gray_20);
