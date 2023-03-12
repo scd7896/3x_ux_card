@@ -1,5 +1,8 @@
+import { useCallback } from "react";
+import Button from "../../Button/Button";
 import Body from "../../text/Body";
 import SubTitle from "../../text/SubTitle";
+import { ButtonText } from "../../text/Text";
 import Title from "../../text/Title";
 import styles from "./ContactCard.module.css";
 
@@ -128,5 +131,34 @@ function Role({ member }: IProp) {
 				<Body level={3}>{currentRole.sub}</Body>
 			</div>
 		</section>
+	);
+}
+
+export function ContactEmptyCard() {
+	const sendMailClickHanlder = useCallback(() => {
+		const a = document.createElement("a");
+		a.href = `mailto:"3x_UXcard@gmail.com"`;
+		a.click();
+		a.remove();
+	}, []);
+
+	return (
+		<div className={`${styles.wrapper} ${styles.empty}`}>
+			<div className={styles.icon}></div>
+			<div className={styles.emptyTitle}>
+				<div>저희 팀에게</div>
+				<div>하고싶은 말이 있나요?</div>
+			</div>
+			<div className={styles.emptyDescription}>
+				<div>
+					<u onClick={sendMailClickHanlder}>3x_UXcard@gmail.com</u> 으로
+				</div>
+				<div>메일을 보내주세요. 사이트에 대한 피드백, 응원</div>
+				<div>모두 환영해요!</div>
+			</div>
+			<Button color="solid" size="small" style={{ padding: "7px 16px" }} onClick={sendMailClickHanlder}>
+				<ButtonText level={2}>메일 보내기</ButtonText>
+			</Button>
+		</div>
 	);
 }

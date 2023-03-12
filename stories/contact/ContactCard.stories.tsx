@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import ContactCard from "../../components/services/contact/ContactCard";
+import ContactCard, { ContactEmptyCard } from "../../components/services/contact/ContactCard";
 
 export default {
 	title: "contact/ContactCard",
@@ -16,3 +16,7 @@ export const ContactCard1 = Template.bind({});
 ContactCard1.args = {
 	member: "server",
 };
+
+const EmptyTemplate = () => <ContactEmptyCard />;
+
+export const ContactEmptyCard1 = EmptyTemplate.bind({});

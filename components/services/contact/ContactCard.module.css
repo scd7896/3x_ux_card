@@ -84,7 +84,42 @@
 	background-color: var(--cardlight_green);
 }
 
+.wrapper.empty {
+	border: 1px solid var(--gray_20);
+	background-color: var(--gray_10);
+}
+
 
 .mailWrapper {
 	padding-top: 12px;
+}
+
+.icon {
+	width: 72px;
+	height: 72px;
+	background: rgba(255, 197, 189, 0.5);
+	margin-bottom: 34px;
+}
+
+.emptyTitle {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: "Pretendard";
+	color: var(--gray_80);
+	margin-bottom: 8px;
+	line-height: 26px;
+}
+
+.emptyDescription {
+	font-family: 'Pretendard';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: var(--gray_80);
+	margin-bottom: 24px;
+}
+
+.emptyDescription u {
+	cursor: pointer;
 }
