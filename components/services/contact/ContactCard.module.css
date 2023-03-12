@@ -1,0 +1,90 @@
+.wrapper {
+	width: 282px;
+	height: 368px;
+	padding: 32px 24px;
+	border-radius: 20px;
+}
+
+.subTitleWrapper {
+	margin-bottom: 8px;
+}
+
+.bodyWrapper {
+	padding-bottom: 24px;
+	border-bottom: 1px solid var(--gray_90);
+}
+
+.roleWrapper {
+	padding: 12px 0;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.1)
+}
+
+.role {
+	display: flex;
+}
+
+.role + .role {
+	margin-top: 4px;
+}
+
+.tag {
+	width: 36px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+
+	font-size: 12px;
+	font-weight: 600;
+	font-family: "Pretendard";
+
+	margin-right: 5px;
+	
+}
+
+.tag.donna {
+	background: rgba(255, 197, 189, 0.5);
+	background-blend-mode: multiply;
+}
+
+.tag.mj {
+	background: rgba(199, 185, 255, 0.5);
+	background-blend-mode: multiply;
+}
+
+.tag.cha {
+	background: rgba(200, 212, 255, 0.5);
+	background-blend-mode: multiply;
+}
+
+.wrapper.server {
+	border: 1px solid var(--carddark_mint);
+	background-color: var(--cardlight_mint);
+}
+
+
+.wrapper.mj {
+	border: 1px solid var(--carddark_purple);
+	background-color: var(--cardlight_purple);
+}
+
+.wrapper.donna {
+	border: 1px solid var(--carddark_peach);
+	background-color: var(--cardlight_peach);
+}
+
+.wrapper.cha {
+	border: 1px solid var(--carddark_blue);
+	background-color: var(--cardlight_blue);
+}
+
+.wrapper.iron {
+	border: 1px solid var(--carddark_green);
+	background-color: var(--cardlight_green);
+}
+
+
+.mailWrapper {
+	padding-top: 12px;
+}
