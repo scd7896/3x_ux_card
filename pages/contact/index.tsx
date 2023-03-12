@@ -1,10 +1,14 @@
-import { useCallback } from "react";
 import { BodyLayout } from "../../components/layout/Layout";
-import CardList from "../../components/services/cards/CardList";
-import CardsHeader from "../../components/services/cards/Header";
-import MemberFilter from "../../components/services/cards/MemberFilter";
-import StepDescription from "../../components/services/cards/StepDescription";
+import ContactBody from "../../components/services/contact/ContactBody";
+import ContactTitle from "../../components/services/contact/ContactTitle";
 
 export default function ContactPage() {
-	return <BodyLayout></BodyLayout>;
+	return (
+		<BodyLayout>
+			<section>
+				<ContactTitle />
+				<ContactBody />
+			</section>
+		</BodyLayout>
+	);
 }

@@ -13,7 +13,7 @@ export default function HeaderNav() {
 				<Link className={styles.link} href="/cards">
 					<ButtonText level={1}>Cards</ButtonText>
 				</Link>
-				<Link className={styles.link}>
+				<Link className={styles.link} href="/contact">
 					<ButtonText level={1}>Contact</ButtonText>
 				</Link>
 			</nav>
