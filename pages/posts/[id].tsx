@@ -7,7 +7,12 @@ export default function Post({ postData }: any) {
 	return (
 		<div>
 			<PostHead {...postData} />
-			<PostBody contentHtml={postData.contentHtml} />
+			<PostBody
+				contentHtml={postData.contentHtml}
+				title={postData.title}
+				figmaUrl={postData.figmaUrl}
+				workSheetUrl={postData.workSheetUrl}
+			/>
 			<PostFooter />
 		</div>
 	);

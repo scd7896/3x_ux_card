@@ -8,6 +8,8 @@ description: 김서버가 테스트로 만든 카드입니다.
 level: 쉬움
 duration: 30
 situation: 개인작업
+figmaUrl: https://www.figma.com/file/db4uxQjDWad0Xh3pIj5PYg/2022_3X_UX-Card_Ver.3?node-id=932-7033&t=bJpIfcN8gv3CNxZG-0
+workSheetUrl: https://drive.google.com/drive/folders/1g6hCNsP-gc5vVlnzP8oitws7Zu9pzu5Z
 ---
 
 # 이럴 때 사용해요

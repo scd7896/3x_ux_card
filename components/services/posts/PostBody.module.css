@@ -13,7 +13,6 @@
 }
 
 .content {
-	border-bottom: 1px solid var(--gray_20);
 	font-size: 16px;
 	color: var(--gray_80);
 	line-height: 26px;
@@ -54,4 +53,12 @@
 
 .linkWrapper > a {
 	font-size: 16px;
+}
+
+.downloadWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	border-bottom: 1px solid var(--gray_20);
+	padding-bottom: 80px;
 }
