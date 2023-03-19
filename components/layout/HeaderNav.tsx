@@ -7,7 +7,7 @@ export default function HeaderNav() {
 		<header className={styles.header}>
 			<nav className={styles.nav}>
 				<section className={styles.gnbWrapper}></section>
-				<Link className={styles.link}>
+				<Link className={styles.link} href="/howtouse">
 					<ButtonText level={1}>How to use</ButtonText>
 				</Link>
 				<Link className={styles.link} href="/cards">
