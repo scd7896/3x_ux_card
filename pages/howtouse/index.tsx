@@ -1,5 +1,11 @@
 import { BodyLayout } from "../../components/layout/Layout";
+import HowtouseHeader from "../../components/services/howtouse/HowtouseHeader";
 
 export default function HowtousePage() {
-	return <BodyLayout>howtoUse</BodyLayout>;
+	return (
+		<section>
+			<HowtouseHeader />
+			<BodyLayout>howtoUse</BodyLayout>;
+		</section>
+	);
 }
