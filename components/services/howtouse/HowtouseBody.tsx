@@ -26,6 +26,7 @@ export default function HowtouseBody() {
 						지금 당장 필요한 방법론이 무엇인지 찾을 수 있어요.
 					</Body>
 				</section>
+				<img className={styles.bodyimg} src="/img/howtouse-body-1.png" />
 			</section>
 			<section className={styles.card}>
 				<SubTitle level={3} className={styles.orangeTitle}>
@@ -41,6 +42,7 @@ export default function HowtouseBody() {
 						채워나가다 보면, 방법론을 실무에 적용해 낼 수 있어요.
 					</Body>
 				</section>
+				<img className={styles.bodyimg} src="/img/howtouse-body-2.png" />
 			</section>
 			<section className={styles.card}>
 				<SubTitle level={3} className={styles.orangeTitle}>
@@ -59,6 +61,7 @@ export default function HowtouseBody() {
 						UX 지식이 쑥쑥 쌓여요.
 					</Body>
 				</section>
+				<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
 			</section>
 		</div>
 	);

@@ -38,3 +38,12 @@
 .descriptionWrapper {
 	margin-top: 12px;
 }
+
+.bodyimg {
+	max-width: 740px;
+	width: 61.7%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
