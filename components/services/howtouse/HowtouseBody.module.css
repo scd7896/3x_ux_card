@@ -1,0 +1,40 @@
+.wrapper {
+	padding: 80px 0 120px;
+}
+
+.description {
+	color: var(--gray_70);
+	margin-top: 8px;
+	margin-bottom: 48px;
+}
+
+.card {
+	position: relative;
+
+	background-color: var(--gray_10);
+	border: 1px solid var(--gray_20);
+	border-radius: 24px;
+
+	box-sizing: border-box;
+	width: 1200px;
+	height: 468px;
+	padding: 64px;
+}
+
+.card + .card {
+	margin-top: 24px;
+}
+
+.orangeTitle {
+	color: var(--orange_100);
+	margin-bottom: 6px;
+}
+
+.cardDescription {
+	color: var(--gray_70);
+	line-height: 22px;
+}
+
+.descriptionWrapper {
+	margin-top: 12px;
+}
