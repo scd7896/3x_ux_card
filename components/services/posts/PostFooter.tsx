@@ -1,3 +1,4 @@
+import { handbookUrl, worksheetUrl } from "../../../lib/env";
 import Title from "../../text/Title";
 import DownloadSolid from "./DownloadSolid";
 import styles from "./PostFooter.module.css";
@@ -13,14 +14,8 @@ export default function PostFooter() {
 					한번에 받고 싶다면?
 				</Title>
 			</div>
-			<DownloadSolid
-				title="핸드북 전체"
-				downloadLink="https://drive.google.com/drive/folders/1g6hCNsP-gc5vVlnzP8oitws7Zu9pzu5Z"
-			/>
-			<DownloadSolid
-				title="워크시트 전체"
-				downloadLink="https://drive.google.com/drive/folders/1g6hCNsP-gc5vVlnzP8oitws7Zu9pzu5Z"
-			/>
+			<DownloadSolid title="핸드북 전체" downloadLink={handbookUrl} />
+			<DownloadSolid title="워크시트 전체" downloadLink={worksheetUrl} />
 		</section>
 	);
 }

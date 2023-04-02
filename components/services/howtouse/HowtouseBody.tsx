@@ -1,9 +1,23 @@
+import { useCallback } from "react";
+import { handbookUrl, worksheetUrl } from "../../../lib/env";
+
+import Button from "../../Button/Button";
 import Body from "../../text/Body";
 import SubTitle from "../../text/SubTitle";
 import Title from "../../text/Title";
 import styles from "./HowtouseBody.module.css";
 
 export default function HowtouseBody() {
+	const downloadClickListener = useCallback(
+		(url: string) => () => {
+			const a = document.createElement("a");
+			a.href = url;
+			a.target = "_blank";
+			a.click();
+			a.remove();
+		},
+		[]
+	);
 	return (
 		<div className={styles.wrapper}>
 			<SubTitle level={2}>3X 활용법</SubTitle>
@@ -62,6 +76,38 @@ export default function HowtouseBody() {
 					</Body>
 				</section>
 				<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
+			</section>
+			<section className={styles.downloadCardWrapper}>
+				<div className={`${styles.downloadCard} ${styles.handbook}`}>
+					<Title level={3}>핸드북</Title>
+					<Title
+						style={{
+							marginBottom: "16px",
+						}}
+						level={3}
+					>
+						전체 다운로드
+					</Title>
+					<Button color="solid" onClick={downloadClickListener(handbookUrl)}>
+						다운로드
+					</Button>
+					<img className={styles.downloadImg} src="/img/howto_down_handbook.png" />
+				</div>
+				<div className={`${styles.downloadCard} ${styles.worksheet}`}>
+					<Title level={3}>워크시트</Title>
+					<Title
+						style={{
+							marginBottom: "16px",
+						}}
+						level={3}
+					>
+						전체 다운로드
+					</Title>
+					<Button color="solid" onClick={downloadClickListener(worksheetUrl)}>
+						다운로드
+					</Button>
+					<img className={styles.downloadImg} src="/img/howto_down_worksheet.png" />
+				</div>
 			</section>
 		</div>
 	);

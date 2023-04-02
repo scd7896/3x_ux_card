@@ -47,3 +47,31 @@
 	top: 0;
 	right: 0;
 }
+
+.downloadCardWrapper {
+	display: flex;
+}
+
+.downloadCard {
+	width: 100%;
+	border-radius: 24px;
+	text-align: center;
+	padding-top: 48px;
+}
+
+.downloadCard + .downloadCard {
+	margin-left: 24px;
+}
+
+.downloadImg {
+	width: 100%;
+	height: auto;
+}
+
+.handbook {
+	background: var(--cardlight_peach);
+}
+
+.worksheet {
+	background: var(--cardlight_yellow);
+}
