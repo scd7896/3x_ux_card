@@ -7,7 +7,7 @@ interface IProp extends React.HTMLAttributes<HTMLSpanElement> {
 
 export default function SubTitle({ level, children, ...props }: IProp) {
 	return (
-		<span {...props} className={`${styles.wrapper} ${styles[`level-${level}`]}`}>
+		<span {...props} className={`${styles.wrapper} ${styles[`level-${level}`]} ${props.className}`}>
 			{children}
 		</span>
 	);
