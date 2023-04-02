@@ -77,37 +77,44 @@ export default function HowtouseBody() {
 				</section>
 				<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
 			</section>
-			<section className={styles.downloadCardWrapper}>
-				<div className={`${styles.downloadCard} ${styles.handbook}`}>
-					<Title level={3}>핸드북</Title>
-					<Title
-						style={{
-							marginBottom: "16px",
-						}}
-						level={3}
-					>
-						전체 다운로드
-					</Title>
-					<Button color="solid" onClick={downloadClickListener(handbookUrl)}>
-						다운로드
-					</Button>
-					<img className={styles.downloadImg} src="/img/howto_down_handbook.png" />
-				</div>
-				<div className={`${styles.downloadCard} ${styles.worksheet}`}>
-					<Title level={3}>워크시트</Title>
-					<Title
-						style={{
-							marginBottom: "16px",
-						}}
-						level={3}
-					>
-						전체 다운로드
-					</Title>
-					<Button color="solid" onClick={downloadClickListener(worksheetUrl)}>
-						다운로드
-					</Button>
-					<img className={styles.downloadImg} src="/img/howto_down_worksheet.png" />
-				</div>
+			<section className={styles.donwloadSection}>
+				<SubTitle style={{ display: "inline-block", marginBottom: "16px" }} level={2}>
+					파일 다운로드
+				</SubTitle>
+				<Title level={2}>핸드북과 워크시트는 한번에 다운받고,</Title>
+				<Title level={2}>인쇄해서 활용해보세요</Title>
+				<section className={styles.downloadCardWrapper}>
+					<div className={`${styles.downloadCard} ${styles.handbook}`}>
+						<Title level={3}>핸드북</Title>
+						<Title
+							style={{
+								marginBottom: "16px",
+							}}
+							level={3}
+						>
+							전체 다운로드
+						</Title>
+						<Button color="solid" onClick={downloadClickListener(handbookUrl)}>
+							다운로드
+						</Button>
+						<img className={styles.downloadImg} src="/img/howto_down_handbook.png" />
+					</div>
+					<div className={`${styles.downloadCard} ${styles.worksheet}`}>
+						<Title level={3}>워크시트</Title>
+						<Title
+							style={{
+								marginBottom: "16px",
+							}}
+							level={3}
+						>
+							전체 다운로드
+						</Title>
+						<Button color="solid" onClick={downloadClickListener(worksheetUrl)}>
+							다운로드
+						</Button>
+						<img className={styles.downloadImg} src="/img/howto_down_worksheet.png" />
+					</div>
+				</section>
 			</section>
 		</div>
 	);

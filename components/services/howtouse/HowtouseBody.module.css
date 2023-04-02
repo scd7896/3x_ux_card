@@ -47,9 +47,13 @@
 	top: 0;
 	right: 0;
 }
+.donwloadSection {
+	margin-top: 80px;
+}
 
 .downloadCardWrapper {
 	display: flex;
+	margin-top: 32px;
 }
 
 .downloadCard {
@@ -66,6 +70,8 @@
 .downloadImg {
 	width: 100%;
 	height: auto;
+	line-height: 1;
+	margin-bottom: -5px;
 }
 
 .handbook {
