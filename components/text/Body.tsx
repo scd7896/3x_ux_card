@@ -7,7 +7,7 @@ interface IProp extends React.HTMLAttributes<HTMLDivElement> {
 
 export default function Body({ children, level = 1, ...props }: IProp) {
 	return (
-		<div className={styles[`level_${level}`]} {...props}>
+		<div {...props} className={`${styles[`level_${level}`]} ${props.className || ""}`}>
 			{children}
 		</div>
 	);
