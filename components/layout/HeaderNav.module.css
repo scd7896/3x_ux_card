@@ -4,7 +4,7 @@
 	justify-content: center;
 	padding: 12px 0 12px 5%;
 	box-sizing: border-box;
-	border: 1px solid var(--gray_80);
+	border-bottom: 1px solid var(--gray_80);
 }
 
 .nav {
