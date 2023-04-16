@@ -20,9 +20,13 @@ export default function HowtouseBody() {
 	);
 	return (
 		<div className={styles.wrapper}>
-			<SubTitle level={2}>3X 활용법</SubTitle>
+			<SubTitle level={2} className={styles.title}>
+				3X 활용법
+			</SubTitle>
 			<Title level={2}>3X의 핵심은 3가지에요</Title>
-			<Title level={2}>웹사이트, 워크시트, 핸드북</Title>
+			<Title level={2} className={styles.descriptionMargin}>
+				웹사이트, 워크시트, 핸드북
+			</Title>
 			<Body level={2} className={styles.description}>
 				UX공부부터 실무까지, 3X를 활용한다면 쉽게 UX방법론을 적용할 수 있어요
 			</Body>
