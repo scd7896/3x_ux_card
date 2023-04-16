@@ -17,11 +17,6 @@ export default function UXCardview({ title, enTitle, members, icon, process }: I
 						<Badge key={it} process={process} member={it} />
 					))}
 				</div>
-				<div className={styles.iconWrapper}>
-					<i className={styles.icon}>
-						<img className={styles.iconImg} src={icon} />
-					</i>
-				</div>
 			</section>
 		</div>
 	);

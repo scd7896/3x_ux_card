@@ -85,29 +85,3 @@
 .bottomWrapper {
 	display: flex;
 }
-
-.iconWrapper {
-	width: 100%;
-	
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-}
-
-.icon {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	width: 80px;
-	height: 80px;
-	border-radius: 100%;
-
-	background: var(--cardtrans_white);
-}
-
-.iconImg {
-	width: 48px;
-	height: 48px;
-	background-color: #FF40B3CC;
-}
