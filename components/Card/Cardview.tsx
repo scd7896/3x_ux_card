@@ -22,7 +22,9 @@ export default function Cardview({ title, contents, footer, imageUrl }: IProp) {
 				<Title level={3}>{title}</Title>
 			</div>
 			<div className={styles.contentsWrapper}>
-				<Body level={1}>{contents}</Body>
+				<Body level={1} className={styles.contents}>
+					{contents}
+				</Body>
 			</div>
 			<div className={styles.footerWrapper}>{footer}</div>
 		</section>

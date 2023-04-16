@@ -18,3 +18,10 @@
 .card + .card {
 	margin-left: 24px;
 }
+
+.link {
+	font-size: 16px;
+	color: var(--gray_90);
+	font-family: 'Pretendard';
+	font-weight: 600;
+}

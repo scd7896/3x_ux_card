@@ -30,7 +30,15 @@ export default function CardSection() {
 			<div className={styles.cardWrapper}>
 				{cardContents.map(({ title, contents, url }, index) => (
 					<section key={index} className={styles.card}>
-						<Cardview footer={<Link href={url}>방법론 보기</Link>} title={title} contents={contents} />
+						<Cardview
+							footer={
+								<Link className={styles.link} href={url}>
+									방법론 보기
+								</Link>
+							}
+							title={title}
+							contents={contents}
+						/>
 					</section>
 				))}
 			</div>
