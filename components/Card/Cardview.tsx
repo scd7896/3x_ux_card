@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Body from "../text/Body";
 import Title from "../text/Title";
 import styles from "./Cardview.module.css";
@@ -11,12 +10,10 @@ interface IProp {
 }
 
 export default function Cardview({ title, contents, footer, imageUrl }: IProp) {
-	const [isDummyShow, setIsDummyShow] = useState(imageUrl === undefined);
-
 	return (
 		<section className={styles.wrapper}>
 			<div className={styles.imageWrapper}>
-				<source src={imageUrl} />
+				<img src={imageUrl} />
 			</div>
 			<div className={styles.titleWrapper}>
 				<Title level={3}>{title}</Title>
