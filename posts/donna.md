@@ -27,3 +27,5 @@ workSheetUrl: https://drive.google.com/drive/folders/1g6hCNsP-gc5vVlnzP8oitws7Zu
 7. 개별에서 보지 못한 통찰을 얻기 위해 노력한다
 
 <iframe width="1044" height="587" src="https://www.youtube.com/embed/eUQFtpxet1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![main_renewal-1](https://user-images.githubusercontent.com/46440142/233634463-3c822f59-9261-4bdc-8a83-949965a0c3ae.png)
