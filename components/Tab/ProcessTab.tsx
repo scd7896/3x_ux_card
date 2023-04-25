@@ -1,4 +1,4 @@
-import { Fragment, useCallback } from "react";
+import { Fragment, useCallback, useEffect, useRef, useState } from "react";
 import SubTitle from "../text/SubTitle";
 
 import styles from "./ProcessTab.module.css";
@@ -14,6 +14,10 @@ interface IProp {
 }
 
 export default function ProcessTab({ process, currentProcess, onChange, arrowStartIndex = 0 }: IProp) {
+	const wrapperRef = useRef<HTMLDivElement>(null);
+	const [itemWidth, setItemWidth] = useState<number>(0);
+	const [itemOffset, setItemOffset] = useState<number>(0);
+
 	const getShowArrow = useCallback(
 		(index: number) => {
 			if (process.length - 1 === index) return false;
@@ -23,8 +27,22 @@ export default function ProcessTab({ process, currentProcess, onChange, arrowSta
 		[process.length, arrowStartIndex]
 	);
 
+	useEffect(() => {
+		if (wrapperRef.current) {
+			const selectElement = wrapperRef.current.querySelector<HTMLDivElement>(`.${styles.selected}`);
+			if (selectElement) {
+				setItemWidth(selectElement.clientWidth);
+				setItemOffset(selectElement.offsetLeft - 8);
+			}
+		}
+	}, [currentProcess, process]);
+
 	return (
-		<section className={styles.wrapper}>
+		<section className={styles.wrapper} ref={wrapperRef}>
+			<div
+				className={styles.slectedItem}
+				style={{ "--width": `${itemWidth}px`, "--left": `${itemOffset}px` } as any}
+			></div>
 			{process.map((it, index) => (
 				<Fragment key={it.key}>
 					<Item
@@ -55,10 +73,11 @@ function StepArrow() {
 interface IItemProp extends React.HTMLAttributes<HTMLDivElement> {
 	children?: React.ReactNode;
 	onClick?: () => void;
+	onLoad?: () => void;
 	selected: boolean;
 }
 
-function Item({ children, selected, onClick, ...props }: IItemProp) {
+function Item({ children, selected, onClick, onLoad, ...props }: IItemProp) {
 	return (
 		<section className={`${styles.item} ${selected && styles.selected}`} onClick={onClick} {...props}>
 			<SubTitle level={2}>{children}</SubTitle>

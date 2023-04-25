@@ -1,6 +1,7 @@
 .wrapper {
 	display: flex;
 	align-items: center;
+	position: relative;
 
 	width: 100%;
 	padding: 10px 8px;
@@ -27,16 +28,26 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	position: relative;
 
+	z-index: 2;
 	width: 100%;
 	padding: 12px 0;
 }
 
-.selected {
-	background-color: var(--gray_90);
-	border-radius: 100px;
-}
 
 .selected span {
 	color: var(--gray_0);
+}
+
+.slectedItem {
+	position: absolute;
+	height: calc(100% - 20px);
+	width: var(--width);
+	top: 50%;
+	transform: translateX(var(--left)) translateY(-50%);
+	transition: transform 0.2s;
+	background-color: var(--gray_90);
+	border-radius: 100px;
+	z-index: 1;
 }
