@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { ICard } from "../../types/card.d";
+import { ESituation, ICard } from "../../types/card.d";
 
 interface IFilter {
-	situation?: string;
+	situation?: ESituation;
 	process?: string;
 	members?: string[];
 }
@@ -53,7 +53,7 @@ export default function useCardList() {
 		});
 	}, []);
 
-	const setSituation = useCallback((situation: string) => {
+	const setSituation = useCallback((situation: ESituation) => {
 		setFilter((prev) => {
 			if (prev) {
 				return {
@@ -77,7 +77,7 @@ export default function useCardList() {
 				return true;
 			})
 			.filter((it) => {
-				if (filter.situation) return it.situation === filter.situation;
+				if (filter.situation) return it.situation?.includes(filter.situation);
 				return true;
 			})
 			.filter((it) => {
