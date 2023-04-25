@@ -29,5 +29,5 @@ export interface ICard {
 	level?: string;
 	situation?: ESituation;
 	createdAt?: string;
-	duration?: number;
+	duration?: string;
 }

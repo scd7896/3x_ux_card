@@ -23,7 +23,7 @@ export default function PostHead({ enTitle, title, description, level, members, 
 			</section>
 			<section className={styles.detailInfo}>
 				<PostLabel name="참여자" value={members || ""} />
-				<PostLabel name="소요시간" value={duration ? `${duration}분` : ""} />
+				<PostLabel name="소요시간" value={duration || ""} />
 				<PostLabel name="난이도" value={level || ""} />
 			</section>
 		</section>
