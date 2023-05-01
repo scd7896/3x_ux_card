@@ -3,7 +3,7 @@ title: 인터뷰
 author: donna
 process: 공감
 enTitle: Interview
-members: UX UI전문가, 누구나
+members: UXUI 전문가, 누구나
 description: 1명 또는 다수의 응답자와 면접을 통해 심리를 파악하는 정성적 조사법
 level: 쉬움
 duration: 1명당 2시간
