@@ -3,7 +3,7 @@ title: 게릴라식 사용자 조사
 author: donna
 process: 공감
 enTitle: Guerilla User Research
-members: UX UI전문가, 사용자
+members: UXUI 전문가, 사용자
 description: 디자인하기 전에 어떤 UX 기법을 이용할 것인지 계획하는 것으로 UX작업이 전체 프로젝트 타임 라인 안에 어떻게 포함되는지 이해하고 UX작업을 어떻게 할 것인지 계획하도록 도와주는 것
 level: 중간
 duration: 10-16시간
