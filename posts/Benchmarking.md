@@ -3,7 +3,7 @@ title: 벤치마킹
 author: donna
 process: 공감
 enTitle: Benchmarking
-members: UX UI전문가, 이해관계자
+members: UXUI 전문가, 이해관계자
 description: 서비스의 경쟁력을 제고하기 위해 다른 회사나 업계의 사례를 탐색하고 참고하는 기법으로 서비스의 방향성을 이끌어낼때 사용
 level: 쉬움
 duration: 2-4시간
