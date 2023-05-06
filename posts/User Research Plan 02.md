@@ -1,9 +1,9 @@
 ---
-title: 사용자 조사 계획 01 (구. 학습 계획)
+title: 사용자 조사 계획 02 (구. 학습 계획)
 author: donna
 process: 공감
-enTitle: User Research Plan 01
-members: UX UI전문가, 팀 구성원
+enTitle: User Research Plan 02
+members: UXUI 전문가, 팀 구성원
 description: 사용자에 대해 알고 있는 정보를 확인하고 추가로 필요한 정보를 어떻게 알아낼 것인지 계획 하는 것
 level: 중간
 duration: 1시간
