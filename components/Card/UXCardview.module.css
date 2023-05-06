@@ -7,6 +7,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	border-radius: 16px;
+	transition: transform 0.3s ease-in;
 }
 
 .wrapper.공감 {
@@ -32,6 +33,10 @@
 .wrapper.출시 {
 	background-color: var(--cardlight_purple);
 	border: 1px solid var(--carddark_purple);
+}
+
+.wrapper:hover {
+	transform: translateY(-10px);
 }
 
 .badgeWrapper {
