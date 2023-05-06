@@ -31,7 +31,7 @@
 	padding: 64px;
 }
 
-.card + .card {
+.cardWrapper + .cardWrapper {
 	margin-top: 24px;
 }
 
