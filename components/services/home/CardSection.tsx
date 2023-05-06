@@ -1,4 +1,5 @@
 import Cardview from "../../Card/Cardview";
+import FadeInUpContainer from "../../layout/FadeInUpContainer";
 import Link from "../../Link/Link";
 import Title from "../../text/Title";
 import styles from "./CardSection.module.css";
@@ -27,25 +28,29 @@ const cardContents = [
 export default function CardSection() {
 	return (
 		<section className={styles.wrapper}>
-			<div className={styles.titleWrapper}>
-				<Title level={2}>프로젝트 상황에 맞는 방법론을 추천해드릴게요</Title>
-			</div>
-			<div className={styles.cardWrapper}>
-				{cardContents.map(({ title, contents, url, imageUrl }, index) => (
-					<section key={index} className={styles.card}>
-						<Cardview
-							footer={
-								<Link className={styles.link} href={url}>
-									방법론 보기
-								</Link>
-							}
-							title={title}
-							contents={contents}
-							imageUrl={imageUrl}
-						/>
-					</section>
-				))}
-			</div>
+			<FadeInUpContainer>
+				<div className={styles.titleWrapper}>
+					<Title level={2}>프로젝트 상황에 맞는 방법론을 추천해드릴게요</Title>
+				</div>
+			</FadeInUpContainer>
+			<FadeInUpContainer>
+				<div className={styles.cardWrapper}>
+					{cardContents.map(({ title, contents, url, imageUrl }, index) => (
+						<section key={index} className={styles.card}>
+							<Cardview
+								footer={
+									<Link className={styles.link} href={url}>
+										방법론 보기
+									</Link>
+								}
+								title={title}
+								contents={contents}
+								imageUrl={imageUrl}
+							/>
+						</section>
+					))}
+				</div>
+			</FadeInUpContainer>
 		</section>
 	);
 }
