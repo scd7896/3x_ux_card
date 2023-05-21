@@ -24,3 +24,10 @@
 	background-color: #e6e6e6;
 	margin: 32px 0;
 }
+
+@media (max-width: 450px) {
+	.titleWrapper {
+		display: block;
+		text-align: center;
+	}
+}
