@@ -18,6 +18,7 @@ export default function SheetDownloadSection() {
 							link=""
 							title="인쇄해서 쓸 수 있는 방법론 카드와 워크 시트를 
 한 곳에 모았어요"
+							imgUrl="/img/main_prints.png"
 						/>
 					</FadeInUpContainer>
 					<FadeInUpContainer>
@@ -29,6 +30,7 @@ export default function SheetDownloadSection() {
 							link=""
 							title="인쇄해서 쓸 수 있는 방법론 카드와 워크 시트를 
 한 곳에 모았어요"
+							imgUrl="/img/main_uxcard.png"
 						/>
 					</FadeInUpContainer>
 				</section>

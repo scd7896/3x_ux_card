@@ -9,15 +9,20 @@
 	flex-direction: row-reverse;
 }
 
+.wrapperReverse .imgWrapper {
+	background-color: var(--cardlight_yellow);
+}
+
 .imgWrapper {
 	width: 50%;
 	height: 260px;
-	background-color: #DED6FF;
+	background-color: var(--cardlight_purple);
 	border-radius: 20px;
+	text-align: center;
 }
 
 .img {
-	width: 100%;
+	width: auto;
 	height: 100%;
 	border-radius: 20px;
 }
