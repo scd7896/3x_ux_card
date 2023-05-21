@@ -25,3 +25,26 @@
 	font-family: 'Pretendard';
 	font-weight: 600;
 }
+
+
+@media (max-width: 450px) {
+	.wrapper {
+		width: 100%;
+	}
+
+	.cardWrapper {
+		display: block;
+		max-width: 100%;
+		padding: 0 16px;
+		margin: 0;
+	}
+
+	.card {
+		max-width: 100%
+	}
+
+	.card + .card {
+		margin-left: 0;
+		margin-top: 24px;
+	}
+}

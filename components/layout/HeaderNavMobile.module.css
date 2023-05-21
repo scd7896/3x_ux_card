@@ -1,6 +1,10 @@
 .header {
 	width: 100%;
-	position: relative;
+	position: fixed;
+	background-color: white;
+	top: 0;
+	left: 0;
+	z-index: 999;
 }
 
 .nav {
@@ -33,6 +37,11 @@
 	width: 100%;
 	height: calc(100% - 72px);
 	background-color: white;
+	padding: 24px 16px;
+}
+
+.link {
+	padding: 19px 0;
 }
 
 .open {

@@ -47,3 +47,13 @@
 	text-align: left;
 	margin-bottom: 24px;
 }
+
+@media (max-width: 450px) {
+	.wrapperReverse {
+		display: block;
+	}
+
+	.wrapper {
+		display: block;
+	}
+}

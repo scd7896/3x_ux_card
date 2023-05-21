@@ -15,3 +15,13 @@
 .contentWrapper {
 	width: 1200px;
 }
+
+@media (max-width: 450px) {
+	.wrapper {
+		width: 100%;
+	}
+
+	.contentWrapper {
+		width: 100%;
+	}
+}
