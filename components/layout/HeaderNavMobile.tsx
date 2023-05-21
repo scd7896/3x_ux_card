@@ -17,6 +17,9 @@ export default function HeaderNavMobile() {
 				</button>
 			</nav>
 			<section className={`${styles.menuList} ${showMenu && styles.open}`}>
+				<Link className={styles.link} href="/">
+					<Body level={2}>Home</Body>
+				</Link>
 				<Link className={styles.link} href="/howtouse">
 					<Body level={2}>How to use</Body>
 				</Link>

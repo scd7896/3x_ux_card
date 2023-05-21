@@ -10,3 +10,10 @@
 .subTitleWrapper {
 	margin-bottom: 8px;
 }
+
+@media (max-width: 450px) {
+	.subTitleWrapper {
+		display: flex;
+		flex-direction: column;
+	}
+}
