@@ -1,4 +1,7 @@
 import { ICard } from "../../../types/card";
+import LevelIcon from "../../icon/LevelIcon";
+import MembersIcon from "../../icon/Members";
+import TimerIcon from "../../icon/Timer";
 import Body from "../../text/Body";
 import { Caption } from "../../text/Text";
 import Title from "../../text/Title";
@@ -22,9 +25,9 @@ export default function PostHead({ enTitle, title, description, level, members, 
 				<Body level={2}>{description}</Body>
 			</section>
 			<section className={styles.detailInfo}>
-				<PostLabel name="참여자" value={members || ""} />
-				<PostLabel name="소요시간" value={duration || ""} />
-				<PostLabel name="난이도" value={level || ""} />
+				<PostLabel name="참여자" value={members || ""} icon={<MembersIcon />} />
+				<PostLabel name="소요시간" value={duration || ""} icon={<TimerIcon />} />
+				<PostLabel name="난이도" value={level || ""} icon={<LevelIcon />} />
 			</section>
 		</section>
 	);
