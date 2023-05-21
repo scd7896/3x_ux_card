@@ -28,6 +28,7 @@ export default function ProcessTab({ process, currentProcess, onChange, arrowSta
 	);
 
 	useEffect(() => {
+		// TODO: 윈도우 리사이즈에 맞춰서 실행 할 수 있도록 디펜던시 추가
 		if (wrapperRef.current) {
 			const selectElement = wrapperRef.current.querySelector<HTMLDivElement>(`.${styles.selected}`);
 			if (selectElement) {

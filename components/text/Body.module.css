@@ -22,3 +22,9 @@
 	line-height: 22px;
 	color: var(--gray_90);
 }
+
+@media (max-width: 450px) {
+	.level_2 {
+		font-size: 15px;
+	}
+}

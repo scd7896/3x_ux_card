@@ -47,3 +47,31 @@
 	text-align: left;
 	margin-bottom: 24px;
 }
+
+@media (max-width: 450px) {
+	.wrapperReverse {
+		display: block;
+		padding: 0 16px;
+		
+	}
+
+	.wrapper {
+		display: block;
+		padding: 0 16px;
+		margin-bottom: 40px;
+	}
+
+	.imgWrapper {
+		width: 100%;
+	}
+
+	.titleWrapper {
+		margin-bottom: 20px;
+		word-break: keep-all;
+	}
+
+	.contentWrapper {
+		padding: 16px 20px;
+		width: 100%;
+	}
+}

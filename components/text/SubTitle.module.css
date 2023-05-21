@@ -27,3 +27,16 @@
 	line-height: 18px;
 	font-weight: 600;
 }
+
+
+@media (max-width) {
+	.wrapper.level-1 {
+		font-size: 22px;
+		line-height: 34px;
+	}
+
+	.wrapper.level-2 {
+		font-size: 20px;
+		line-height: 26px;
+	}
+}

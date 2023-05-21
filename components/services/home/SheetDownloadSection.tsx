@@ -1,14 +1,24 @@
+import useWindowSize from "../../../hooks/useWindowSize";
 import FadeInUpContainer from "../../layout/FadeInUpContainer";
 import Title from "../../text/Title";
 import SheetDownload from "./SheetDownload";
 import styles from "./SheetDownloadSection.module.css";
 
 export default function SheetDownloadSection() {
+	const { isMobile } = useWindowSize();
+
 	return (
 		<section className={styles.wrapper}>
 			<FadeInUpContainer>
 				<div className={styles.titleWrapper}>
-					<Title level={2}>UX 비법 자료가 당신을 기다려요</Title>
+					{!isMobile ? (
+						<Title level={2}>UX 비법 자료가 당신을 기다려요</Title>
+					) : (
+						<>
+							<Title level={2}>UX 비법 자료가</Title>
+							<Title level={2}>당신을 기다려요</Title>
+						</>
+					)}
 				</div>
 			</FadeInUpContainer>
 			<div className={styles.sheetDownloadWrapper}>
@@ -21,9 +31,11 @@ export default function SheetDownloadSection() {
 							imgUrl="/img/main_prints.png"
 						/>
 					</FadeInUpContainer>
-					<FadeInUpContainer>
-						<div className={styles.hr}> </div>
-					</FadeInUpContainer>
+					{!isMobile && (
+						<FadeInUpContainer>
+							<div className={styles.hr}> </div>
+						</FadeInUpContainer>
+					)}
 					<FadeInUpContainer>
 						<SheetDownload
 							reverse
