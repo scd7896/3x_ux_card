@@ -41,7 +41,9 @@
 }
 
 .link {
+	display: block;
 	padding: 19px 0;
+	text-decoration: none;
 }
 
 .open {
