@@ -23,3 +23,11 @@ h3.wrapper {
 	font-weight: 500;
 	line-height: 34px;
 }
+
+
+@media (max-width: 450px) {
+	h2.wrapper {
+		font-size: 28px;
+		line-height: 38px;;
+	}
+}

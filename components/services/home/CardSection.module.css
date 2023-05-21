@@ -47,4 +47,11 @@
 		margin-left: 0;
 		margin-top: 24px;
 	}
+
+	.titleWrapper {
+		display: block;
+		padding: 0 16px;
+		text-align: center;
+		margin-bottom: 36px;
+	}
 }

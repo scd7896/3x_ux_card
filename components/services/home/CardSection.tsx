@@ -1,3 +1,4 @@
+import useWindowSize from "../../../hooks/useWindowSize";
 import Cardview from "../../Card/Cardview";
 import FadeInUpContainer from "../../layout/FadeInUpContainer";
 import Link from "../../Link/Link";
@@ -26,11 +27,20 @@ const cardContents = [
 ];
 
 export default function CardSection() {
+	const { isMobile } = useWindowSize();
+
 	return (
 		<section className={styles.wrapper}>
 			<FadeInUpContainer>
 				<div className={styles.titleWrapper}>
-					<Title level={2}>프로젝트 상황에 맞는 방법론을 추천해드릴게요</Title>
+					{!isMobile ? (
+						<Title level={2}>프로젝트 상황에 맞는 방법론을 추천해드릴게요</Title>
+					) : (
+						<>
+							<Title level={2}>프로젝트 상황에 맞는</Title>
+							<Title level={2}>방법론을 추천해드릴게요</Title>
+						</>
+					)}
 				</div>
 			</FadeInUpContainer>
 			<FadeInUpContainer>
