@@ -3,15 +3,15 @@ import SubTitle from "../../text/SubTitle";
 import styles from "./Label.module.css";
 
 interface IProp {
-	icon?: string;
+	icon?: React.ReactNode;
 	name: string;
 	value: string;
 }
 
-export default function PostLabel({ name, value }: IProp) {
+export default function PostLabel({ name, value, icon }: IProp) {
 	return (
 		<div className={styles.wrapper}>
-			<div className={styles.icon} />
+			<div className={styles.icon}>{icon}</div>
 			<Body level={2}>
 				<b>{name}</b>
 			</Body>
