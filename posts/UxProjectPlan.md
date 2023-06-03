@@ -3,7 +3,7 @@ title: UX 프로젝트 계획
 author: donna
 process: 공감
 enTitle: UX Project Plan
-members: UX UI전문가
+members: UXUI 전문가
 description: 디자인하기 전에 어떤 UX 기법을 이용할 것인지 계획하는 것으로 UX작업이 전체 프로젝트 타임 라인 안에 어떻게 포함되는지 이해하고 UX작업을 어떻게 할 것인지 계획하도록 도와주는 것
 level: 어려움
 duration: 2-3시간
