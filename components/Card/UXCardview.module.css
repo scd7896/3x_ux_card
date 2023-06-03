@@ -1,42 +1,76 @@
-.wrapper {
+.container {
+	position: relative;
 	width: 282px;
 	height: 353px;
-	box-sizing: border-box;
-	padding: 32px 24px 24px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	border-radius: 16px;
 	transition: transform 0.3s ease-in;
 }
 
-.wrapper.공감 {
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.container.공감 {
 	background-color: var(--cardlight_yellow);
 	border: 1px solid var(--carddark_yellow);
 }
 
-.wrapper.설계 {
+.container.설계 {
 	background-color: var(--cardlight_peach);
 	border: 1px solid var(--carddark_peach);
 }
 
-.wrapper.프로토타입 {
+.container.프로토타입 {
 	background-color: var(--cardlight_green);
 	border: 1px solid var(--carddark_green);
 }
 
-.wrapper.테스트 {
+.container.테스트 {
 	background-color: var(--cardlight_mint);
 	border: 1px solid var(--carddark_mint);
 }
 
-.wrapper.출시 {
+.container.출시 {
 	background-color: var(--cardlight_purple);
 	border: 1px solid var(--carddark_purple);
 }
 
-.wrapper:hover {
+
+.wrapper, .backWrapper {
+	position: absolute;
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 32px 24px 24px;
+}
+
+.backWrapper {
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.backTitle {
+	margin-bottom: 14px;
+}
+
+.container:hover {
 	transform: translateY(-10px);
+}
+
+.container:hover .wrapper {
+	visibility: hidden;
+}
+
+.container:hover .backWrapper {
+	visibility: visible;
 }
 
 .badgeWrapper {
