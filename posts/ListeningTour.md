@@ -3,7 +3,7 @@ title: 경청투어
 author: donna
 process: 공감
 enTitle: Listening Tour
-members: UX UI전문가, 팀 구성원, 이해관계자
+members: UXUI 전문가, 팀 구성원, 이해관계자
 description: 동료들이 제품에 대해 중요하게 생각하는 것이 무엇인지 알아보는 정보 수집 활동
 level: 쉬움
 duration: 
