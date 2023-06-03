@@ -3,7 +3,7 @@ title: 프로토 퍼소나
 author: Proto persona
 process: 공감
 enTitle: donna
-members: UX UI전문가, 팀 구성원
+members: UXUI 전문가, 팀 구성원
 description: 많은 사용자의 모습을 하나로 합성 및 압축하여 쉽게 상상 가능하게 만든 가상의 인물 프로필.
 level: 쉬움
 duration: 2-5시간
