@@ -3,7 +3,7 @@ title: UX 질문지
 author: donna
 process: 공감
 enTitle: UX Questionnaire
-members: UX UI전문가, 팀 구성원, 이해관계자
+members: UXUI 전문가, 팀 구성원, 이해관계자
 description: 본격적인 작업을 시작하기 전, 제품과 사용자 경험에 대해서 알고 있는 내용에 대한 질문 리스트 작성
 level: 중간
 duration: 2시간-4시간
