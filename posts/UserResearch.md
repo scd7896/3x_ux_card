@@ -3,7 +3,7 @@ title: 사용자조사
 author: donna
 process: 공감
 enTitle: User Research
-members: UX UI전문가, 팀구성원
+members: UXUI 전문가, 팀구성원
 description: 제품 및 서비스와 관련된 사용자의 다양한 정보를 조사하는 활동. 사용자 조사 방식에는 ‘정성적 조사’, ‘정량적 조사’로 나누어진다.
 level: 어려움
 duration: 며칠-몇주
