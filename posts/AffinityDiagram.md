@@ -3,7 +3,7 @@ title: 친화도법
 author: donna
 process: 공감
 enTitle: Affinity Diagram
-members: UX UI전문가, 팀 구성원
+members: UXUI 전문가, 팀 구성원
 description: 사용자 조사를 통해 수집한 포괄적인 데이터들 사이에서 의미있는 규칙을 발견하는 브레인스토밍 기법
 level: 중간
 duration: 4시간
