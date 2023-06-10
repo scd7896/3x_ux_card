@@ -15,6 +15,17 @@
 	cursor: pointer;
 }
 
+.memberTitle {
+	display: flex;
+	align-items: center;
+}
+
+.memberTitle .infoIcon {
+	margin-left: 6px;
+	display: flex;
+	align-items: center;
+}
+
 .selected {
 	background-color: var(--gray_90);
 	color: var(--gray_0);
@@ -49,5 +60,5 @@
 	height: 48px;
 	color: var(--gray_80);
 	font-weight: 600;
-	
+
 }

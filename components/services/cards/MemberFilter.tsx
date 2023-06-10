@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
 import { members } from "../../../lib/constant";
 import Button from "../../Button/Button";
+import MemberInfoIcon from "../../icon/MemberInfoIcon";
 import Modal from "../../Modal/Modal";
 import Body from "../../text/Body";
 import SubTitle from "../../text/SubTitle";
@@ -28,8 +29,11 @@ export default function MemberFilter({ onChange }: IProp) {
 
 	return (
 		<section className={styles.wrapper}>
-			<SubTitle level={1}>
-				참여자 <button onClick={() => setModalOpen(true)}>인포</button>
+			<SubTitle level={1} className={styles.memberTitle}>
+				참여자
+				<span className={styles.infoIcon} onClick={() => setModalOpen(true)}>
+					<MemberInfoIcon />
+				</span>
 			</SubTitle>
 			<div className={styles.membersWrapper}>
 				{members.map((it) => (
