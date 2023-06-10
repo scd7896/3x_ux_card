@@ -47,6 +47,32 @@
 	margin-bottom: 0;
 }
 
+.content blockquote {
+	background-color: var(--gray_5);
+	border-radius: 16px;
+	margin: 0;
+	padding: 24px;
+	color: var(--gray_70);
+	font-size: 16px;
+}
+
+.content blockquote ul {
+	padding-left: 24px;
+	
+}
+
+.content blockquote ul li {
+	font-size: 16px;
+}
+
+.content blockquote ul li::marker {
+	font-size: 10px;	
+}
+
+.content blockquote * {
+	margin-bottom: 16px;
+}
+
 
 .content * {
 	margin-top: 0;
