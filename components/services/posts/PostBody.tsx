@@ -39,7 +39,7 @@ export default function PostBody({ contentHtml, title, figmaUrl, workSheetUrl }:
 					</Link>
 
 					<Link href="#" onClick={copyClickHandler}>
-						링크 복사
+						공유하기
 					</Link>
 				</section>
 			</div>
