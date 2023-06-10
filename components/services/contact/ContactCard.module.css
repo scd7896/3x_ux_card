@@ -95,10 +95,7 @@
 }
 
 .icon {
-	width: 72px;
-	height: 72px;
-	background: rgba(255, 197, 189, 0.5);
-	margin-bottom: 34px;
+	margin-bottom: 24px;
 }
 
 .emptyTitle {
