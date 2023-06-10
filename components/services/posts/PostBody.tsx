@@ -1,6 +1,8 @@
 import { useCallback } from "react";
+import { push } from "../../../lib/notification";
 import ArrowLeft from "../../icon/ArrowLeft";
 import Link from "../../Link/Link";
+import Body from "../../text/Body";
 import DownloadLine from "./DownloadLine";
 import styles from "./PostBody.module.css";
 
@@ -22,6 +24,14 @@ export default function PostBody({ contentHtml, title, figmaUrl, workSheetUrl }:
 		tempElem.select();
 		document.execCommand("copy");
 		document.body.removeChild(tempElem);
+		push({
+			message: (
+				<Body level={2} className={styles.message}>
+					<b>링크가 복사되었어요!</b> 원하는 곳에 붙여넣으세요.
+				</Body>
+			),
+			type: "check",
+		});
 	}, []);
 
 	return (
@@ -39,7 +49,7 @@ export default function PostBody({ contentHtml, title, figmaUrl, workSheetUrl }:
 					</Link>
 
 					<Link href="#" onClick={copyClickHandler}>
-						링크 복사
+						공유하기
 					</Link>
 				</section>
 			</div>

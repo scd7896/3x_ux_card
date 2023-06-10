@@ -22,7 +22,9 @@ export default function PostHead({ enTitle, title, description, level, members, 
 				</Title>
 
 				<Caption style={{ marginBottom: "16px" }}>{enTitle}</Caption>
-				<Body level={2}>{description}</Body>
+				<Body className={styles.descriptionWrapper} level={2}>
+					{description}
+				</Body>
 			</section>
 			<section className={styles.detailInfo}>
 				<PostLabel name="참여자" value={members || ""} icon={<MembersIcon />} />

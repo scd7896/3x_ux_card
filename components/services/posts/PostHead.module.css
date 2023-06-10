@@ -5,6 +5,10 @@
 	align-items: center;
 }
 
+.descriptionWrapper {
+	max-width: 588px;
+}
+
 .wrapper.공감 {
 	background-color: var(--cardlight_yellow);
 }

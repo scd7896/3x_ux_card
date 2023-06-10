@@ -14,3 +14,13 @@
 	height: 24px;
 	margin-right: 4px;
 }
+
+.name {
+	font-weight: 400;
+	color: var(--gray_100);
+}
+
+.value {
+	margin-left: 4px;
+	color: var(--gray_60);
+}

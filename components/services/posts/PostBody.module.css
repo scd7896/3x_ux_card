@@ -28,15 +28,55 @@
 
 .content ol {
 	padding-inline-start: 16px;
+	
 }
 
 .content ol li {
 	margin-bottom: 0;
 }
 
+
+.content ol li ul {
+	padding: 0;
+	list-style: disc;
+	margin-bottom: 24px;
+}
+
+
+.content ul li {
+	margin-bottom: 0;
+}
+
+.content blockquote {
+	background-color: var(--gray_5);
+	border-radius: 16px;
+	margin: 0;
+	padding: 24px;
+	color: var(--gray_70);
+	font-size: 16px;
+}
+
+.content blockquote ul {
+	padding-left: 24px;
+	
+}
+
+.content blockquote ul li {
+	font-size: 16px;
+}
+
+.content blockquote ul li::marker {
+	font-size: 10px;	
+}
+
+.content blockquote * {
+	margin-bottom: 16px;
+}
+
+
 .content * {
 	margin-top: 0;
-	margin-bottom: 48px;
+	margin-bottom: 64px;
 }
 
 
@@ -61,4 +101,9 @@
 	margin-top: 20px;
 	border-bottom: 1px solid var(--gray_20);
 	padding-bottom: 80px;
+}
+
+.message {
+	color: var(--gray_0);
+	font-size: 16px;
 }

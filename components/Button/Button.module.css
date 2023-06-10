@@ -3,6 +3,7 @@
 	border-radius: 100px;
 	border: none;
 	cursor: pointer;
+	font-family: "Pretendard";
 }
 
 .small {
@@ -33,4 +34,10 @@
 	background-color: var(--gray_0);
 	color: var(--gray_90);
 	border: 1px solid var(--gray_80);
+}
+
+.ghost {
+	background-color: var(--gray_10);
+	border: none;
+	color: var(--gray_80);
 }

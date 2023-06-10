@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import Button from "../../Button/Button";
+import MailIcon from "../../icon/MailIcon";
 import Body from "../../text/Body";
 import SubTitle from "../../text/SubTitle";
 import { ButtonText } from "../../text/Text";
@@ -144,7 +145,9 @@ export function ContactEmptyCard() {
 
 	return (
 		<div className={`${styles.wrapper} ${styles.empty}`}>
-			<div className={styles.icon}></div>
+			<div className={styles.icon}>
+				<MailIcon />
+			</div>
 			<div className={styles.emptyTitle}>
 				<div>저희 팀에게</div>
 				<div>하고싶은 말이 있나요?</div>

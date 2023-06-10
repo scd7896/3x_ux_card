@@ -1,10 +1,10 @@
-"use client";
 import useWindowSize from "../../../hooks/useWindowSize";
 import Button from "../../Button/Button";
 import { ButtonText } from "../../text/Text";
 import styles from "./Banner.module.css";
+import KeyvisualCardList from "./KeyVisualCardList";
 
-export default function HomeBanner() {
+function HomeBanner() {
 	const { isMobile } = useWindowSize();
 	return (
 		<section className={styles.wrapper}>
@@ -27,7 +27,11 @@ export default function HomeBanner() {
 					<ButtonText level={1}>3x 이용방법</ButtonText>
 				</Button>
 			</div>
-			<div className={styles.imgWrapper}></div>
+			<div className={styles.imgWrapper}>
+				<KeyvisualCardList />
+			</div>
 		</section>
 	);
 }
+
+export default HomeBanner;

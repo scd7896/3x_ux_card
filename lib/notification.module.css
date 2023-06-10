@@ -1,0 +1,17 @@
+.wrapper {
+	position: fixed;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 20px;
+	background: var(--gray_80);
+	border-radius: 16px;
+	display: flex;
+	min-width: 374px;
+	color: var(--gray_0);
+	box-sizing: border-box;
+}
+
+.iconWrapper {
+	margin-right: 8px;
+}

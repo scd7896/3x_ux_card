@@ -15,6 +15,17 @@
 	cursor: pointer;
 }
 
+.memberTitle {
+	display: flex;
+	align-items: center;
+}
+
+.memberTitle .infoIcon {
+	margin-left: 6px;
+	display: flex;
+	align-items: center;
+}
+
 .selected {
 	background-color: var(--gray_90);
 	color: var(--gray_0);
@@ -27,4 +38,27 @@
 
 .membersWrapper {
 	margin-left: 12px;
+}
+
+.memberDefineWrapper {
+	width: 336px;
+}
+
+.memberDefined + .memberDefined {
+	margin-top: 24px;
+}
+
+.memberDefineWrapper .memberText {
+	color: var(--gray_70);
+	margin-top: 6px;
+}
+
+.memberDefineWrapper .checkButton {
+	width: 100%;
+	margin-top: 21px;
+	border-radius: 100px;
+	height: 48px;
+	color: var(--gray_80);
+	font-weight: 600;
+
 }
