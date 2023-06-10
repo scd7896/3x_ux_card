@@ -1,5 +1,4 @@
 import Body from "../../text/Body";
-import SubTitle from "../../text/SubTitle";
 import styles from "./Label.module.css";
 
 interface IProp {
@@ -12,10 +11,10 @@ export default function PostLabel({ name, value, icon }: IProp) {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.icon}>{icon}</div>
-			<Body level={2}>
-				<b>{name}</b>
+			<Body level={2} className={styles.name}>
+				{name}
 			</Body>
-			<Body level={2} style={{ marginLeft: "4px" }}>
+			<Body className={styles.value} level={2}>
 				{value}
 			</Body>
 		</div>
