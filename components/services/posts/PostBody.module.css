@@ -28,12 +28,24 @@
 
 .content ol {
 	padding-inline-start: 16px;
+	
 }
 
 .content ol li {
 	margin-bottom: 0;
 }
 
+
+.content ol li ul {
+	padding: 0;
+	list-style: disc;
+	margin-bottom: 24px;
+}
+
+
+.content ul li {
+	margin-bottom: 0;
+}
 
 
 .content * {
