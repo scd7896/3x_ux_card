@@ -41,10 +41,6 @@ workSheetUrl:
 5. 테스트를 반복한다. 
 * 여러 화면을 테스트하자.
 
-# Tip
-
-- 여러 화면을 테스트하라 : 사람들은 때때로 뒷문으로 들어오곤 한다. 북마크 또는 이메일에 적힌 링크를 따라 가기도 한다. 이런 모든 수준에서 제대로 작동 하는지 테스트하려면 무작위로 뽑은 낮은 수준의 페이지에 대해서도 5초 테스트를 수행해보라.
-
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+> # Tip
+> 
+> - 여러 화면을 테스트하라 : 사람들은 때때로 뒷문으로 들어오곤 한다. 북마크 또는 이메일에 적힌 링크를 따라 가기도 한다. 이런 모든 수준에서 제대로 작동 하는지 테스트하려면 무작위로 뽑은 낮은 수준의 페이지에 대해서도 5초 테스트를 수행해보라.
