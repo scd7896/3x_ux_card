@@ -38,6 +38,7 @@
 .orangeTitle {
 	color: var(--orange_100);
 	margin-bottom: 6px;
+	display: flex;
 }
 
 .cardDescription {

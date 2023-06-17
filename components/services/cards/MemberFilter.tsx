@@ -72,7 +72,7 @@ export default function MemberFilter({ onChange }: IProp) {
 					<section className={styles.memberDefined}>
 						<SubTitle level={2}>이해 관계자</SubTitle>
 						<Body className={styles.memberText} level={3}>
-							같은 팀 구성원은 아니지만 업무 영향을 받는 유관부서 외주 프로젝트일 경우 고객사
+							같은 팀 구성원은 아니지만 업무 영향을 받는 유관부서 외주 프로젝트일 경우 이해 관계사
 						</Body>
 					</section>
 					<Button color="ghost" className={styles.checkButton} onClick={() => setModalOpen(false)}>
