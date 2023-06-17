@@ -3,6 +3,7 @@
 	height: 368px;
 	padding: 32px 24px;
 	border-radius: 20px;
+	box-sizing: border-box;
 }
 
 .subTitleWrapper {

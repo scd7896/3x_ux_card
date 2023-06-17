@@ -55,15 +55,15 @@ const description = {
 const role = {
 	mj: {
 		lead: "UI 디자인, 비주얼",
-		sub: "리서치, 방법론 연구, 기획",
+		sub: "리서치, 기획",
 	},
 	donna: {
 		lead: "시스템 설계",
-		sub: "리서치, 방법론 연구, 비주얼",
+		sub: "리서치, 비주얼",
 	},
 	cha: {
 		lead: "UX라이팅, 리서치/기획",
-		sub: "방법론 연구, 비주얼",
+		sub: "비주얼",
 	},
 
 	server: "사이트 전체 개발",
