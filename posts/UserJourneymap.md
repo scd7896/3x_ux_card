@@ -29,4 +29,3 @@ workSheetUrl: https://drive.google.com/file/d/1k-xhkMB1tw4goBagM-2Dvu5HtDbxdoEi/
 6. 상관성을 분석하며 필요하다면 다시 그룹핑한다.
 7. 개별에서 보지 못한 통찰을 얻기 위해 노력한다
 
-<iframe width="1044" height="587" src="https://www.youtube.com/embed/eUQFtpxet1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
