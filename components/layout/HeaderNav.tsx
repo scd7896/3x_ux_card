@@ -1,3 +1,4 @@
+import MainGnb from "../icon/MainGnb";
 import Link from "../Link/Link";
 import { ButtonText } from "../text/Text";
 import styles from "./HeaderNav.module.css";
@@ -6,7 +7,9 @@ export default function HeaderNav() {
 	return (
 		<header className={styles.header}>
 			<nav className={styles.nav}>
-				<section className={styles.gnbWrapper}></section>
+				<section className={styles.gnbWrapper}>
+					<MainGnb />
+				</section>
 				<Link className={styles.link} href="/howtouse">
 					<ButtonText level={1}>How to use</ButtonText>
 				</Link>
