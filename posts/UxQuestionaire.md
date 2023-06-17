@@ -40,5 +40,6 @@ workSheetUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_
 
 2. 답을 모르는 질문이 있으면 동료(들)에게 물어본다.
 
-# Tip
-- UX질문지에 대한 답변들은 또다른 방법론, 프로젝트 개요에서도 활용할 수 있다.
+> # Tip
+> 
+> - UX질문지에 대한 답변들은 또다른 방법론, 프로젝트 개요에서도 활용할 수 있다.
