@@ -30,7 +30,3 @@ workSheetUrl: https://drive.google.com/file/d/1pwABZKJzRhEgMioBL5w-1U2GuQSZiSCc/
 3. 사용자가 제품을 사용하는 단계를 시간순으로 작성한다.
 4. 사용자와 제품 사이의 주목할만한 터치포인트를 표시한다.
 5. 제품/서비스의 문제점과 인사이트를 포착한다.
-
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
