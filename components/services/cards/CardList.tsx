@@ -1,3 +1,4 @@
+import useWindowSize from "../../../hooks/useWindowSize";
 import { ICard } from "../../../types/card.d";
 import UXCardview from "../../Card/UXCardview";
 import { Col, Row } from "../../layout/Layout";
@@ -9,10 +10,12 @@ interface IProp {
 }
 
 export default function CardList({ cards }: IProp) {
+	const { isMobile } = useWindowSize();
+
 	return (
-		<Row rowGap={24} data-cy="card_wrapper" style={{ marginBottom: "120px" }}>
+		<Row className={styles.cardList} rowGap={24} data-cy="card_wrapper" style={{ marginBottom: "120px" }}>
 			{cards.map((it, idx) => (
-				<Col col={3} key={idx} data-cy="card">
+				<Col className={styles.card} col={isMobile ? 12 : 3} key={idx} data-cy="card">
 					<Link className={styles.link} href={`/posts/${it.id}`}>
 						<UXCardview key={idx} {...it} />
 					</Link>

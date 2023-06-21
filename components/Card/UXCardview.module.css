@@ -75,12 +75,27 @@
 
 .badgeWrapper {
 	width: 100%;
+	position: relative;
 }
 
+.badgeContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.badgeContainer + .badgeContainer {
+	margin-top: 6px;
+}
+
+
+
 .badge {
-	padding: 3px 8px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
 	border-radius: 100px;	
-	display: inline-block;
+	padding: 3px 8px;
 }
 
 
@@ -111,16 +126,23 @@
 
 
 
-
-.badgeGap {
-	box-sizing: border-box;
-}
-
-.badgeGap + .badgeGap {
-	margin-top: 6px;
-}
-
-
 .bottomWrapper {
 	display: flex;
+}
+
+@media (max-width: 450px) {
+	.container {
+		width: 100%;
+		height: 361px;
+	}
+
+	.badge {
+		padding: 5px 8px;
+	}
+
+	.badge .membetText {
+		font-size: 14px;
+		line-height: 18px;
+		font-weight: 400;
+	}
 }

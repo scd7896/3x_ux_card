@@ -45,10 +45,12 @@ interface IBadge extends Pick<ICard, "process"> {
 
 function Badge({ member, process }: IBadge) {
 	return (
-		<div className={styles.badgeGap}>
-			<span className={`${styles.badge} ${styles[process]}`}>
-				<SubTitle level={4}>{member}</SubTitle>
-			</span>
+		<div className={styles.badgeContainer}>
+			<div className={`${styles.badge} ${styles[process]}`}>
+				<SubTitle className={styles.membetText} level={4}>
+					{member}
+				</SubTitle>
+			</div>
 		</div>
 	);
 }
