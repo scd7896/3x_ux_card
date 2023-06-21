@@ -4,8 +4,7 @@ author: donna
 process: 아이디어
 enTitle: User Journeymap
 members: UXUI 전문가
-description: 사용자가 제품/서비스를 사용할 때 경험하게 되는 요소들을 사용자 경험에 따라 순차적으로 나열하여
-만드는 지도
+description: 사용자가 제품/서비스를 사용할 때 경험하게 되는 요소들을 사용자 경험에 따라 순차적으로 나열하여 만드는 지도
 level: 중간
 duration: 2-4시간
 situation: 개인작업, 신규런칭, 리뉴얼고도화
