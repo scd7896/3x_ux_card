@@ -29,11 +29,7 @@ workSheetUrl:
 3. 사람을 더 구해본다. 
 4. 결과에 따라 디자인을 개선한다.
 
-# Tip
-
-- 전문적인 테스트가 아니다.
-- 오류를 발견하면 즉각 개선/수정하라.
-
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+> # Tip
+> 
+> - 전문적인 테스트가 아니다.
+> - 오류를 발견하면 즉각 개선/수정하라.
