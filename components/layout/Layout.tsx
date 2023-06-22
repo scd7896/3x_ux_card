@@ -2,6 +2,7 @@ import styles from "./Layout.module.css";
 
 interface IProp extends React.HTMLAttributes<HTMLDivElement> {
 	rowGap?: number;
+	ref: any;
 }
 
 export function Row({ children, rowGap, ...props }: IProp) {
