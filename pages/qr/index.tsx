@@ -1,4 +1,4 @@
-import { MouseEvent, useCallback, useRef } from "react";
+import { MouseEvent, useCallback } from "react";
 import QRCode from "react-qr-code";
 import { Col, Row } from "../../components/layout/Layout";
 import useCardList from "../../hooks/cards/useCardList";
@@ -7,7 +7,6 @@ import UXCardview from "../../components/Card/UXCardview";
 import styles from "./styles.module.css";
 
 export default function QRPage() {
-	const listRef = useRef<HTMLDivElement>(null);
 	const { cards } = useCardList();
 
 	const onQrClick = useCallback((e: MouseEvent<SVGSVGElement>, name: string) => {
@@ -31,11 +30,11 @@ export default function QRPage() {
 
 	return (
 		<div>
-			<Row ref={listRef}>
+			<Row>
 				{cards?.map((card) => {
 					const value = checkUrlByHtml(`${location.origin}/posts/${card.id}`, "production");
 					return (
-						<Col col={3} className={styles.cards}>
+						<Col col={3} className={styles.cards} key={card.id}>
 							<UXCardview {...card} />
 							<QRCode onClick={(e) => onQrClick(e, card.title)} className={styles.qr} value={value} />
 						</Col>
