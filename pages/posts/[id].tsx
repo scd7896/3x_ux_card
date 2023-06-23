@@ -1,3 +1,4 @@
+import Head from "next/head";
 import PostBody from "../../components/services/posts/PostBody";
 import PostFooter from "../../components/services/posts/PostFooter";
 import PostHead from "../../components/services/posts/PostHead";
@@ -6,6 +7,10 @@ import { createListJson, getPostData, getPostList } from "../../lib/posts";
 export default function Post({ postData }: any) {
 	return (
 		<div>
+			<Head>
+				<title>{postData.title}</title>
+				<meta property="og:description" content={postData.description} />
+			</Head>
 			<PostHead {...postData} />
 			<PostBody
 				contentHtml={postData.contentHtml}
