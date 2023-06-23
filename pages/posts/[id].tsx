@@ -10,6 +10,7 @@ export default function Post({ postData }: any) {
 			<Head>
 				<title>{postData.title}</title>
 				<meta property="og:title" content={postData.title} />
+				<meta property="og:site_name" content={postData.title} />
 				<meta property="og:description" content={postData.description} />
 			</Head>
 			<PostHead {...postData} />
