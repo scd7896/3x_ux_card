@@ -1,6 +1,8 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import Script from "next/script";
 import PageLayout from "../components/layout/PageLayout";
+import { IS_PRODUCTION } from "../lib/env";
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
@@ -21,6 +23,23 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta property="og:locale" content="ko_KR" />
 			</Head>
 			<PageLayout>
+				{IS_PRODUCTION && (
+					<>
+						<Script
+							id="google-analytics"
+							strategy="afterInteractive"
+							src="https://www.googletagmanager.com/gtag/js?id=G-T6W039SRH8"
+						></Script>
+
+						<Script id="google-analytics" strategy="afterInteractive">
+							{`window.dataLayer = window.dataLayer || [];
+							
+							function gtag(){window.dataLayer.push(arguments)}
+							
+							gtag('js', new Date()); gtag('config', 'G-T6W039SRH8');`}
+						</Script>
+					</>
+				)}
 				<Component {...pageProps} />
 			</PageLayout>
 		</>
