@@ -18,7 +18,7 @@
 	border: 1px solid var(--carddark_yellow);
 }
 
-.container.설계 {
+.container.아이디어 {
 	background-color: var(--cardlight_peach);
 	border: 1px solid var(--carddark_peach);
 }
@@ -104,7 +104,7 @@
 	mix-blend-mode: multiply;
 }
 
-.badge.설계 {
+.badge.아이디어 {
 	background: var(--cardtrans_peach);
 	mix-blend-mode: multiply;
 }
