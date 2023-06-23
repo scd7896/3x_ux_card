@@ -8,6 +8,8 @@ const s3 = new AWS.S3({
 	secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
 });
 
+const cloudFront = new AWS.CloudFront();
+
 const contentType = {
 	png: "image/png",
 	html: "text/html",
@@ -65,6 +67,21 @@ s3.listObjects({ Bucket: "3xuxcard" }, (err, data) => {
 		(err, data) => {
 			uploadDir(path.join(__dirname, "out"), "3xuxcard");
 			uploadDir(path.join(__dirname, "storybook-static"), "3xuxcard", "storybook-static");
+			cloudFront.createInvalidation(
+				{
+					DistributionId: "E14YYRI67EICY6",
+					InvalidationBatch: {
+						Paths: {
+							Quantity: 1,
+							Items: ["/*"],
+						},
+						CallerReference: new Date().toString(),
+					},
+				},
+				(err) => {
+					console.log("pugeREquestErr", err);
+				}
+			);
 		}
 	);
 });
