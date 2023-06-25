@@ -1,0 +1,48 @@
+.wrapper {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.confirmButton {
+	max-width: 100%;
+	width: 450px;
+}
+
+.membersWrapper {
+	margin-bottom: 16px;
+}
+
+.button {
+	display: block;
+	background: none;
+	border: none;
+	font-family: "Pretendard";
+	font-size: 16px;
+	color: var(--gray_80);
+	padding: 16px 0;
+}
+
+.menuWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 20px;
+	
+}
+
+.memberButton {
+	display: flex;
+	align-items: center;
+	padding: 24px 8px;
+	margin-right: 8px;
+}
+
+.arrow {
+
+	margin-left: 6px;
+}
+
+.arrow svg rect {
+	width: 16px;
+	height: 16px;
+}

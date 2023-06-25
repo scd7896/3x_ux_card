@@ -7,9 +7,10 @@ interface IProp extends PropsWithChildren {
 	isOpen?: boolean;
 	onClose?: () => void;
 	title?: string;
+	position?: "bottom" | "middle";
 }
 
-export default function Modal({ isOpen, children, onClose, title }: IProp) {
+export default function Modal({ isOpen, children, onClose, title, position }: IProp) {
 	useEffect(() => {
 		function escHandler(e: KeyboardEvent) {
 			if (e.key.toLowerCase() === "escape") {
@@ -31,7 +32,7 @@ export default function Modal({ isOpen, children, onClose, title }: IProp) {
 
 	return createPortal(
 		<div className={styles.wrapper} onClick={onClose}>
-			<section className={styles.contentWrapper}>
+			<section className={`${styles.contentWrapper} ${position && styles[position]}`}>
 				{title && (
 					<div className={styles.title}>
 						<SubTitle level={2}>{title}</SubTitle>

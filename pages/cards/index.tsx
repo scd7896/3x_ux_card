@@ -3,10 +3,13 @@ import { BodyLayout } from "../../components/layout/Layout";
 import CardList from "../../components/services/cards/CardList";
 import CardsHeader from "../../components/services/cards/Header";
 import MemberFilter from "../../components/services/cards/MemberFilter";
+import MemberFilterMobile from "../../components/services/cards/MemberFilterMobile";
 import StepDescription from "../../components/services/cards/StepDescription";
 import useCardList from "../../hooks/cards/useCardList";
+import useWindowSize from "../../hooks/useWindowSize";
 
 export default function CardsPage() {
+	const { isMobile } = useWindowSize();
 	const { cards, setMembers, setProcess, setSituation, filter } = useCardList();
 
 	const headerChangeListener = useCallback((param: any) => {
@@ -23,7 +26,8 @@ export default function CardsPage() {
 			<CardsHeader onChange={headerChangeListener} />
 			<BodyLayout>
 				<StepDescription descriptionKey={filter?.process || filter?.situation} />
-				<MemberFilter onChange={setMembers} />
+				{isMobile ? <MemberFilterMobile onChange={setMembers} /> : <MemberFilter onChange={setMembers} />}
+
 				<CardList cards={cards || []} />
 			</BodyLayout>
 		</section>
