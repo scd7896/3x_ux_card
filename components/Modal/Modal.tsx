@@ -1,4 +1,4 @@
-import { PropsWithChildren, useEffect } from "react";
+import { PropsWithChildren, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import SubTitle from "../text/SubTitle";
 import styles from "./Modal.module.css";
@@ -28,11 +28,23 @@ export default function Modal({ isOpen, children, onClose, title, position }: IP
 		};
 	}, [isOpen, onClose]);
 
+	const contentRef = useRef<HTMLDivElement>(null);
+
 	if (!isOpen) return null;
 
 	return createPortal(
-		<div className={styles.wrapper} onClick={onClose}>
-			<section className={`${styles.contentWrapper} ${position && styles[position]}`}>
+		<div
+			className={styles.wrapper}
+			onClick={(e) => {
+				let target: HTMLElement | null = e.target as HTMLDivElement;
+				while (target) {
+					if (contentRef.current === target) return;
+					target = target.parentElement;
+				}
+				onClose?.();
+			}}
+		>
+			<section ref={contentRef} className={`${styles.contentWrapper} ${position && styles[position]}`}>
 				{title && (
 					<div className={styles.title}>
 						<SubTitle level={2}>{title}</SubTitle>

@@ -5,6 +5,7 @@ import Modal from "../../Modal/Modal";
 import { ArrowDown16 } from "../../icon/ArrowLeft";
 import styles from "./MemberFilterMobile.module.css";
 import MemberInfoIcon from "../../icon/MemberInfoIcon";
+import { CheckIconBlack } from "../../icon/CheckIcon";
 
 interface IProp {
 	onChange?: (members: string[]) => void;
@@ -57,7 +58,12 @@ export default function MemberFilterMobile({ onChange }: IProp) {
 								});
 							}}
 						>
-							{it}
+							<span>{it}</span>
+							{getSelected(it) && (
+								<span className={styles.check}>
+									<CheckIconBlack />
+								</span>
+							)}
 						</button>
 					))}
 				</div>
