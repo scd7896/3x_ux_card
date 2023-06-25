@@ -16,4 +16,4 @@ export const CardSubTitleDescription: Record<string, string> = {
 	empty: "전체 방법론 입니다.",
 };
 
-export const members = ["UXUI 전문가", "팀 구성원", "사용자", "이해 관계사", "누구나"];
+export const members = ["UXUI 전문가", "팀 구성원", "사용자", "이해관계자", "누구나"];
