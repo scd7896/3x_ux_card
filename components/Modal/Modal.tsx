@@ -21,6 +21,8 @@ export default function Modal({ isOpen, children, onClose, title, position }: IP
 		if (isOpen) {
 			document.body.style.overflow = "hidden";
 			document.body.addEventListener("keydown", escHandler);
+		} else {
+			document.body.style.overflow = "auto";
 		}
 
 		return () => {

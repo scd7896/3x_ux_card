@@ -67,7 +67,14 @@ export default function MemberFilterMobile({ onChange }: IProp) {
 						</button>
 					))}
 				</div>
-				<Button color="ghost" className={styles.confirmButton}>
+				<Button
+					color="ghost"
+					className={styles.confirmButton}
+					onClick={() => {
+						setSelectOpen(false);
+						onChange?.(selectedMembers);
+					}}
+				>
 					확인
 				</Button>
 			</Modal>
