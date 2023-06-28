@@ -30,6 +30,6 @@ workSheetUrl: https://drive.google.com/file/d/1dJCXupwDgdnyDRyetPPJI6mVdHSwO2Yi/
 6. 상관성을 분석하며 필요하다면 다시 그룹핑한다.
 7. 개별에서 보지 못한 통찰을 얻기 위해 노력한다.
 
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fdb4uxQjDWad0Xh3pIj5PYg%2F2022_3X_UX-Card_Ver.3%3Ftype%3Ddesign%26node-id%3D1852%253A22080%26mode%3Ddesign%26t%3Dh36h1nYYVnUJylta-1" allowfullscreen></iframe>
+
