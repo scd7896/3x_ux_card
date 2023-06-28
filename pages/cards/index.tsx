@@ -25,7 +25,7 @@ export default function CardsPage() {
 		<section>
 			<CardsHeader onChange={headerChangeListener} />
 			<BodyLayout>
-				<StepDescription descriptionKey={filter?.process || filter?.situation} />
+				{!isMobile && <StepDescription descriptionKey={filter?.process || filter?.situation} />}
 				{isMobile ? <MemberFilterMobile onChange={setMembers} /> : <MemberFilter onChange={setMembers} />}
 
 				<CardList cards={cards || []} />

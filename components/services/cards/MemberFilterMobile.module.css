@@ -1,6 +1,7 @@
 .wrapper {
 	width: 100%;
 	box-sizing: border-box;
+	padding-top: 8px;
 }
 
 .confirmButton {
@@ -50,6 +51,8 @@
 	align-items: center;
 	padding: 24px 8px;
 	margin-right: 8px;
+	font-weight: 600;
+	font-family: "Pretendard";
 }
 
 .arrow {
