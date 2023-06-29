@@ -8,8 +8,8 @@ description: 사용자가 기대하는 사용성의 표준이 되는 UX 사례�
 level: 중간
 duration: 4-8시간
 situation: 개인작업, 신규런칭, 리뉴얼고도화
-figmaUrl:
-workSheetUrl:
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2478&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1zT7IwHoApgiNdZ4VcaSrpMwlzHkA2zhq/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -56,6 +56,5 @@ workSheetUrl:
 2. 보고서를 쓰듯 계획한다. : 비교하고 싶고, 보고서에 포함시키고 싶은 주요한 요소들을 결정한다.
 3. 알아낸 사실을 공유한다 : 공유 요약 문서는 이 제품에서 가장 중요한 것이 무엇인지를 깊이 논의할 수 있는 출발점이 된다.
 4. 비교평가를 그룹활동으로 수행한다. : 각자가 생각하는 관련 웹사이트들을 가져오라고 하고 함께 모여 리뷰하고 중요한 트렌드에 대해 논의한다.
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2479%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
