@@ -8,8 +8,8 @@ description: 디자인하기 전에 어떤 UX 기법을 이용할 것인지 계�
 level: 어려움
 duration: 2-3시간
 situation: 신규런칭, 리뉴얼고도화
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
-workSheetUrl: https://drive.google.com/file/d/1W5FDIPEW1lHFiwW_zOzHngXblgRWnFlD/view?usp=sharing
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-4604&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1OuNz1vx9NjVyc69pt45KQK_4tegTmgsc/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -57,5 +57,6 @@ workSheetUrl: https://drive.google.com/file/d/1W5FDIPEW1lHFiwW_zOzHngXblgRWnFlD/
 > - 프로젝트 범위를 재검토하고 다시 설정하라: 작업 중에 범위를 한 번 더 검토하고 각 작업 시간을 가능한 선에서 최소한으로 다시 설정하자.
 > - 복잡성 지표를 추가 하라: 작업이나 각 작업 단계의 난이도나 복잡성을 숫자로 표현하는 것이다. (ex. 1: 쉬움, 2: 중간, 3: 복잡)
 > - 체크리스트를 사용하라: 간단한 체크리스트를 만들어서 빠르게 훑어 보면서 어떤 요소들이 작업에 포함되어야 하는지 살펴보는 것이 좋다.
+> - 의사결정 시기에 대비하라: 의사결정 및 수정 기간을 프로젝트 계획에 포함 시키자.
 
-- 의사결정 시기에 대비하라: 의사결정 및 수정 기간을 프로젝트 계획에 포함 시키자.
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A4605%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
