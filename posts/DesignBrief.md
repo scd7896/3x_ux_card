@@ -8,8 +8,8 @@ description: 프로젝트가 어떤 방향으로 진행될 것인가에 대한 �
 level: 중간
 duration: 2-3시간
 situation: 개인작업, 신규런칭
-figmaUrl:
-workSheetUrl: 
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2163&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1mawIadyJUbSYBGXe4qxkgRN8X2RfW_av/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -45,6 +45,4 @@ workSheetUrl:
 - 가정을 화인하는 용도로 사용하라 : 디자인 개요의 가장 중요한 목적 중 하나는 일반 동료들이 제품에 대해 가지고 있는 생각이나 기대를 UX 디자이너 본인이 분명하게 이해하고 있는지를 확인하거나 그들이 생각을 분명이 하도록 도와주는 것이다. 최종 결과물이 어떤 모습이 되어야 하는지를 알려주면 일반 동료들은 그것에 대해 어떤 반응을 보일지 결정할 수 있게 된다.
 - 이미지를 첨부해라. 시각적이고 감각적으로 보여줄 수 있는 적절한 이미지를 사용하면 쉽게 기억할 수 있게 되고 이해하기 쉽다.
 
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2164%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
