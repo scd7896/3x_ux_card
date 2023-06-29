@@ -8,8 +8,8 @@ description: 제품 및 서비스와 관련된 사용자의 다양한 정보를 
 level: 어려움
 duration: 며칠-몇주
 situation: 개인작업
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
-workSheetUrl: https://drive.google.com/file/d/1gLkHA30wzkrwKaeIofbkaeX8kxYLZRHY/view?usp=sharing
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-4299&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/12ZIaAXssvupYoJmpdfOmSlteJ0EB_p-c/view?usp=sharing
 ---
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
 <!--duration은 분단위로 숫자만 적어주세요-->
@@ -72,3 +72,5 @@ workSheetUrl: https://drive.google.com/file/d/1gLkHA30wzkrwKaeIofbkaeX8kxYLZRHY/
 6. A/B 테스트(A/B testing)
     - 어느 쪽을 더 많이 사용자가 선호하는지를 알아보기 위해 두 가지 버전의 웹 페이지를 
 비교하는 테스트
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A4300%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
