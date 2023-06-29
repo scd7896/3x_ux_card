@@ -8,8 +8,8 @@ description: 본격적인 작업을 시작하기 전, 제품과 사용자 경험
 level: 중간
 duration: 2시간-4시간
 situation: 개인작업
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
-workSheetUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-1618&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1QPxNQdnilskW6dmxxoPEjvoSYEqEhPRp/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -46,3 +46,5 @@ workSheetUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_
 > # Tip
 >
 > - UX질문지에 대한 답변들은 또다른 방법론, 프로젝트 개요에서도 활용할 수 있다.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1618%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
