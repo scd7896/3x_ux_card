@@ -45,5 +45,4 @@ workSheetUrl:
     - 검증 후: 제대로 작동하지 않는 부분, 디자인 의도에 부합하지 않는 부분 등을 확인해 수정하라.
 
 
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
