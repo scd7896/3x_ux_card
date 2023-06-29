@@ -8,8 +8,8 @@ description: 아이디어에 대한 다양한 가능성을 스케치를 통해 �
 level: 중간
 duration: 30분-무한대
 situation: 개인작업, 신규런칭, 리뉴얼고도화
-figmaUrl:
-workSheetUrl:
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-4929&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1kEeQKub9EMStkB6OFnBBh9yTlD3uvfxT/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -56,6 +56,4 @@ workSheetUrl:
 - 스케치를 해도 아이디어가 떠오르지 않는 다면 그림으로 표현하기 전에 글로 표현을 해봐라.
 - 스케치 도구를 들고 다녀라. 스케치 도구를 항상 가지고 다니다가 회의나 즉석으로 이루어지는 대화 속에서 필요하면 곧바로 사용할 수 있게 하라.
 
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A4930%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
