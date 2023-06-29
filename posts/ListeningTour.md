@@ -6,10 +6,10 @@ enTitle: Listening Tour
 members: UXUI 전문가, 팀 구성원, 이해관계자
 description: 동료들이 제품에 대해 중요하게 생각하는 것이 무엇인지 알아보는 정보 수집 활동
 level: 쉬움
-duration: 
-situation: 
-figmaUrl:
-workSheetUrl: 
+duration: 5~8시간
+situation: 신규런칭, 리뉴얼고도화
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104%3A2249&mode=design&t=uMLYbDeXRC8639ZD-1
+workSheetUrl: https://drive.google.com/file/d/1B4eTwMR6rf2T0AGeUKObotYzbvMio5KQ/view?usp=sharing
 ---
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
 <!--duration은 분단위로 숫자만 적어주세요-->
@@ -56,3 +56,5 @@ workSheetUrl:
 > - 알게 된 사실을 공유하라: 인터뷰를 통해서 얻은 것을 인터뷰 참가자들과 나누는것이 예의다. 진심이 우러나오는 감사카드를 보내고, 인터뷰를 통해서 얻은 주제들을 요약해서 전달하는 것이 다음번 경청투어를 대비해서 좋은 관계를 유지하는 비결이다.
 > - 인터뷰 내용을 제대로 기록하라: 타자속도가 빠르다면 노트북 컴퓨터를 가져가서 인터뷰와 동시에 내용을 바로 입력하라. 타자 실력이 좋지 않다면 동료 한 사람과 함께 가서 노트를 맡기고 본인은 대화에만 집중하라. 녹음은 지양한다. 기록을 잘 못한다면 매 번 대화를 끝부분에 요약하는 시간을 마련한다.
 > - 알게 된 사실을 어떻게 공유할지 계획을 세워라: 인터뷰 전에 인터뷰를 통해 알게될 내용을 어떻게 보고하고, 공유하고, 이용할 것인지 생각해보고 거기에 맞춰 인터뷰 질문들을 구성한다.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2250%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
