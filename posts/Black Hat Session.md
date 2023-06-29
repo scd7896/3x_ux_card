@@ -8,8 +8,8 @@ description: 제품 디자인에 관해 솔직하면서도 생산적인 피드�
 level: 쉬움
 duration: 30-60분
 situation: 신규런칭, 리뉴얼고도화
-figmaUrl:
-workSheetUrl: 
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-1786&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1szEh66kJsdT5C7xBcKXWJEw7anPDZHLi/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -56,3 +56,5 @@ workSheetUrl:
 > 
 > - 필요하다면, 시간과 장소를 가리지 말고 사용하라. : 디자인 리뷰를 하는 데 사람들이 같은 문제들만 바녹하면서 논의가 진전되지 않는다면 리뷰를 멈추고 검은 모자 미팅을 소집하라. 다른 사람들 없이 혼자 해도 디자인의 품질 관리 차원에서 도움이 된다.
 > - 피드백에 초점을 맞춰라 : 디자인의 구현 과정에서 발생할 수 있는 문제점을 사전에 발견할 수 있는 방법이다. 같은 방법으로 콘텐츠, 사용성, 전환 등 거의 모든 부분에 검은 모자 미팅을 사용할 수 있다.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1787%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
