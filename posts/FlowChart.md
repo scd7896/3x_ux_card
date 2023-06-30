@@ -8,8 +8,8 @@ description: 제품 내에서 시간에 따라 어떤 경험이 펼쳐질지 정
 level: 중간
 duration: 하나의 작업 당 1~2시간
 situation: 개인작업, 신규런칭, 리뉴얼고도화
-figmaUrl:
-workSheetUrl:
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-1931&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/189zxkiCNb0JDs4egGyfdkzjv0TSB84K3/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -52,6 +52,4 @@ workSheetUrl:
 - 프로토타입에 어떤 화면을 포함 시킬지, 상호작용은 언제 필요한지 결정하는데 필요한 첫 단계로 사용해라.
 - 흐름 중에 채널이 변하거나 비디지털 요소가 포함되는 경우 경험 청사진을 그려보는 것도 도움 된다.
 
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1932%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
