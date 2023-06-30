@@ -8,8 +8,8 @@ description: 기능의 우선순위를 매기고 실현 가능한 요소가 몇 
 level: 어려움
 duration: 60-90분
 situation: 개인작업, 신규런칭
-figmaUrl:
-workSheetUrl:
+figmaUrl:https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2669&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1xZ7Nh6W6DRlAANviW0ezl-3HlzMrL4ly/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -38,6 +38,5 @@ workSheetUrl:
     - 기본 요소 - 소비자가 최소한도로 요구하는 조건 
     - 성능 요소 - 시장에서 경쟁력을 가지려면 최소한 몇 가지는 가지고 있어야하는 요건 
     - 감동 요소 - 사람들이 기대하지 않았지만 있을시 좋아하는 요소​​​​​​​
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+ 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2670%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
