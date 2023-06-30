@@ -8,8 +8,8 @@ description: 작업에서 가장 우선되어야 하는 목표나 기대가 무�
 level: 어려움
 duration: 2-3시간
 situation: 신규런칭
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
-workSheetUrl: https://drive.google.com/file/d/1xmxhNdaV15u4h8X4i0YeFLo6JEnsJynh/view?usp=sharing
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-3682&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1Z537CH7tIkpbV82IIIGplXrUN0zMBV92/view?usp=sharing
 ---
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
 <!--duration은 분단위로 숫자만 적어주세요-->
@@ -48,3 +48,5 @@ workSheetUrl: https://drive.google.com/file/d/1xmxhNdaV15u4h8X4i0YeFLo6JEnsJynh/
 > 
 > - 간결하게 만들어라 : 들어가야 할 기능들을 카테고리별로 3개씩 요약해보자. 회사 측이 가장 원하는 것 세 가지, 사용자가 가장 원하는 것 세 가지, 반드시 바꿔야 할 기능 세 가지, 반드시 추가 /도입해야 할 기능 세 가지
 > - 빨간펜 워크숍을 진행해라 : 이 프로젝트를 진행하는 핵심 인물들을 초청한다. 프로젝트의 목표를 달성하기 위해서는 프로젝트 개요에 어떤 변화를 주어야 할지 거기에 모인 사람들이 직접 의견을 제시하게 하라. 모든 사람들에게 빨간펜을 나눠주고 그 사람들이 변경했으면 하는 내용을 포스터 위에 직접 적게 하는 것이다. 워크숍이 끝난 후에는 여기에서 제안된 내용을 반영한 프로젝트 개요를 다시 만들어 워크숍에 참석했던 사람들에게 보여주는 것이 좋다.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A3683%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
