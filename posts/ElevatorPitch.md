@@ -8,8 +8,8 @@ description: 엘리베이터에서도 가능할만큼 짧은 설명. 어떤 상�
 level: 중간
 duration: 60분
 situation: 개인작업, 신규런칭, 리뉴얼고도화
-figmaUrl:
-workSheetUrl:
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2877&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1EHVPKpt_0PZMAIsF6NoR1ypQpFd5ryel/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -42,6 +42,4 @@ workSheetUrl:
         - 핵심 가치를 전달할 때 가장 중요한 게무엇일까?
 3. 참가자들이 각자 템플릿을 작성하고 이를 통해 자사 제품의 핵심 가치와 요소, 차별점을 정의한다.
 
-<!--
-<iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
---!>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2878%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
