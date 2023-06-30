@@ -8,8 +8,8 @@ description: 제품 내 정보 계층 구조를 파악하기 위한 것으로, �
 level: 쉬움
 duration: 화면당 5~10분
 situation: 개인작업, 신규런칭, 리뉴얼고도화
-figmaUrl:
-workSheetUrl: 
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-1848&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/11a9_HEfDHV6eBLxrybhK-KHcCRiGC6dP/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -44,3 +44,5 @@ workSheetUrl:
 > # Tip
 > 
 > - 여러 화면을 테스트하라 : 사람들은 때때로 뒷문으로 들어오곤 한다. 북마크 또는 이메일에 적힌 링크를 따라 가기도 한다. 이런 모든 수준에서 제대로 작동 하는지 테스트하려면 무작위로 뽑은 낮은 수준의 페이지에 대해서도 5초 테스트를 수행해보라.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1849%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
