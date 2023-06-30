@@ -8,8 +8,8 @@ description: 디자인하기 전에 어떤 UX 기법을 이용할 것인지 계�
 level: 중간
 duration: 10-16시간
 situation: 개인작업, 신규런칭, 리뉴얼고도화
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
-workSheetUrl: https://drive.google.com/file/d/1I82DsyNUw9Ok1lHPfUNU1QAyqmFQmlvQ/view?usp=sharing
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-3800&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1SIoH_XOBMREATh6e_D4sKWo3ZnbnQhXb/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -59,3 +59,5 @@ workSheetUrl: https://drive.google.com/file/d/1I82DsyNUw9Ok1lHPfUNU1QAyqmFQmlvQ/
 > - 인터뷰의 목적과 종류, 수행 절차, 인터뷰 소요 시간을 알려주자.
 > - 인터뷰 시 답을 재촉하지 말고 침묵을 기다려주자. 말을 끊거나 대신 문장을 잇지 말자.
 > - 대화가 끊이지 않게 하자. "정말요?", "왜요?, "더 자세하게 알려주세요", "왜 그렇게 생각했나요?"
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A3801%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
