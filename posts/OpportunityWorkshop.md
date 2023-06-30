@@ -8,8 +8,8 @@ description: UX의 관점에서 볼 때 제품에서 가장 개선이 시급한 
 level: 중간
 duration: 3-4시간
 situation: 리뉴얼고도화
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
-workSheetUrl: https://drive.google.com/file/d/13xT-VzHzA_94MmxrvXV10Px8tcgPsEz8/view?usp=sharing
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2413&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1EnqRiBtyWzLQOAzFbS9fsZ4x2SIo_B0t/view?usp=sharing
 ---
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
 <!--duration은 분단위로 숫자만 적어주세요-->
@@ -53,3 +53,4 @@ UX관점에서 일의 우선순위를 정한다
 > - 기회워크숍을 계속해서 대화를 이어갈 기반으로 이용하라: UX팀이 제안하는 개선방향과 이유를 가지고 결정권자들과 구체적으로 대화를 나누는 시작점으로 사용한다.
 > - 사용자조사를 생략하지 말라: 여기에서 제기된 문제들은 실제 사용자연구와 테스트를 통해 맞는지 틀린지 증명해야 할 가정들로 취급해야한다.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2414%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
