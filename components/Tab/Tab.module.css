@@ -20,3 +20,10 @@
 .item + .item {
 	margin-left: 16px;
 }
+
+@media (max-width: 450px) {
+	.item h3 {
+		font-size: 22px;
+		font-weight: 600;
+	}
+}
