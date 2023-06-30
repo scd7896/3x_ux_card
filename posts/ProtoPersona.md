@@ -8,8 +8,8 @@ description: 많은 사용자의 모습을 하나로 합성 및 압축하여 쉽
 level: 쉬움
 duration: 2-5시간
 situation: 개인작업, 신규런칭
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?node-id=11%3A86&t=S78VoafWiPUw20Ek-1
-workSheetUrl: https://drive.google.com/file/d/1tzz_jLINx9PIvYRix49snmRzi-WTtiAo/view?usp=sharing
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-3871&mode=design&t=uMLYbDeXRC8639ZD-4
+workSheetUrl: https://drive.google.com/file/d/1I1a9hmaIyHZDIcwZcNn6FoGrc5FTCRk8/view?usp=sharing
 ---
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
 <!--duration은 분단위로 숫자만 적어주세요-->
@@ -61,3 +61,5 @@ workSheetUrl: https://drive.google.com/file/d/1tzz_jLINx9PIvYRix49snmRzi-WTtiAo/
 - 퍼소나와의 차이 
     - 퍼소나: 추가 리서치 진행 후 도출 
     - 프로토퍼소나: 이미 내부적으로 가지고 있는 데이터 바탕으로 도출
+ 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A3872%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
