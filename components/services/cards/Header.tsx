@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import useCategoryFilter from "../../../hooks/cards/useCategoryFilter";
+import useWindowSize from "../../../hooks/useWindowSize";
 import ProcessTab from "../../Tab/ProcessTab";
+import ProcessTabMobile from "../../Tab/ProcessTabMobile";
 import Tab from "../../Tab/Tab";
 import Title from "../../text/Title";
 import styles from "./Header.module.css";
@@ -10,6 +12,7 @@ interface IProp {
 }
 
 export default function CardsHeader({ onChange }: IProp) {
+	const { isMobile } = useWindowSize();
 	const { value, category, setCategory, process, categories, setValue } = useCategoryFilter();
 
 	useEffect(() => {
@@ -28,7 +31,11 @@ export default function CardsHeader({ onChange }: IProp) {
 				<section className={styles.tabWrapper}>
 					<Tab steps={categories} onChange={(key) => setCategory(key)} defaultStep={category} />
 				</section>
-				<ProcessTab process={process} arrowStartIndex={1} currentProcess={value} onChange={setValue} />
+				{isMobile ? (
+					<ProcessTabMobile process={process} onChange={setValue} />
+				) : (
+					<ProcessTab process={process} arrowStartIndex={1} currentProcess={value} onChange={setValue} />
+				)}
 			</section>
 		</div>
 	);
