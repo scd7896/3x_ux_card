@@ -60,4 +60,4 @@ workSheetUrl: https://drive.google.com/file/d/1SIoH_XOBMREATh6e_D4sKWo3ZnbnQhXb/
 > - 인터뷰 시 답을 재촉하지 말고 침묵을 기다려주자. 말을 끊거나 대신 문장을 잇지 말자.
 > - 대화가 끊이지 않게 하자. "정말요?", "왜요?, "더 자세하게 알려주세요", "왜 그렇게 생각했나요?"
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A3801%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A3803%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
