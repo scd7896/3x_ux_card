@@ -57,4 +57,4 @@ workSheetUrl: https://drive.google.com/file/d/1B4eTwMR6rf2T0AGeUKObotYzbvMio5KQ/
 > - 인터뷰 내용을 제대로 기록하라: 타자속도가 빠르다면 노트북 컴퓨터를 가져가서 인터뷰와 동시에 내용을 바로 입력하라. 타자 실력이 좋지 않다면 동료 한 사람과 함께 가서 노트를 맡기고 본인은 대화에만 집중하라. 녹음은 지양한다. 기록을 잘 못한다면 매 번 대화를 끝부분에 요약하는 시간을 마련한다.
 > - 알게 된 사실을 어떻게 공유할지 계획을 세워라: 인터뷰 전에 인터뷰를 통해 알게될 내용을 어떻게 보고하고, 공유하고, 이용할 것인지 생각해보고 거기에 맞춰 인터뷰 질문들을 구성한다.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2250%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2252%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
