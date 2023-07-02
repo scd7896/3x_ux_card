@@ -46,11 +46,10 @@ workSheetUrl: https://drive.google.com/file/d/1RM6oz2GoG8rRS-rOVOU9JSWeQGvmwOFC/
      * 디자인의 특정 부분과 상호작용할 때 무슨 일이 일어나기를 바라는지 의견을 받는다.
      * 디자인한 내용이 그들의 기대에 부응하는가
 
-# Tip
-
-- 사람들에게 중간중간 꼭 보여준다. : 작업 시간을 줄여주고 현실성 있는지를 체크할 수 있다. 동료들에게 사용자 중심 디자인 프로세스를 이해시키는 데 도움이 된다.
-- 그리드(타일)로 작업 한다 : 일관되고 균형잡힌 깔끔한 디자인을 만드는 것에 도움된다.
-- 도구의 호환성을 고려한다 : 공유할 사람들이 와이어프레임을 얼마나 수정할 수 있을지 생각해보라.
-- 흑백으로 작업 한다 : 화면에 대한 기본적인 내용에 집중하기 위함이다.
+> # Tip
+> - 사람들에게 중간중간 꼭 보여준다. : 작업 시간을 줄여주고 현실성 있는지를 체크할 수 있다. 동료들에게 사용자 중심 디자인 프로세스를 이해시키는 데 도움이 된다.
+> - 그리드(타일)로 작업 한다 : 일관되고 균형잡힌 깔끔한 디자인을 만드는 것에 도움된다.
+> - 도구의 호환성을 고려한다 : 공유할 사람들이 와이어프레임을 얼마나 수정할 수 있을지 생각해보라.
+> - 흑백으로 작업 한다 : 화면에 대한 기본적인 내용에 집중하기 위함이다.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2110%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
