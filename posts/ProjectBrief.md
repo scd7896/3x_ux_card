@@ -39,14 +39,11 @@ workSheetUrl: https://drive.google.com/file/d/1Z537CH7tIkpbV82IIIGplXrUN0zMBV92/
 3. 작성한 문서를 사람들과 돌려본다.
 4. 정기적으로 프로젝트 개요를 읽고 체크한다.
 
-# Comment
-중요한 점 한가지.
-짧기때문에 사람들이 실제로 읽을 가능성이 높다. 그렇게 되면 사람들이 동의를 할 가능성이 높아지고, 동의하지 않는다해도 최소한 프로젝트의 포커스와 목표에 대해 생산적인 대화를 할 수 있는 기회가 된다는 것이다.
-즉, 설득을 위한 자료가 되기도 하며, 스스로 작업을 진행하면서도 나침반 역할을 하는 것이다.
 
 > # Tip
 > 
 > - 간결하게 만들어라 : 들어가야 할 기능들을 카테고리별로 3개씩 요약해보자. 회사 측이 가장 원하는 것 세 가지, 사용자가 가장 원하는 것 세 가지, 반드시 바꿔야 할 기능 세 가지, 반드시 추가 /도입해야 할 기능 세 가지
 > - 빨간펜 워크숍을 진행해라 : 이 프로젝트를 진행하는 핵심 인물들을 초청한다. 프로젝트의 목표를 달성하기 위해서는 프로젝트 개요에 어떤 변화를 주어야 할지 거기에 모인 사람들이 직접 의견을 제시하게 하라. 모든 사람들에게 빨간펜을 나눠주고 그 사람들이 변경했으면 하는 내용을 포스터 위에 직접 적게 하는 것이다. 워크숍이 끝난 후에는 여기에서 제안된 내용을 반영한 프로젝트 개요를 다시 만들어 워크숍에 참석했던 사람들에게 보여주는 것이 좋다.
+
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A3685%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
