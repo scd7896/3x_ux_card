@@ -9,7 +9,7 @@ level: 중간
 duration: 1시간
 situation: 신규런칭
 figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-4460&mode=design&t=uMLYbDeXRC8639ZD-4
-workSheetUrl: https://drive.google.com/file/d/1qwKp7wD9VrNULmKkLzUXdPnLy74JyjyH/view?usp=sharing
+workSheetUrl: https://drive.google.com/file/d/12WqOpUZH97JTlukKC5MWwKMZKmTK3OTE/view?usp=sharing
 ---
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
 <!--duration은 분단위로 숫자만 적어주세요-->
