@@ -50,5 +50,4 @@ workSheetUrl: https://drive.google.com/file/d/17cib1cF5kBs4OejaHmDKlrtnRCRLyKBS/
     - 다른 디자인 프로세스를 거치는 동안 꾸준히 원칙을 읽어보고 자문한다.
     - 내가 디자인 하고 있는 것이 이 원칙과 비슷하다고 느껴지는가? 그렇지 않다면 지금의 디자인을 그 원칙에 맞게 어떤 것들을 바꿔야 할지 생각해보자.
 
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2587%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2589%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
