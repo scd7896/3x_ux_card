@@ -1,8 +1,8 @@
 ---
-title: 비교평가
+title: 서비스 리서치
 author: donna
 process: 아이디어
-enTitle: Comparative Assessment
+enTitle: Service Research
 members: UXUI 전문가, 팀 구성원
 description: 사용자가 기대하는 사용성의 표준이 되는 UX 사례에 대한 조사. 실제 경쟁 서비스가 아닌, 사용자들이 일상적으로 사용할만한 제품들을 살펴보는 것.  
 level: 중간
