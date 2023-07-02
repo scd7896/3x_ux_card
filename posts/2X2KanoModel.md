@@ -9,7 +9,7 @@ level: 어려움
 duration: 60-90분
 situation: 개인작업, 신규런칭
 figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2669&mode=design&t=uMLYbDeXRC8639ZD-4
-workSheetUrl: https://drive.google.com/file/d/1xZ7Nh6W6DRlAANviW0ezl-3HlzMrL4ly/view?usp=sharing
+workSheetUrl: https://drive.google.com/file/d/1lMh-ITBbM32BxTVIw3jvcjFg_44dfWef/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
