@@ -3,7 +3,7 @@ title: 콘텐츠 분석
 author: donna
 process: 아이디어
 enTitle: Content Patterns
-members: UXUI 전문가
+members: UXUI 전문가, 팀 구성원
 description: 제품이나 서비스가 가진 모든 콘텐츠를 분석하여 자주 반복되는 패턴을 파악하는 것.
 level: 중간
 duration: 4-8시간
