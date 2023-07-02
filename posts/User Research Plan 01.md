@@ -1,5 +1,5 @@
 ---
-title: 사용자 조사 계획 01 (구. 학습 계획)
+title: 사용자 조사 계획
 author: donna
 process: 공감
 enTitle: User Research Plan 01
