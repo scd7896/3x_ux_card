@@ -8,7 +8,7 @@ description: 완성된 제품이 전달할 느낌, 보여질 모습과 인상을
 level: 쉬움
 duration: 1-2시간
 situation: 개인작업, 신규런칭
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-4299&mode=design&t=uMLYbDeXRC8639ZD-4
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104%3A1684&mode=design&t=94VQ4K1z3Y5uztNR-1
 workSheetUrl: https://drive.google.com/file/d/1HSY4ybQy_MdoltW6sLqm-fbuSMH5Cr08/view?usp=sharing
 ---
 
