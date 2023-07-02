@@ -1,5 +1,5 @@
 ---
-title: 사용자여정지도
+title: 사용자 여정 지도
 author: donna
 process: 공감
 enTitle: User Journeymap
