@@ -40,5 +40,4 @@ workSheetUrl: https://drive.google.com/file/d/1xZ7Nh6W6DRlAANviW0ezl-3HlzMrL4ly/
   - 성능 요소 - 시장에서 경쟁력을 가지려면 최소한 몇 가지는 가지고 있어야하는 요건
   - 감동 요소 - 사람들이 기대하지 않았지만 있을시 좋아하는 요소​​​​​​​
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2672%26mode%3Ddesign%26t%3DwQC23iDZdltMyLRA-1" allowfullscreen></iframe>
-
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D234%253A2489%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
