@@ -57,4 +57,4 @@ workSheetUrl: https://drive.google.com/file/d/1zT7IwHoApgiNdZ4VcaSrpMwlzHkA2zhq/
 3. 알아낸 사실을 공유한다 : 공유 요약 문서는 이 제품에서 가장 중요한 것이 무엇인지를 깊이 논의할 수 있는 출발점이 된다.
 4. 비교평가를 그룹활동으로 수행한다. : 각자가 생각하는 관련 웹사이트들을 가져오라고 하고 함께 모여 리뷰하고 중요한 트렌드에 대해 논의한다.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2479%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2480%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
