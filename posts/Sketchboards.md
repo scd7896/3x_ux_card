@@ -48,10 +48,9 @@ workSheetUrl: https://drive.google.com/file/d/1YoRIE32eMnV9v-Wz8M-mc9fmj_AkFrx2/
 최종 아웃풋은 현재 개발과정에서 필요한 형태면 된다.
 많은 사람들을 참여시키는데에 의의가 있다. 디자인을 수용하던 사람들을 프로세스에 기여하는 사람들로 바꾸자
 
-# Tip
-
-- 사람들을 의자에서 일어나게 하라.
-- 고도를 확인하라
-- 초점을 가지고 검토하라
+> # Tip
+> - 사람들을 의자에서 일어나게 하라.
+> - 고도를 확인하라
+> - 초점을 가지고 검토하라
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1741%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
