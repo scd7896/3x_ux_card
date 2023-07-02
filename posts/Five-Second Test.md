@@ -45,4 +45,4 @@ workSheetUrl: https://drive.google.com/file/d/11a9_HEfDHV6eBLxrybhK-KHcCRiGC6dP/
 > 
 > - 여러 화면을 테스트하라 : 사람들은 때때로 뒷문으로 들어오곤 한다. 북마크 또는 이메일에 적힌 링크를 따라 가기도 한다. 이런 모든 수준에서 제대로 작동 하는지 테스트하려면 무작위로 뽑은 낮은 수준의 페이지에 대해서도 5초 테스트를 수행해보라.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1849%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1850%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
