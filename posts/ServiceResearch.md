@@ -9,7 +9,7 @@ level: 중간
 duration: 4-8시간
 situation: 개인작업, 신규런칭, 리뉴얼고도화
 figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2478&mode=design&t=uMLYbDeXRC8639ZD-4
-workSheetUrl: https://drive.google.com/file/d/1zT7IwHoApgiNdZ4VcaSrpMwlzHkA2zhq/view?usp=sharing
+workSheetUrl: https://drive.google.com/file/d/1OsBrYOohTbUwzNGtxWNpZGRjN6ig85D8/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
