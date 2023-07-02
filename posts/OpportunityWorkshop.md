@@ -53,4 +53,4 @@ UX관점에서 일의 우선순위를 정한다
 > - 기회워크숍을 계속해서 대화를 이어갈 기반으로 이용하라: UX팀이 제안하는 개선방향과 이유를 가지고 결정권자들과 구체적으로 대화를 나누는 시작점으로 사용한다.
 > - 사용자조사를 생략하지 말라: 여기에서 제기된 문제들은 실제 사용자연구와 테스트를 통해 맞는지 틀린지 증명해야 할 가정들로 취급해야한다.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2414%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2415%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
