@@ -48,11 +48,10 @@ workSheetUrl: https://drive.google.com/file/d/1kEeQKub9EMStkB6OFnBBh9yTlD3uvfxT/
 - 뭉툭한 검은색 펜이나 마커 - 스케치 중에서 중요하거나 뼈대를 이루는 부분으로 시선을 끌기 위해 굵은선 사용
 - 사진에 안 찍히는 파란색 연필 - 스케치를 처음 시작할 때 간단하게 밑그림용으로 사용.
 
-# Tip
-
-- 아름다움보다 명확성이 먼저다. 다른사람들이 스케치를 보고 무슨 뜻인지 알아볼 만큼은 그려야 한다.
-- 스케치 실력이 부족하다면? 발사믹과 같은 툴을 사용한다.
-- 스케치를 해도 아이디어가 떠오르지 않는 다면 그림으로 표현하기 전에 글로 표현을 해봐라.
-- 스케치 도구를 들고 다녀라. 스케치 도구를 항상 가지고 다니다가 회의나 즉석으로 이루어지는 대화 속에서 필요하면 곧바로 사용할 수 있게 하라.
+> # Tip
+> - 아름다움보다 명확성이 먼저다. 다른사람들이 스케치를 보고 무슨 뜻인지 알아볼 만큼은 그려야 한다.
+> - 스케치 실력이 부족하다면? 발사믹과 같은 툴을 사용한다.
+> - 스케치를 해도 아이디어가 떠오르지 않는 다면 그림으로 표현하기 전에 글로 표현을 해봐라.
+> - 스케치 도구를 들고 다녀라. 스케치 도구를 항상 가지고 다니다가 회의나 즉석으로 이루어지는 대화 속에서 필요하면 곧바로 사용할 수 있게 하라.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A4931%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
