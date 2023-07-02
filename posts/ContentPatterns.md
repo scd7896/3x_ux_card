@@ -44,9 +44,9 @@ workSheetUrl:
     - 알게 된 내용에 근거해서 무엇을 할 것인지 논의
     - 참고링크 https://udlab.tistory.com/14?category=897580​​​​​​​
 
-# Tip
-- 발견한 내용을 요약하라: 가장 중요한 것만 말로 하고 스프레드시트는 책상 위에 놔두고 참고만 하라. 
-- 전달하려는 요지를 설명하기 위해 제품에 들어갔을 떄 어떤 모습인지를 보여주면 좋다.
+> # Tip
+> - 발견한 내용을 요약하라: 가장 중요한 것만 말로 하고 스프레드시트는 책상 위에 놔두고 참고만 하라. 
+> - 전달하려는 요지를 설명하기 위해 제품에 들어갔을 떄 어떤 모습인지를 보여주면 좋다.
 
 <!--
 <iframe width="1044" height="587" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
