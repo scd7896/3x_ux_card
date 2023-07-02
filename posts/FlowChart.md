@@ -45,11 +45,10 @@ workSheetUrl: https://drive.google.com/file/d/189zxkiCNb0JDs4egGyfdkzjv0TSB84K3/
 4. 설명을 첨부하라
     - 특정한 작업 흐름 내의 모든 주요한 단계와 화면을 포착 했다면 그 과정이 어떻게 일어나야 하는지에 대해 메모한다.
 
-# Tip
-
-- 작업의 부담을 줄여라 : 포스트잇으로 작업해도 괜찮다.
-- 모든 것을 한 번에 만들 수는 없다. 핵심이 되는 시나리오에 초점을 맞춰서 작업해라.
-- 프로토타입에 어떤 화면을 포함 시킬지, 상호작용은 언제 필요한지 결정하는데 필요한 첫 단계로 사용해라.
-- 흐름 중에 채널이 변하거나 비디지털 요소가 포함되는 경우 경험 청사진을 그려보는 것도 도움 된다.
+> # Tip
+> - 작업의 부담을 줄여라 : 포스트잇으로 작업해도 괜찮다.
+> - 모든 것을 한 번에 만들 수는 없다. 핵심이 되는 시나리오에 초점을 맞춰서 작업해라.
+> - 프로토타입에 어떤 화면을 포함 시킬지, 상호작용은 언제 필요한지 결정하는데 필요한 첫 단계로 사용해라.
+> - 흐름 중에 채널이 변하거나 비디지털 요소가 포함되는 경우 경험 청사진을 그려보는 것도 도움 된다.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1933%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
