@@ -6,7 +6,7 @@ enTitle: Design Principles
 members: UXUI 전문가, 이해관계자
 description: 디자인 정체성(identity). 사용자가 제품을 사용하며 마주할 제품의 성격이나 느낌을 부여하는 것.
 level: 중간
-duration: 2-4시간 (원칙 만들기 1~2시간, 피드백 통합 1~2시간)
+duration: 2-4시간
 situation: 개인작업, 신규런칭
 figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2586&mode=design&t=uMLYbDeXRC8639ZD-4
 workSheetUrl: https://drive.google.com/file/d/17cib1cF5kBs4OejaHmDKlrtnRCRLyKBS/view?usp=sharing
