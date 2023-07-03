@@ -99,6 +99,8 @@
 }
 
 .linkWrapper > a {
+	display: flex;
+	align-items: center;
 	font-size: 16px;
 	font-weight: 600;
 	font-family: "Pretendard";
@@ -120,7 +122,7 @@
 @media (max-width: 450px) {
 	.contentWrapper {
 		width: 100%;
-		padding: 64px 24px;
+		padding: 64px 24px 32px;
 		box-sizing: border-box;
 	}
 
