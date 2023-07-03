@@ -24,3 +24,10 @@
 	margin-left: 4px;
 	color: var(--gray_60);
 }
+
+@media (max-width: 450px) {
+	.wrapper + .wrapper {
+		margin-left: 0;
+		margin-top: 16px;
+	}
+}

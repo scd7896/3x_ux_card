@@ -14,3 +14,9 @@
 .wrapper + .wrapper {
 	margin-top: 16px;
 }
+
+@media (max-width: 450px) {
+	.wrapper {
+		width: 100%;
+	}
+}
