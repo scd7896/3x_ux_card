@@ -47,14 +47,10 @@ workSheetUrl: https://drive.google.com/file/d/1B4eTwMR6rf2T0AGeUKObotYzbvMio5KQ/
 - 당신의 경쟁자가 누구입니까? 경쟁자들과 비교했을 때 본인의 능력은 어느정도라고 보세요? 경쟁자보다 더 잘하는 부분은 어떤 것입니까? 더 잘하기 위해서는 어떤 부분을 개선해야 할까요? 자사와 자사의 제품은 다른 회사와 제품들과 비교해 어떻게 다릅니까?
 - [혹시 현재 진행 중인 프로젝트에 관여하고 있다면...] 이 프로젝트에서 당신의 목표는 무엇입니까? 이 프로젝트가 자사의 제품을 어떻게 개선하기를 희망하고 있습니까? 이 프로젝트에서 위험 요소나 우려되는 점이 있나요?
 
-### 내가 이해하려고 적는 코멘트
-- 목표 설정단계. 각자의 목표를 이해하고, 어느부분에 초점을 맞춰야 하는지 UX의 관점을 형성한다
-- 어떤 프로젝트든 가장 중요한 단계라는 생각이 든다. 가장 중요한건 목표설정! 디자인 방향성을 잡는데 있어 초석중의 초석단계다. 그냥 물어보면 된다! 물론, 물어보는데에도 계획이 필요하다.
-
 > # Tip
 > 
 > - 알게 된 사실을 공유하라: 인터뷰를 통해서 얻은 것을 인터뷰 참가자들과 나누는것이 예의다. 진심이 우러나오는 감사카드를 보내고, 인터뷰를 통해서 얻은 주제들을 요약해서 전달하는 것이 다음번 경청투어를 대비해서 좋은 관계를 유지하는 비결이다.
 > - 인터뷰 내용을 제대로 기록하라: 타자속도가 빠르다면 노트북 컴퓨터를 가져가서 인터뷰와 동시에 내용을 바로 입력하라. 타자 실력이 좋지 않다면 동료 한 사람과 함께 가서 노트를 맡기고 본인은 대화에만 집중하라. 녹음은 지양한다. 기록을 잘 못한다면 매 번 대화를 끝부분에 요약하는 시간을 마련한다.
 > - 알게 된 사실을 어떻게 공유할지 계획을 세워라: 인터뷰 전에 인터뷰를 통해 알게될 내용을 어떻게 보고하고, 공유하고, 이용할 것인지 생각해보고 거기에 맞춰 인터뷰 질문들을 구성한다.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2250%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2252%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>

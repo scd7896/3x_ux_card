@@ -59,4 +59,4 @@ workSheetUrl: https://drive.google.com/file/d/1OuNz1vx9NjVyc69pt45KQK_4tegTmgsc/
 > - 체크리스트를 사용하라: 간단한 체크리스트를 만들어서 빠르게 훑어 보면서 어떤 요소들이 작업에 포함되어야 하는지 살펴보는 것이 좋다.
 > - 의사결정 시기에 대비하라: 의사결정 및 수정 기간을 프로젝트 계획에 포함 시키자.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A4605%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A4607%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>

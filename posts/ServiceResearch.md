@@ -1,15 +1,15 @@
 ---
-title: 비교평가
+title: 서비스 리서치
 author: donna
 process: 아이디어
-enTitle: Comparative Assessment
+enTitle: Service Research
 members: UXUI 전문가, 팀 구성원
 description: 사용자가 기대하는 사용성의 표준이 되는 UX 사례에 대한 조사. 실제 경쟁 서비스가 아닌, 사용자들이 일상적으로 사용할만한 제품들을 살펴보는 것.  
 level: 중간
 duration: 4-8시간
 situation: 개인작업, 신규런칭, 리뉴얼고도화
 figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2478&mode=design&t=uMLYbDeXRC8639ZD-4
-workSheetUrl: https://drive.google.com/file/d/1zT7IwHoApgiNdZ4VcaSrpMwlzHkA2zhq/view?usp=sharing
+workSheetUrl: https://drive.google.com/file/d/1OsBrYOohTbUwzNGtxWNpZGRjN6ig85D8/view?usp=sharing
 ---
 
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
@@ -45,16 +45,15 @@ workSheetUrl: https://drive.google.com/file/d/1zT7IwHoApgiNdZ4VcaSrpMwlzHkA2zhq/
 5. 발견한 내용 혹은 가이드라인을 요약한다. 
     - "가이드라인" 문서의 평가결과에서 얻을 수 있는 중요한 아이디어들을 기록한다. =? 이부분 다시 작성한다
 
-# Tip
-
-1. 단순한 기능 너머를 본다. : 사용자 경험의 전반적인 질을 평가하는 데 초점을 맞춘다. 기능 리스트를 만들어낼 생각을 하지 말고 제품의 전반적인 흐름이어떠한지 생각해본다.
+> # Tip
+> 1. 단순한 기능 너머를 본다. : 사용자 경험의 전반적인 질을 평가하는 데 초점을 맞춘다. 기능 리스트를 만들어낼 생각을 하지 말고 제품의 전반적인 흐름이어떠한지 생각해본다.
     - 디자인이 일반적으로 조화를 이루고 있는가?
     - 일관성이 있는가?
     - 콘텐츠의 가독성이 좋은가?
     - 카테고리는 직관적인가?
     - 페이지별 이동 흐름은 자연스러운가?
-2. 보고서를 쓰듯 계획한다. : 비교하고 싶고, 보고서에 포함시키고 싶은 주요한 요소들을 결정한다.
-3. 알아낸 사실을 공유한다 : 공유 요약 문서는 이 제품에서 가장 중요한 것이 무엇인지를 깊이 논의할 수 있는 출발점이 된다.
-4. 비교평가를 그룹활동으로 수행한다. : 각자가 생각하는 관련 웹사이트들을 가져오라고 하고 함께 모여 리뷰하고 중요한 트렌드에 대해 논의한다.
+> 2. 보고서를 쓰듯 계획한다. : 비교하고 싶고, 보고서에 포함시키고 싶은 주요한 요소들을 결정한다.
+> 3. 알아낸 사실을 공유한다 : 공유 요약 문서는 이 제품에서 가장 중요한 것이 무엇인지를 깊이 논의할 수 있는 출발점이 된다.
+> 4. 비교평가를 그룹활동으로 수행한다. : 각자가 생각하는 관련 웹사이트들을 가져오라고 하고 함께 모여 리뷰하고 중요한 트렌드에 대해 논의한다.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2479%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2480%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>

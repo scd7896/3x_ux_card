@@ -6,7 +6,7 @@ enTitle: Design Principles
 members: UXUI 전문가, 이해관계자
 description: 디자인 정체성(identity). 사용자가 제품을 사용하며 마주할 제품의 성격이나 느낌을 부여하는 것.
 level: 중간
-duration: 2-4시간 (원칙 만들기 1~2시간, 피드백 통합 1~2시간)
+duration: 2-4시간
 situation: 개인작업, 신규런칭
 figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-2586&mode=design&t=uMLYbDeXRC8639ZD-4
 workSheetUrl: https://drive.google.com/file/d/17cib1cF5kBs4OejaHmDKlrtnRCRLyKBS/view?usp=sharing
@@ -50,5 +50,4 @@ workSheetUrl: https://drive.google.com/file/d/17cib1cF5kBs4OejaHmDKlrtnRCRLyKBS/
     - 다른 디자인 프로세스를 거치는 동안 꾸준히 원칙을 읽어보고 자문한다.
     - 내가 디자인 하고 있는 것이 이 원칙과 비슷하다고 느껴지는가? 그렇지 않다면 지금의 디자인을 그 원칙에 맞게 어떤 것들을 바꿔야 할지 생각해보자.
 
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2587%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A2589%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>

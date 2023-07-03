@@ -8,7 +8,7 @@ description: 완성된 제품이 전달할 느낌, 보여질 모습과 인상을
 level: 쉬움
 duration: 1-2시간
 situation: 개인작업, 신규런칭
-figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-4299&mode=design&t=uMLYbDeXRC8639ZD-4
+figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104%3A1684&mode=design&t=94VQ4K1z3Y5uztNR-1
 workSheetUrl: https://drive.google.com/file/d/1HSY4ybQy_MdoltW6sLqm-fbuSMH5Cr08/view?usp=sharing
 ---
 
@@ -28,4 +28,4 @@ workSheetUrl: https://drive.google.com/file/d/1HSY4ybQy_MdoltW6sLqm-fbuSMH5Cr08/
 3. 팀원들과 함께 제품 공통된 느낌과 기능을 표현하는 그림을 만든다. 
 4. 만들어진 그림으로 서비스의 직감적인 인상을 구체화한다.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1685%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A1686%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>

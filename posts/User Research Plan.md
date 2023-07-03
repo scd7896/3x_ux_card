@@ -1,15 +1,15 @@
 ---
-title: 사용자 조사 계획 01 (구. 학습 계획)
+title: 사용자 조사 계획
 author: donna
 process: 공감
-enTitle: User Research Plan 01
+enTitle: User Research Plan
 members: UXUI 전문가, 팀 구성원
 description: 사용자에 대해 알고 있는 정보를 확인하고 추가로 필요한 정보를 어떻게 알아낼 것인지 계획 하는 것
 level: 중간
 duration: 1시간
 situation: 신규런칭
 figmaUrl: https://www.figma.com/file/oTquE1C3ZHEynkeRrS7x2y/2023_3X_UX-Card_WorkSheet_Ver.3?type=design&node-id=104-4460&mode=design&t=uMLYbDeXRC8639ZD-4
-workSheetUrl: https://drive.google.com/file/d/1qwKp7wD9VrNULmKkLzUXdPnLy74JyjyH/view?usp=sharing
+workSheetUrl: https://drive.google.com/file/d/12WqOpUZH97JTlukKC5MWwKMZKmTK3OTE/view?usp=sharing
 ---
 <!-- 프로세스별 보기: 공감, 설계, 프로토타입, 테스트 -->
 <!--duration은 분단위로 숫자만 적어주세요-->
@@ -68,4 +68,4 @@ Tip
 - 팀원들에게 피드백을 구하라.
 - 작성한 학습 계획을 일정 간격으로 최신 버전 업데이트 하자.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D104%253A4461%26mode%3Ddesign%26t%3DuMLYbDeXRC8639ZD-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoTquE1C3ZHEynkeRrS7x2y%2F2023_3X_UX-Card_WorkSheet_Ver.3%3Ftype%3Ddesign%26node-id%3D234%253A2486%26mode%3Ddesign%26t%3DtGbsZ1SuS9WkfKu2-1" allowfullscreen></iframe>
