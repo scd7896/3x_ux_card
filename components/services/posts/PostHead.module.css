@@ -63,7 +63,13 @@
 @media (max-width: 450px) {
 	.contentWrapper {
 		width: 100%;
+		padding: 80px 32px 64px;
 	}
+
+	.contentWrapper .enTitle {
+		font-size: 14px;
+	}
+
 	.detailInfo {
 		box-sizing: border-box;
 		width: 100%;

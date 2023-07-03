@@ -15,8 +15,27 @@
 	margin-top: 16px;
 }
 
+.button {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: "Pretendard";
+}
+
 @media (max-width: 450px) {
 	.wrapper {
 		width: 100%;
+		padding: 24px;
+		height: auto;
+	}
+
+	.title {
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.wrapper .title {
+		font-size: 16px;
+		line-height: 24px;
 	}
 }

@@ -15,7 +15,7 @@ export function ButtonText({ children, level, ...props }: IProp) {
 
 export function Caption({ children, ...props }: Omit<IProp, "level">) {
 	return (
-		<span {...props} className={styles.caption}>
+		<span {...props} className={`${styles.caption} ${props.className}`}>
 			{children}
 		</span>
 	);

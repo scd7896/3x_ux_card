@@ -20,10 +20,10 @@ export default function DownloadSolid({ title, downloadLink }: IProp) {
 
 	return (
 		<section className={styles.wrapper}>
-			<SubTitle level={2} style={{ fontWeight: "400" }}>
+			<SubTitle className={styles.title} level={2} style={{ fontWeight: "400" }}>
 				<b>{title}</b> PDF 다운로드
 			</SubTitle>
-			<Button size="middle" onClick={handleClick} style={{ fontSize: "14px", height: "36px" }}>
+			<Button className={styles.button} size="middle" onClick={handleClick}>
 				다운로드
 			</Button>
 		</section>

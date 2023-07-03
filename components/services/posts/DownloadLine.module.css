@@ -15,3 +15,30 @@
 .title {
 	font-weight: 600;
 }
+
+.descriptionWrapper {
+	display: flex;
+}
+
+
+@media (max-width: 450px) {
+	.wrapper {
+		width: 100%;
+		height: auto;
+		padding: 24px;
+	}
+
+	.wrapper + .wrapper {
+		margin-top: 20px
+	}
+
+	.descriptionWrapper {
+		flex-direction: column;
+		box-sizing: border-box;
+	}
+
+	.descriptionWrapper > * {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}

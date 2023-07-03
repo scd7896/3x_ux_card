@@ -11,7 +11,8 @@ interface IProp {
 }
 
 export default function DownloadLine({ title, type, url }: IProp) {
-	const description = type === "workSheet" ? "인쇄용 워크시트 다운로드" : "피그마 워크시트 바로가기";
+	const description = type === "workSheet" ? "인쇄용 워크시트" : "피그마 워크시트";
+	const doingText = type === "workSheet" ? "다운로드" : "바로가기";
 
 	const handleClickListener = useCallback(() => {
 		const a = document.createElement("a");
@@ -23,9 +24,12 @@ export default function DownloadLine({ title, type, url }: IProp) {
 
 	return (
 		<section className={styles.wrapper} onClick={handleClickListener}>
-			<Body level={2}>
-				<span className={styles.title}>{title} </span>
-				{description}
+			<Body level={2} className={styles.descriptionWrapper}>
+				<div>
+					<span className={styles.title}>{title} </span>
+					<span>{description}</span>
+				</div>
+				<span>{doingText}</span>
 			</Body>
 			<ArrowLeft isReverse />
 		</section>

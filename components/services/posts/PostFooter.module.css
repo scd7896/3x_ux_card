@@ -15,8 +15,14 @@
 }
 
 @media (max-width: 450px) {
+	.wrapper {
+		padding: 48px 20px 72px;
+	}
+
 	.contentWrapper{
-		width: 100%
+		width: 100%;
+		word-break: keep-all;
+		max-width: 190px;
 	}
 	
 }

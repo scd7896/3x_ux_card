@@ -43,12 +43,12 @@ export default function PostBody({ contentHtml, title, figmaUrl, workSheetUrl }:
 					{figmaUrl && <DownloadLine title={title} type="figma" url={figmaUrl} />}
 				</section>
 				<section className={styles.linkWrapper}>
-					<Link href="/cards">
+					<Link href="/cards" className={styles.link}>
 						<ArrowLeft />
 						목록으로
 					</Link>
 
-					<Link href="#" onClick={copyClickHandler}>
+					<Link href="#" onClick={copyClickHandler} className={styles.link}>
 						공유하기
 					</Link>
 				</section>

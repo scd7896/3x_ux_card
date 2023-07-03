@@ -24,6 +24,11 @@
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 8px;
+	
+}
+
+.content h1:not(:first-child) {
+	margin-top: 64px;
 }
 
 .content ol {
@@ -54,6 +59,7 @@
 	padding: 24px;
 	color: var(--gray_70);
 	font-size: 16px;
+	margin-top: 64px;
 }
 
 .content blockquote ul {
@@ -69,14 +75,13 @@
 	font-size: 10px;	
 }
 
-.content blockquote * {
-	margin-bottom: 16px;
+.content blockquote h1:not(:first-child) {
+	margin-top: 16px;
 }
 
 
 .content * {
 	margin-top: 0;
-	margin-bottom: 64px;
 }
 
 
@@ -84,6 +89,7 @@
 	border: 1px solid var(--gray_20);
 	border-radius: 20px;
 	max-width: 100%;
+	margin-top: 64px;
 }
 
 .linkWrapper {
@@ -94,6 +100,8 @@
 
 .linkWrapper > a {
 	font-size: 16px;
+	font-weight: 600;
+	font-family: "Pretendard";
 }
 
 .downloadWrapper {
@@ -112,5 +120,15 @@
 @media (max-width: 450px) {
 	.contentWrapper {
 		width: 100%;
+		padding: 64px 24px;
+		box-sizing: border-box;
+	}
+
+	.downloadWrapper {
+		flex-direction: column;
+	}
+
+	.downloadWrapper {
+		padding-bottom: 48px;
 	}
 }

@@ -21,7 +21,9 @@ export default function PostHead({ enTitle, title, description, level, members, 
 					{title}
 				</Title>
 
-				<Caption style={{ marginBottom: "16px" }}>{enTitle}</Caption>
+				<Caption className={styles.enTitle} style={{ marginBottom: "16px" }}>
+					{enTitle}
+				</Caption>
 				<Body className={styles.descriptionWrapper} level={2}>
 					{description}
 				</Body>

@@ -23,11 +23,21 @@
 .value {
 	margin-left: 4px;
 	color: var(--gray_60);
+	word-break: break-all;
 }
 
 @media (max-width: 450px) {
+	.name {
+		width: 80px;
+		margin-left: 4px;
+	}
+
 	.wrapper + .wrapper {
 		margin-left: 0;
 		margin-top: 16px;
+	}
+
+	.value {
+		max-width: calc(100% - 116px);
 	}
 }
