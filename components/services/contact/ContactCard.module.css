@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+.title {
+	margin-bottom: 2px;
+}
+
 .subTitleWrapper {
 	margin-bottom: 8px;
 }
@@ -121,6 +125,31 @@
 	
 }
 
+.roleSubTitle {
+	display: block;
+	margin-bottom: 4px ;
+}
+
 .emptyDescription u {
 	cursor: pointer;
+}
+
+@media (max-width: 450px) {
+	.wrapper {
+		width: 100%;
+		height: 372px;
+	}
+	
+	.title {
+		margin-bottom: 6px;
+	}
+
+	.roleWrapper .roleSubTitle {
+		margin-bottom: 8px;
+	}
+
+	.lead, .sub {
+		font-size: 15px;
+		color: var(--gray_80);
+	}
 }

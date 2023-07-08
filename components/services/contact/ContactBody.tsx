@@ -10,7 +10,7 @@ export default function ContactBody() {
 				{members.map((it) => (
 					<ContactCard key={it} member={it as any} />
 				))}
-				<ContactEmptyCard />;
+				<ContactEmptyCard />
 			</div>
 		</section>
 	);

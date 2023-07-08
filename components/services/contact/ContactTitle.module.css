@@ -1,0 +1,33 @@
+.wrapper {
+	margin-bottom: 48px; 
+	text-align: center; 
+	margin-top: 100px;
+}
+
+.title {
+	margin-bottom: 8px;
+}
+
+.membersContact {
+	display: block; 
+	margin-bottom: 16px;
+}
+
+@media (max-width: 450px) {
+	.wrapper {
+		padding: 0 24px;
+	}
+
+	.body div {
+		font-size: 16px;
+		color: var(--gray_80);
+	}
+
+	.membersContact {
+		margin-bottom: 8px;
+	}
+
+	.title {
+		margin-bottom: 12px;
+	}
+}

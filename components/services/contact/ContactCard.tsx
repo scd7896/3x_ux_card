@@ -89,7 +89,7 @@ const memberName = {
 export default function ContactCard({ member }: IProp) {
 	return (
 		<div className={`${styles.wrapper} ${styles[member]}`}>
-			<Title level={3} className={styles.title} style={{ marginBottom: "2px" }}>
+			<Title level={3} className={styles.title}>
 				{memberName[member]}
 			</Title>
 			<section className={styles.subTitleWrapper}>
@@ -99,7 +99,7 @@ export default function ContactCard({ member }: IProp) {
 				<Body level={3}>{description[member]}</Body>
 			</section>
 			<section className={styles.roleWrapper}>
-				<SubTitle level={3} style={{ marginBottom: "4px", display: "block" }}>
+				<SubTitle className={styles.roleSubTitle} level={3}>
 					Role
 				</SubTitle>
 				<Role member={member} />
@@ -125,11 +125,15 @@ function Role({ member }: IProp) {
 		<section>
 			<div className={styles.role}>
 				<div className={`${styles.tag} ${styles[member]}`}>lead</div>
-				<Body level={3}>{currentRole.lead}</Body>
+				<Body className={styles.lead} level={3}>
+					{currentRole.lead}
+				</Body>
 			</div>
 			<div className={styles.role}>
 				<div className={`${styles.tag} ${styles[member]}`}>Sub</div>
-				<Body level={3}>{currentRole.sub}</Body>
+				<Body className={styles.sub} level={3}>
+					{currentRole.sub}
+				</Body>
 			</div>
 		</section>
 	);
