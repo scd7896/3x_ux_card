@@ -11,68 +11,18 @@
 .bgimg {
 	width: 2000px;
 	height: auto;
-	
 }
 
-.howtouseCard {
-	width: 736px;
-	padding: 64px 56px 48px;
 
-	background-color: #fff;
-	border-radius: 16px;
-	border: 1px solid var(--gray_80);
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	box-sizing: border-box;
-	overflow: hidden;
-}
+@media (max-width: 450px) {
+	.bgimg {
+		width: 100%;
+		display: none;
+	}
 
-.howtouseCard::after {
-	width: 16px;
-	height: 100%;
-	content: " ";
-	position: absolute;
-	right: 0;
-	top: 0;
-	background-color: var(--cardlight_peach);
-}
-
-.description {
-	padding-bottom: 16px;
-	border-bottom: 1px solid var(--gray_30);
-	display: flex;
-	justify-content: space-between;
-}
-
-.description + .description {
-	margin-top: 32px;
-}
-
-.description:nth-child(4) {
-	margin-bottom: 56px;
-}
-
-.subText {
-	font-family: 'Pretendard';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 26px;
-	
-
-	text-align: right;
-
-	color: var(--gray_60);
-}
-
-.btnText {
-	text-align: right;
-	color: var(--gray_60);
-}
-
-.highlight {
-	font-weight: 600;
-	text-decoration: underline;
+	.wrapper {
+		padding: 48px 16px;
+		background: url(/img/howtouse-mobile-bg.png);
+		box-sizing: border-box;
+	}
 }

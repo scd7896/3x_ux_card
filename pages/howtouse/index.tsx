@@ -9,7 +9,6 @@ export default function HowtousePage() {
 			<BodyLayout>
 				<HowtouseBody />
 			</BodyLayout>
-			;
 		</section>
 	);
 }
