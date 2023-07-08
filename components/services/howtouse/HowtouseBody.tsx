@@ -38,68 +38,75 @@ export default function HowtouseBody() {
 			</FadeInUpContainer>
 			<FadeInUpContainer className={styles.cardWrapper}>
 				<section className={styles.card}>
-					<SubTitle level={3} className={styles.orangeTitle}>
-						웹사이트
-					</SubTitle>
-					<Title level={3}>Cards 페이지에서</Title>
-					<Title level={3}>UX방법론을 찾아내세요</Title>
-					<section className={styles.descriptionWrapper}>
-						<Body level={3} className={styles.cardDescription}>
-							필터를 통해 프로젝트 단계별, 상황별, 참여자 별로
-						</Body>
-						<Body level={3} className={styles.cardDescription}>
-							지금 당장 필요한 방법론이 무엇인지 찾을 수 있어요.
-						</Body>
-					</section>
+					<div className={styles.cardContents}>
+						<SubTitle level={3} className={styles.orangeTitle}>
+							웹사이트
+						</SubTitle>
+						<Title className={styles.cardTitle} level={3}>
+							Cards 페이지에서
+						</Title>
+						<Title className={styles.cardTitle} level={3}>
+							UX방법론을 찾아내세요
+						</Title>
+						<section className={styles.descriptionWrapper}>
+							<Body level={3} className={styles.cardDescription}>
+								필터를 통해 프로젝트 단계별, 상황별, 참여자 별로 지금 당장 필요한 방법론이 무엇인지 찾을 수 있어요.
+							</Body>
+						</section>
+					</div>
 					<img className={styles.bodyimg} src="/img/howtouse-body-1.png" />
 				</section>
 			</FadeInUpContainer>
 			<FadeInUpContainer className={styles.cardWrapper}>
 				<section className={styles.card}>
-					<SubTitle level={3} className={styles.orangeTitle}>
-						워크시트
-					</SubTitle>
-					<Title level={3}>워크시트를 채워나가며</Title>
-					<Title level={3}>UX방법론을 적용해보세요</Title>
-					<section className={styles.descriptionWrapper}>
-						<Body level={3} className={styles.cardDescription}>
-							혼자 또는 팀과 함께 워크시트의 설명을 따라 칸을 하나씩
-						</Body>
-						<Body level={3} className={styles.cardDescription}>
-							채워나가다 보면, 방법론을 실무에 적용해 낼 수 있어요.
-						</Body>
-					</section>
+					<div className={styles.cardContents}>
+						<SubTitle level={3} className={styles.orangeTitle}>
+							워크시트
+						</SubTitle>
+						<Title className={styles.cardTitle} level={3}>
+							워크시트를 채워나가며
+						</Title>
+						<Title className={styles.cardTitle} level={3}>
+							UX방법론을 적용해보세요
+						</Title>
+						<section className={styles.descriptionWrapper}>
+							<Body level={3} className={styles.cardDescription}>
+								혼자 또는 팀과 함께 워크시트의 설명을 따라 칸을 하나씩 채워나가다 보면, 방법론을 실무에 적용해 낼 수
+								있어요.
+							</Body>
+						</section>
+					</div>
 					<img className={styles.bodyimg} src="/img/howtouse-body-2.png" />
 				</section>
 			</FadeInUpContainer>
 			<FadeInUpContainer className={styles.cardWrapper}>
 				<section className={styles.card}>
-					<SubTitle level={3} className={styles.orangeTitle}>
-						핸드북
-					</SubTitle>
-					<Title level={3}>핸드북으로 간편하게</Title>
-					<Title level={3}>UX지식을 쌓으세요</Title>
-					<section className={styles.descriptionWrapper}>
-						<Body level={3} className={styles.cardDescription}>
-							UX방법론의 쉽고 간략한 정보를 요약해 둔 핸드북이에요.
-						</Body>
-						<Body level={3} className={styles.cardDescription}>
-							책상에 두고 손으로 넘기며 방법론을 살펴보세요.
-						</Body>
-						<Body level={3} className={styles.cardDescription}>
-							UX 지식이 쑥쑥 쌓여요.
-						</Body>
-					</section>
+					<div className={styles.cardContents}>
+						<SubTitle level={3} className={styles.orangeTitle}>
+							핸드북
+						</SubTitle>
+						<Title className={styles.cardTitle} level={3}>
+							핸드북으로 간편하게
+						</Title>
+						<Title className={styles.cardTitle} level={3}>
+							UX지식을 쌓으세요
+						</Title>
+						<section className={styles.descriptionWrapper}>
+							<Body level={3} className={styles.cardDescription}>
+								UX방법론의 쉽고 간략한 정보를 요약해 둔 핸드북이에요. 책상에 두고 손으로 넘기며 방법론을 살펴보세요. UX
+								지식이 쑥쑥 쌓여요.
+							</Body>
+						</section>
+					</div>
 					<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
 				</section>
 			</FadeInUpContainer>
 			<section className={styles.donwloadSection}>
 				<FadeInUpContainer>
-					<SubTitle style={{ display: "inline-block", marginBottom: "16px" }} level={2}>
+					<SubTitle className={styles.fileDownloadTitle} level={2}>
 						파일 다운로드
 					</SubTitle>
-					<Title level={2}>핸드북과 워크시트는 한번에 다운받고,</Title>
-					<Title level={2}>인쇄해서 활용해보세요</Title>
+					<Title level={2}>핸드북과 워크시트는 한번에 다운받고, 인쇄해서 활용해보세요</Title>
 				</FadeInUpContainer>
 				<FadeInUpContainer>
 					<section className={styles.downloadCardWrapper}>

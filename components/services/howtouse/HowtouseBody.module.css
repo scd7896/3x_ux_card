@@ -100,3 +100,54 @@
 .worksheet {
 	background: var(--cardlight_yellow);
 }
+
+.donwloadSection .fileDownloadTitle {
+	display: inline-block; 
+	margin-bottom: 16px;
+}
+
+
+@media (max-width: 450px) {
+	.wrapper {
+		padding: 0 16px;
+	}
+
+	.card {
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+
+	.cardTitle {
+		font-size: 22px;
+		line-height: 34px;
+	}
+
+	.cardContents {
+		padding: 48px 32px 16px;
+	}
+
+	.cardDescription {
+		font-size: 16px;
+	}
+
+	.bodyimg {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+	
+	.donwloadSection .fileDownloadTitle {
+		margin-bottom: 8px;
+		font-size: 14px;
+	}
+
+	.downloadCardWrapper {
+		flex-direction: column;
+	}
+
+	.downloadCard + .downloadCard {
+		margin-left: 0;
+		margin-top: 24px;
+	}
+}
