@@ -34,10 +34,10 @@
 	display: none;
 	position: fixed;
 	left: 0;
-	top: 73px;
+	top: 72px;
 	z-index: 999;
 	width: 100%;
-	height: calc(100% - 73px);
+	height: calc(100% - 72px);
 	background-color: white;
 	padding: 24px 16px;
 }
