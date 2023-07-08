@@ -152,4 +152,8 @@
 		font-size: 15px;
 		color: var(--gray_80);
 	}
+
+	.wrapper .bodyWrapper div {
+		font-size: 15px;
+	}
 }
