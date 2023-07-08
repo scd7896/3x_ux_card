@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import CloseIcon from "../icon/CloseIcon";
 import MainGnb from "../icon/MainGnb";
 import MenuIcon from "../icon/MenuIcon";
@@ -12,6 +12,14 @@ export default function HeaderNavMobile() {
 	const closeMenu = useCallback(() => {
 		setShowMenu(false);
 	}, []);
+
+	useEffect(() => {
+		if (showMenu) {
+			document.body.style.overflow = "hidden";
+		} else {
+			document.body.style.overflow = "auto";
+		}
+	}, [showMenu]);
 
 	return (
 		<header className={styles.header}>

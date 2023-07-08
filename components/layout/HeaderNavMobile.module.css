@@ -5,7 +5,7 @@
 	top: 0;
 	left: 0;
 	z-index: 999;
-	
+	border-bottom: 1px solid var(--gray_80);
 }
 
 .nav {
@@ -34,10 +34,10 @@
 	display: none;
 	position: fixed;
 	left: 0;
-	top: 72px;
+	top: 73px;
 	z-index: 999;
 	width: 100%;
-	height: calc(100% - 72px);
+	height: calc(100% - 73px);
 	background-color: white;
 	padding: 24px 16px;
 }
