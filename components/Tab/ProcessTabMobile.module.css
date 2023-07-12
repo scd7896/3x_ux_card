@@ -34,3 +34,18 @@
 	padding: 0 20px;
 	word-break: keep-all;
 }
+
+.processText {
+	color: var(--gray_80);
+	padding: 16px 20px 16px 0;
+}
+
+.processText.selected {
+	color: var(--gray_90);
+	font-weight: 700;
+}
+
+.confirmButton {
+	width: 100%;
+	font-weight: 600;
+}

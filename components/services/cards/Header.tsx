@@ -32,7 +32,7 @@ export default function CardsHeader({ onChange }: IProp) {
 					<Tab steps={categories} onChange={(key) => setCategory(key)} defaultStep={category} />
 				</section>
 				{isMobile ? (
-					<ProcessTabMobile process={process} onChange={setValue} />
+					<ProcessTabMobile category={category} process={process} onChange={setValue} />
 				) : (
 					<ProcessTab process={process} arrowStartIndex={1} currentProcess={value} onChange={setValue} />
 				)}
