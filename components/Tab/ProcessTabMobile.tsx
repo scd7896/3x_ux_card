@@ -86,7 +86,7 @@ export default function ProcessTabMobile({ process, onChange, category }: IProp)
 			<Modal position="bottom" title={modalTitle[category]} isOpen={modalOpen} onClose={() => setModalOpen(false)}>
 				<div>
 					{process.map((it, index) => (
-						<div onClick={() => handleClickProcess(index)}>
+						<div onClick={() => handleClickProcess(index)} key={index}>
 							<Body
 								className={`${styles.processText} ${currentProcess.key === it.key ? styles.selected : undefined}`}
 								level={1}

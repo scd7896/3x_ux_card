@@ -12,14 +12,17 @@ export default function CardsPage() {
 	const { isMobile } = useWindowSize();
 	const { cards, setMembers, setProcess, setSituation, filter } = useCardList();
 
-	const headerChangeListener = useCallback((param: any) => {
-		if (param.category === "process") {
-			setProcess(param.value);
-		}
-		if (param.category === "situation") {
-			setSituation(param.value);
-		}
-	}, []);
+	const headerChangeListener = useCallback(
+		(param: any) => {
+			if (param.category === "process") {
+				setProcess(param.value);
+			}
+			if (param.category === "situation") {
+				setSituation(param.value);
+			}
+		},
+		[setSituation, setProcess]
+	);
 
 	return (
 		<section>
