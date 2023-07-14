@@ -23,7 +23,7 @@ export default function Cardview({ title, contents, footer, imageUrl }: IProp) {
 				{!isMobile ? <Title level={3}>{title}</Title> : <SubTitle level={2}>{title}</SubTitle>}
 			</div>
 			<div className={styles.contentsWrapper}>
-				<Body level={isMobile ? 2 : 1} className={styles.contents}>
+				<Body level={2} className={styles.contents}>
 					{contents}
 				</Body>
 			</div>

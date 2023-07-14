@@ -7,6 +7,7 @@
 	border-radius: 32px;
 	border: 1px solid var(--gray_500);
 	position: relative;
+	cursor: pointer;
 }
 
 .imageWrapper {
