@@ -24,7 +24,9 @@ export default function HeaderNavMobile() {
 	return (
 		<header className={styles.header}>
 			<nav className={styles.nav}>
-				<MainGnb />
+				<Link href="/">
+					<MainGnb />
+				</Link>
 
 				<button className={styles.menuButton} onClick={() => setShowMenu((prev) => !prev)}>
 					{showMenu ? <CloseIcon /> : <MenuIcon />}
