@@ -48,6 +48,11 @@
 	margin-bottom: 24px;
 }
 
+.button {
+	width: 180px;
+	height: 56px
+}
+
 @media (max-width: 450px) {
 	.wrapperReverse {
 		display: block;

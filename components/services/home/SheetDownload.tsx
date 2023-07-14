@@ -21,7 +21,9 @@ export default function SheetDownload({ link, reverse, title, imgUrl }: IProp) {
 					{!isMobile ? <Title level={3}>{title}</Title> : <SubTitle level={1}>{title}</SubTitle>}
 				</section>
 				<section className={styles.buttonWrapper}>
-					<Button color="solid">비법 다운로드</Button>
+					<Button color="solid" className={styles.button}>
+						비법 다운로드
+					</Button>
 				</section>
 			</div>
 		</section>
