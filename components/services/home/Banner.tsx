@@ -23,8 +23,8 @@ function HomeBanner() {
 				)}
 			</div>
 			<div className={styles.buttonWrapper}>
-				<Button color="line">
-					<ButtonText level={1}>3x 이용방법</ButtonText>
+				<Button color="line" className={styles.button}>
+					<ButtonText level={1}>3x 이용 방법</ButtonText>
 				</Button>
 			</div>
 			<div className={styles.imgWrapper}>

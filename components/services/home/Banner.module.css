@@ -29,6 +29,11 @@
 	padding-bottom: 48px;
 }
 
+.button {
+	width: 180px;
+	height: 56px;
+}
+
 
 @media (max-width: 450px) {
 	.bannerTextWrapper {
