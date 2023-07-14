@@ -4,7 +4,6 @@ import MainGnb from "../icon/MainGnb";
 import Link from "../Link/Link";
 import Body from "../text/Body";
 import SubTitle from "../text/SubTitle";
-import { ButtonText } from "../text/Text";
 import styles from "./HeaderNav.module.css";
 
 export default function HeaderNav() {
@@ -12,11 +11,11 @@ export default function HeaderNav() {
 
 	const getText = useCallback(
 		(keyString: string, text: string) => {
-			if (keyString === pathname) {
-				return <SubTitle level={2}>{text}</SubTitle>;
-			} else {
-				return <Body level={2}>{text}</Body>;
-			}
+			return (
+				<Body level={2} className={keyString === pathname ? styles.selected : ""}>
+					{text}
+				</Body>
+			);
 		},
 		[pathname]
 	);
