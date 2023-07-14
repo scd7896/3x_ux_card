@@ -1,7 +1,8 @@
 import { useCallback } from "react";
 
 import Button from "../../Button/Button";
-import SubTitle from "../../text/SubTitle";
+import Body from "../../text/Body";
+
 import styles from "./DownloadSolid.module.css";
 
 interface IProp {
@@ -20,9 +21,9 @@ export default function DownloadSolid({ title, downloadLink }: IProp) {
 
 	return (
 		<section className={styles.wrapper}>
-			<SubTitle className={styles.title} level={2} style={{ fontWeight: "400" }}>
+			<Body className={styles.title} level={2} style={{ fontWeight: "400" }}>
 				<b>{title}</b> PDF 다운로드
-			</SubTitle>
+			</Body>
 			<Button className={styles.button} size="middle" onClick={handleClick}>
 				다운로드
 			</Button>

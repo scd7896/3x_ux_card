@@ -19,6 +19,8 @@
 	font-size: 14px;
 	font-weight: 600;
 	font-family: "Pretendard";
+	height: 36px;
+	padding: 0;
 }
 
 @media (max-width: 450px) {
