@@ -161,8 +161,7 @@ export function ContactEmptyCard() {
 					<div>
 						<u onClick={sendMailClickHanlder}>3x_UXcard@gmail.com</u> 으로
 					</div>
-					<div>메일을 보내주세요. 사이트에 대한 피드백, 응원</div>
-					<div>모두 환영해요!</div>
+					<div>메일을 보내주세요. 사이트에 대한 피드백, 응원 모두 환영해요!</div>
 				</div>
 			</section>
 			<Button color="solid" size="small" style={{ padding: "7px 16px" }} onClick={sendMailClickHanlder}>
