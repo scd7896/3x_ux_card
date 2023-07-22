@@ -14,24 +14,31 @@ interface IProp {
 }
 
 export default function PostBody({ contentHtml, title, figmaUrl, workSheetUrl }: IProp) {
-	const copyClickHandler = useCallback((e: any) => {
+	const clickShareButton = useCallback((e: any) => {
 		e.preventDefault();
 
-		const href = window.location.href;
-		var tempElem = document.createElement("textarea");
-		tempElem.value = href;
-		document.body.appendChild(tempElem);
-		tempElem.select();
-		document.execCommand("copy");
-		document.body.removeChild(tempElem);
-		push({
-			message: (
-				<Body level={2} className={styles.message}>
-					<b>링크가 복사되었어요!</b> 원하는 곳에 붙여넣으세요.
-				</Body>
-			),
-			type: "check",
-		});
+		if (typeof navigator.share === "undefined") {
+			const href = window.location.href;
+			var tempElem = document.createElement("textarea");
+			tempElem.value = href;
+			document.body.appendChild(tempElem);
+			tempElem.select();
+			document.execCommand("copy");
+			document.body.removeChild(tempElem);
+			push({
+				message: (
+					<Body level={2} className={styles.message}>
+						<b>링크가 복사되었어요!</b> 원하는 곳에 붙여넣으세요.
+					</Body>
+				),
+				type: "check",
+			});
+		} else {
+			window.navigator.share({
+				url: window.location.href,
+				title: title,
+			});
+		}
 	}, []);
 
 	return (
@@ -48,7 +55,7 @@ export default function PostBody({ contentHtml, title, figmaUrl, workSheetUrl }:
 						목록으로
 					</Link>
 
-					<Link href="#" onClick={copyClickHandler} className={styles.link}>
+					<Link href="#" onClick={clickShareButton} className={styles.link}>
 						공유하기
 					</Link>
 				</section>

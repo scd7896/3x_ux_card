@@ -22,6 +22,7 @@ function Notification({ message, type }: IArgsProps) {
 
 export const push = ({ message, type }: IArgsProps) => {
 	const notiElement = document.createElement("div");
+	notiElement.style.zIndex = "9999";
 	document.body.appendChild(notiElement);
 
 	const root = createRoot(notiElement);

@@ -10,6 +10,7 @@
 	min-width: 374px;
 	color: var(--gray_0);
 	box-sizing: border-box;
+	z-index: 999;
 }
 
 .iconWrapper {
