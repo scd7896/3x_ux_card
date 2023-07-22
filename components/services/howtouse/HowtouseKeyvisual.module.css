@@ -51,13 +51,21 @@
 }
 
 .btnText {
-	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	color: var(--gray_60);
 }
 
 .highlight {
 	font-weight: 600;
 	text-decoration: underline;
+	margin-left: 4px; 
+	margin-right: 2px;
+}
+
+.link {
+	text-decoration: none;
 }
 
 @media (max-width: 450px) {

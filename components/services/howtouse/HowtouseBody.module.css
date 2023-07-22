@@ -5,7 +5,8 @@
 }
 
 .title {
-	margin-bottom: 8px;
+	display: block;
+	margin-bottom: 16px;
 }
 
 .descriptionMargin {
@@ -35,10 +36,11 @@
 	margin-top: 24px;
 }
 
-.orangeTitle {
+.cardContents .orangeTitle {
 	color: var(--orange_100);
 	margin-bottom: 6px;
 	display: flex;
+	font-size: 14px;
 }
 
 .cardDescription {
@@ -108,7 +110,7 @@
 }
 
 .downloadButton {
-	width: 180px;
+	width: 120px;
 	height: 56px;
 }
 

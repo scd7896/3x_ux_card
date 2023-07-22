@@ -135,7 +135,7 @@ export default function HowtouseBody() {
 							>
 								전체 다운로드
 							</Title>
-							<Button color="solid" onClick={downloadClickListener(worksheetUrl)}>
+							<Button className={styles.downloadButton} color="solid" onClick={downloadClickListener(worksheetUrl)}>
 								다운로드
 							</Button>
 							<img className={styles.downloadImg} src="/img/howto_down_worksheet.png" />

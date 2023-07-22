@@ -40,8 +40,7 @@ export default function SheetDownloadSection() {
 						<SheetDownload
 							reverse
 							link=""
-							title="인쇄해서 쓸 수 있는 방법론 카드와 워크 시트를 
-한 곳에 모았어요"
+							title="3X:UX Card만 있으면 UX방법론을 찾아 헤멜 필요 없어요"
 							imgUrl="/img/main_uxcard.png"
 						/>
 					</FadeInUpContainer>
