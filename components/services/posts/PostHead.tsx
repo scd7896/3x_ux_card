@@ -17,7 +17,7 @@ export default function PostHead({ enTitle, title, description, level, members, 
 	return (
 		<section className={`${styles.wrapper} ${styles[process]}`}>
 			<section className={styles.contentWrapper}>
-				<Title level={2} style={{ marginBottom: "2px" }}>
+				<Title className={styles.title} level={2} style={{ marginBottom: "2px" }}>
 					{title}
 				</Title>
 

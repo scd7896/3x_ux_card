@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback, useEffect } from "react";
 import { CardSubTitleDescription } from "../../lib/constant";
 import Button from "../Button/Button";
 import { ArrowDown16 } from "../icon/ArrowLeft";
+import { CheckIconBlack } from "../icon/CheckIcon";
 import Modal from "../Modal/Modal";
 import Body from "../text/Body";
 import styles from "./ProcessTabMobile.module.css";
@@ -24,7 +25,6 @@ const modalTitle: Record<string, string> = {
 export default function ProcessTabMobile({ process, onChange, category }: IProp) {
 	const [selectedIndex, setSelectedIndex] = useState(0);
 	const [modalOpen, setModalOpen] = useState(false);
-	console.log(process);
 
 	useEffect(() => {
 		setSelectedIndex(0);
@@ -60,7 +60,7 @@ export default function ProcessTabMobile({ process, onChange, category }: IProp)
 	);
 
 	const subTitleDescription = useMemo(() => {
-		if (!CardSubTitleDescription[currentProcess.key]) {
+		if (!CardSubTitleDescription[currentProcess?.key]) {
 			return "사용자를 이해하고 데이터를 쌓아가는 단계입니다.";
 		}
 
@@ -74,7 +74,7 @@ export default function ProcessTabMobile({ process, onChange, category }: IProp)
 					<ArrowDown16 />
 				</div>
 				<div className={styles.processName} onClick={() => setModalOpen(true)}>
-					{currentProcess.key}
+					{currentProcess?.key}
 				</div>
 				<div className={styles.right} onClick={() => handleNavClick(1)}>
 					<ArrowDown16 />
@@ -86,13 +86,14 @@ export default function ProcessTabMobile({ process, onChange, category }: IProp)
 			<Modal position="bottom" title={modalTitle[category]} isOpen={modalOpen} onClose={() => setModalOpen(false)}>
 				<div>
 					{process.map((it, index) => (
-						<div onClick={() => handleClickProcess(index)} key={index}>
+						<div className={styles.tabItem} onClick={() => handleClickProcess(index)} key={index}>
 							<Body
-								className={`${styles.processText} ${currentProcess.key === it.key ? styles.selected : undefined}`}
+								className={`${styles.processText} ${currentProcess?.key === it.key ? styles.selected : undefined}`}
 								level={1}
 							>
 								{it.key}
 							</Body>
+							{currentProcess?.key === it.key && <CheckIconBlack />}
 						</div>
 					))}
 					<Button color="ghost" className={styles.confirmButton} onClick={() => setModalOpen(false)}>

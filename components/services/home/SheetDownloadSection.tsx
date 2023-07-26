@@ -42,6 +42,7 @@ export default function SheetDownloadSection() {
 							link=""
 							title="3X:UX Card만 있으면 UX방법론을 찾아 헤멜 필요 없어요"
 							imgUrl="/img/main_uxcard.png"
+							buttonText="방법론 보기"
 						/>
 					</FadeInUpContainer>
 				</section>

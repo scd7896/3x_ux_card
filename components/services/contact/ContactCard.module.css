@@ -140,12 +140,13 @@
 		height: 372px;
 	}
 	
-	.title {
+	.wrapper .title {
 		margin-bottom: 6px;
 	}
 
 	.roleWrapper .roleSubTitle {
 		margin-bottom: 8px;
+		font-size: 15px;
 	}
 
 	.lead, .sub {
@@ -154,6 +155,10 @@
 	}
 
 	.wrapper .bodyWrapper div {
+		font-size: 15px;
+	}
+	
+	.wrapper .mail {
 		font-size: 15px;
 	}
 }

@@ -1,4 +1,5 @@
 import LineArrowIcon from "../../icon/LineArrowIcon";
+import Link from "../../Link/Link";
 import Body from "../../text/Body";
 import SubTitle from "../../text/SubTitle";
 import Title from "../../text/Title";
@@ -8,7 +9,7 @@ import styles from "./HowtouseKeyvisual.module.css";
 export default function HowtouseKeyvisualMobile() {
 	return (
 		<div className={styles.howtouseCard}>
-			<Title style={{ marginBottom: "48px" }} level={2}>
+			<Title className={styles.title} level={2}>
 				3X: UX Card는
 			</Title>
 			<div className={styles.description}>
@@ -45,9 +46,11 @@ export default function HowtouseKeyvisualMobile() {
 				<span className={styles.subText}>를 제공합니다.</span>
 			</div>
 			<div>
-				<Body className={styles.btnText} level={3}>
-					Using <span className={styles.highlight}>Eelevator Pitch</span> <LineArrowIcon />
-				</Body>
+				<Link href="/posts/ElevatorPitch" className={styles.link}>
+					<Body className={styles.btnText} level={3}>
+						Using <span className={styles.highlight}>Eelevator Pitch</span> <LineArrowIcon />
+					</Body>
+				</Link>
 			</div>
 		</div>
 	);

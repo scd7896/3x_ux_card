@@ -106,10 +106,12 @@ export default function ContactCard({ member }: IProp) {
 			</section>
 
 			<section className={styles.mailWrapper}>
-				<SubTitle level={3} style={{ marginBottom: "4px", display: "block" }}>
+				<SubTitle level={3} className={styles.roleSubtitle} style={{ marginBottom: "4px", display: "block" }}>
 					Mail
 				</SubTitle>
-				<Body level={3}>{mail[member]}</Body>
+				<Body className={styles.mail} level={3}>
+					{mail[member]}
+				</Body>
 			</section>
 		</div>
 	);

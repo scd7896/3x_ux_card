@@ -67,8 +67,18 @@
 		padding: 80px 32px 64px;
 	}
 
+	.contentWrapper .title {
+		font-size: 32px;
+		line-height: 46px;
+	}
+
 	.contentWrapper .enTitle {
 		font-size: 14px;
+	}
+
+	.contentWrapper .descriptionWrapper {
+		font-size: 16px;
+		line-height: 26px;
 	}
 
 	.detailInfo {

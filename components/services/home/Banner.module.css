@@ -43,5 +43,12 @@
 	.bannerText {
 		font-size: 32px;
 		word-wrap: break-word;
+		line-height: 42px;
+	}
+
+	.button {
+		width: 140px;
+		height: 56px;
+		box-sizing: border-box;
 	}
 }

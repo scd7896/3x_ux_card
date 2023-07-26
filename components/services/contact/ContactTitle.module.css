@@ -23,8 +23,9 @@
 		color: var(--gray_80);
 	}
 
-	.membersContact {
+	.wrapper .membersContact {
 		margin-bottom: 8px;
+		font-size: 14px;
 	}
 
 	.title {

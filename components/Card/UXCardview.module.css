@@ -12,6 +12,11 @@
 	justify-content: space-between;
 }
 
+.wrapper .enTitle {
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
 
 .container.공감 {
 	background-color: var(--cardlight_yellow);
@@ -144,5 +149,9 @@
 		font-size: 14px;
 		line-height: 18px;
 		font-weight: 400;
+	}
+
+	.wrapper .enTitle {
+		font-size: 14px;
 	}
 }

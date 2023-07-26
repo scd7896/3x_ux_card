@@ -10,7 +10,7 @@ export default function UXCardview({ title, enTitle, members, icon, process, des
 		<section className={`${styles.container} ${styles[process]}`}>
 			<div className={`${styles.wrapper}`}>
 				<section>
-					<Caption>{enTitle}</Caption>
+					<Caption className={styles.enTitle}>{enTitle}</Caption>
 					<Title level={3}>{title}</Title>
 				</section>
 				<section className={styles.bottomWrapper}>

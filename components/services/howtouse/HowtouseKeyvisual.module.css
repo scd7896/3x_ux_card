@@ -76,6 +76,18 @@
 		position: static;
 		transform: translate(0, 0);
 	}
+
+	.description {
+		padding-bottom: 12px;
+	}
+
+	.description + .description {
+		margin-top: 16px;
+	}
+
+	.description:nth-child(even) {
+		margin-top: 32px !important;
+	}
 	
 	.description:nth-child(4) {
 		margin-bottom: 0px;
@@ -91,5 +103,10 @@
 
 	.subText {
 		font-size: 16px;
+	}
+
+	.howtouseCard .title {
+		font-size: 32px;
+		margin-bottom: 40px;
 	}
 }

@@ -45,6 +45,12 @@
 	font-weight: 700;
 }
 
+.tabItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .confirmButton {
 	width: 100%;
 	font-weight: 600;

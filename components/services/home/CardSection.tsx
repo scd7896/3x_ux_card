@@ -50,7 +50,7 @@ export default function CardSection() {
 							<Cardview
 								footer={
 									<Link className={styles.link} href={url}>
-										방법론 보기
+										바로 가기
 									</Link>
 								}
 								title={title}

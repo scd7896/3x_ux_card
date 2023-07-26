@@ -75,6 +75,10 @@
 		word-break: keep-all;
 	}
 
+	.titleWrapper .title {
+		font-size: 22px;
+	}
+
 	.contentWrapper {
 		padding: 16px 20px;
 		width: 100%;
