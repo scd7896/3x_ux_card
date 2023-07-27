@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { useEffect, useMemo, useState } from "react";
 import { ECategoryKey, EProcess, ESituation } from "../../types/card.d";
 
@@ -38,25 +39,30 @@ const categories = [
 ];
 
 export default function useCategoryFilter() {
-	const [category, setCategory] = useState<string>(ECategoryKey.PROCESS);
-	const [value, setValue] = useState<string>("전체");
+	const { query, replace } = useRouter();
+	const filterValue = useMemo(() => {
+		return {
+			value: (query.cardFilterValue as string) || "전체",
+			category: (query.category as string) || ECategoryKey.PROCESS,
+		};
+	}, [query]);
 
 	const process = useMemo(() => {
-		if (category === ECategoryKey.PROCESS) return processTabs;
-		if (category === ECategoryKey.SITUATION) return situationTabs;
+		if (filterValue.category === ECategoryKey.PROCESS) return processTabs;
+		if (filterValue.category === ECategoryKey.SITUATION) return situationTabs;
 		return [];
-	}, [category]);
-
-	useEffect(() => {
-		setValue("전체");
-	}, [category]);
+	}, [filterValue]);
 
 	return {
-		category,
-		setCategory,
+		category: filterValue.category,
+		setCategory: (nextCategory: string) => {
+			replace(`/cards?cardFilterValue=전체&category=${nextCategory}`);
+		},
 		process,
-		value,
+		value: filterValue.value,
 		categories,
-		setValue,
+		setValue: (value: string) => {
+			replace(`/cards?cardFilterValue=${value}&category=${filterValue.category}`);
+		},
 	};
 }

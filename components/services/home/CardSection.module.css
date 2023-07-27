@@ -15,6 +15,10 @@
 	justify-content: center;
 }
 
+.card {
+	text-decoration: none;
+}
+
 .card + .card {
 	margin-left: 24px;
 }
@@ -24,6 +28,9 @@
 	color: var(--gray_90);
 	font-family: 'Pretendard';
 	font-weight: 600;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	
 }
 
 

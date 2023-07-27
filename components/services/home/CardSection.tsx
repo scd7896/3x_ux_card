@@ -1,4 +1,5 @@
 import useWindowSize from "../../../hooks/useWindowSize";
+import { ECategoryKey, ESituation } from "../../../types/card.d";
 import Cardview from "../../Card/Cardview";
 import FadeInUpContainer from "../../layout/FadeInUpContainer";
 import Link from "../../Link/Link";
@@ -9,19 +10,19 @@ const cardContents = [
 	{
 		title: "개인 작업 중이신가요?",
 		contents: "논리적인 포트폴리오를 만들고 싶은데 무엇을 해야할지 모르겠나요?",
-		url: "",
+		url: `/cards?cardFilterValue=${ESituation.PRIVATE_WORK}&category=${ECategoryKey.SITUATION}`,
 		imageUrl: "/img/main_personal.png",
 	},
 	{
 		title: "리뉴얼/고도화 하세요?",
 		contents: "기존 서비스를 어떻게 분석하고 개선점을 찾을지 막막한가요?",
-		url: "",
+		url: `/cards?cardFilterValue=${ESituation.RENEWAL}&category=${ECategoryKey.SITUATION}`,
 		imageUrl: "/img/main_renewal.png",
 	},
 	{
 		title: "신규 런칭을 기획 중이세요?",
 		contents: "새로운 기능이나 서비스를 만드려고 하는데 시작부터 막막한가요?",
-		url: "",
+		url: `/cards?cardFilterValue=${ESituation.NEW_LUNCH}&category=${ECategoryKey.SITUATION}`,
 		imageUrl: "/img/main_launching.png",
 	},
 ];
@@ -46,18 +47,14 @@ export default function CardSection() {
 			<FadeInUpContainer>
 				<div className={styles.cardWrapper}>
 					{cardContents.map(({ title, contents, url, imageUrl }, index) => (
-						<section key={index} className={styles.card}>
+						<Link key={index} className={styles.card} href={url}>
 							<Cardview
-								footer={
-									<Link className={styles.link} href={url}>
-										바로 가기
-									</Link>
-								}
+								footer={<span className={styles.link}>바로 가기</span>}
 								title={title}
 								contents={contents}
 								imageUrl={imageUrl}
 							/>
-						</section>
+						</Link>
 					))}
 				</div>
 			</FadeInUpContainer>
