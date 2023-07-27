@@ -25,7 +25,7 @@ export default function SheetDownloadSection() {
 				<section className={styles.sheetDownloadContainer}>
 					<FadeInUpContainer>
 						<SheetDownload
-							link=""
+							link="/howtouse"
 							title="인쇄해서 쓸 수 있는 방법론 카드와 워크 시트를 
 한 곳에 모았어요"
 							imgUrl="/img/main_prints.png"
@@ -39,7 +39,7 @@ export default function SheetDownloadSection() {
 					<FadeInUpContainer>
 						<SheetDownload
 							reverse
-							link=""
+							link="/cards"
 							title="3X:UX Card만 있으면 UX방법론을 찾아 헤멜 필요 없어요"
 							imgUrl="/img/main_uxcard.png"
 							buttonText="방법론 보기"

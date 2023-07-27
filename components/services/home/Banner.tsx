@@ -1,5 +1,6 @@
 import useWindowSize from "../../../hooks/useWindowSize";
 import Button from "../../Button/Button";
+import Link from "../../Link/Link";
 import { ButtonText } from "../../text/Text";
 import styles from "./Banner.module.css";
 import KeyvisualCardList from "./KeyVisualCardList";
@@ -23,9 +24,11 @@ function HomeBanner() {
 				)}
 			</div>
 			<div className={styles.buttonWrapper}>
-				<Button color="line" className={styles.button}>
-					<ButtonText level={1}>3x 이용 방법</ButtonText>
-				</Button>
+				<Link href="/howtouse">
+					<Button color="line" className={styles.button}>
+						<ButtonText level={1}>3x 이용 방법</ButtonText>
+					</Button>
+				</Link>
 			</div>
 			<div className={styles.imgWrapper}>
 				<KeyvisualCardList />

@@ -1,6 +1,5 @@
-import useWindowSize from "../../../hooks/useWindowSize";
 import Button from "../../Button/Button";
-import SubTitle from "../../text/SubTitle";
+import Link from "../../Link/Link";
 import Title from "../../text/Title";
 import styles from "./SheetDownload.module.css";
 
@@ -13,7 +12,6 @@ interface IProp {
 }
 
 export default function SheetDownload({ link, reverse, title, imgUrl, buttonText = "비법 다운로드" }: IProp) {
-	const { isMobile } = useWindowSize();
 	return (
 		<section className={reverse ? styles.wrapperReverse : styles.wrapper}>
 			<div className={styles.imgWrapper}>{imgUrl && <img className={styles.img} src={imgUrl} alt={link} />}</div>
@@ -23,11 +21,11 @@ export default function SheetDownload({ link, reverse, title, imgUrl, buttonText
 						{title}
 					</Title>
 				</section>
-				<section className={styles.buttonWrapper}>
+				<Link href={link} className={styles.buttonWrapper}>
 					<Button color="solid" className={styles.button}>
 						{buttonText}
 					</Button>
-				</section>
+				</Link>
 			</div>
 		</section>
 	);
