@@ -13,7 +13,7 @@ interface IProp {
 		label?: React.ReactNode;
 	}>;
 	category: string;
-
+	currentProcess: string;
 	onChange?: (key: string) => void;
 }
 
@@ -22,49 +22,37 @@ const modalTitle: Record<string, string> = {
 	situation: "상황별 보기",
 };
 
-export default function ProcessTabMobile({ process, onChange, category }: IProp) {
-	const [selectedIndex, setSelectedIndex] = useState(0);
+export default function ProcessTabMobile({ process, onChange, category, currentProcess }: IProp) {
 	const [modalOpen, setModalOpen] = useState(false);
-
-	useEffect(() => {
-		setSelectedIndex(0);
-	}, [process]);
-
-	const currentProcess = useMemo(() => {
-		return process[selectedIndex];
-	}, [selectedIndex, process]);
 
 	const handleNavClick = useCallback(
 		(diff: number) => {
-			setSelectedIndex((prev) => {
-				let nextIndex = prev + diff;
-				if (nextIndex < 0) {
-					nextIndex = process.length - 1;
-				}
-				if (nextIndex === process.length) {
-					nextIndex = 0;
-				}
-				onChange?.(process[nextIndex].key);
-				return nextIndex;
-			});
+			const currentIndex = process.findIndex((it) => it.key === currentProcess);
+			let nextIndex = currentIndex + diff;
+			if (nextIndex < 0) {
+				nextIndex = process.length - 1;
+			}
+			if (nextIndex === process.length) {
+				nextIndex = 0;
+			}
+			onChange?.(process[nextIndex].key);
 		},
 		[onChange, process]
 	);
 
 	const handleClickProcess = useCallback(
 		(index: number) => {
-			setSelectedIndex(index);
 			onChange?.(process[index].key);
 		},
 		[process, onChange]
 	);
 
 	const subTitleDescription = useMemo(() => {
-		if (!CardSubTitleDescription[currentProcess?.key]) {
+		if (!CardSubTitleDescription[currentProcess]) {
 			return "사용자를 이해하고 데이터를 쌓아가는 단계입니다.";
 		}
 
-		return CardSubTitleDescription[currentProcess.key];
+		return CardSubTitleDescription[currentProcess];
 	}, [currentProcess]);
 
 	return (
@@ -74,7 +62,7 @@ export default function ProcessTabMobile({ process, onChange, category }: IProp)
 					<ArrowDown16 />
 				</div>
 				<div className={styles.processName} onClick={() => setModalOpen(true)}>
-					{currentProcess?.key}
+					{currentProcess}
 				</div>
 				<div className={styles.right} onClick={() => handleNavClick(1)}>
 					<ArrowDown16 />
@@ -88,12 +76,12 @@ export default function ProcessTabMobile({ process, onChange, category }: IProp)
 					{process.map((it, index) => (
 						<div className={styles.tabItem} onClick={() => handleClickProcess(index)} key={index}>
 							<Body
-								className={`${styles.processText} ${currentProcess?.key === it.key ? styles.selected : undefined}`}
+								className={`${styles.processText} ${currentProcess === it.key ? styles.selected : undefined}`}
 								level={1}
 							>
 								{it.key}
 							</Body>
-							{currentProcess?.key === it.key && <CheckIconBlack />}
+							{currentProcess === it.key && <CheckIconBlack />}
 						</div>
 					))}
 					<Button color="ghost" className={styles.confirmButton} onClick={() => setModalOpen(false)}>
