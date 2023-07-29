@@ -150,6 +150,10 @@
 		font-size: 15px;
 	}
 
+	.mailWrapper .mailSubTitle {
+		font-size: 15px;
+	}
+
 	.lead, .sub {
 		font-size: 15px;
 		color: var(--gray_80);

@@ -1,18 +1,40 @@
-.wrapper {
+@keyframes scaleFadeInout {
+	0% {
+		transform: translateX(-50%) scale(0.1);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateX(-50%) scale(1);
+		opacity: 1;
+	}
+}
+
+.container {
+	display: inline-block;
 	position: fixed;
 	top: 40px;
 	left: 50%;
 	transform: translateX(-50%);
-	padding: 20px;
-	background: var(--gray_80);
-	border-radius: 16px;
-	display: flex;
-	min-width: 374px;
-	color: var(--gray_0);
-	box-sizing: border-box;
 	z-index: 999;
+	animation: scaleFadeInout 0.3s;
+
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	height: 64px;
+	padding: 0 24px 0 20px;
+	background: var(--gray_90);
+	border-radius: 16px;
+	color: var(--gray_0);
+	box-shadow: 0px 8px 20px 0px rgba(119, 119, 119, 0.3);
 }
 
 .iconWrapper {
 	margin-right: 8px;
+	display: flex;
+	align-items: center;
 }

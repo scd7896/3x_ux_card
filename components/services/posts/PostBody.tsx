@@ -28,7 +28,7 @@ export default function PostBody({ contentHtml, title, figmaUrl, workSheetUrl }:
 			push({
 				message: (
 					<Body level={2} className={styles.message}>
-						<b>링크가 복사되었어요!</b> 원하는 곳에 붙여넣으세요.
+						링크가 복사되었어요!
 					</Body>
 				),
 				type: "check",

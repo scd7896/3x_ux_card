@@ -13,9 +13,11 @@ const iconMap = {
 
 function Notification({ message, type }: IArgsProps) {
 	return (
-		<div className={styles.wrapper}>
-			{type && <div className={styles.iconWrapper}>{iconMap[type]}</div>}
-			{message}
+		<div className={styles.container}>
+			<div className={styles.wrapper}>
+				{type && <div className={styles.iconWrapper}>{iconMap[type]}</div>}
+				{message}
+			</div>
 		</div>
 	);
 }
@@ -32,5 +34,5 @@ export const push = ({ message, type }: IArgsProps) => {
 	setTimeout(() => {
 		root.unmount();
 		notiElement.remove();
-	}, 1000);
+	}, 3000);
 };
