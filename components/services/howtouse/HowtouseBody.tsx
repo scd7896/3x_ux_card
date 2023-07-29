@@ -1,5 +1,4 @@
-import { useCallback, useEffect, useRef } from "react";
-import useWindowSize from "../../../hooks/useWindowSize";
+import { useCallback, useRef } from "react";
 import { handbookUrl, worksheetUrl } from "../../../lib/env";
 
 import Button from "../../Button/Button";
@@ -9,7 +8,6 @@ import Title from "../../text/Title";
 import styles from "./HowtouseBody.module.css";
 
 export default function HowtouseBody() {
-	const { isMobile } = useWindowSize();
 	const downloadRef = useRef<HTMLElement>(null);
 	const downloadClickListener = useCallback(
 		(url: string) => () => {
@@ -21,13 +19,6 @@ export default function HowtouseBody() {
 		},
 		[]
 	);
-
-	useEffect(() => {
-		if (!isMobile || !window.location.hash) return;
-		setTimeout(() => {
-			window.scroll(0, document.documentElement.scrollTop - 72);
-		}, 150);
-	}, [isMobile]);
 
 	return (
 		<div className={styles.wrapper}>
