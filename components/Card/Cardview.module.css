@@ -68,6 +68,9 @@
 	
 	.contentsWrapper div {
 		color: var(--gray_70);
-		margin-bottom: 22px;
+	}
+	
+	.contentsWrapper {
+		margin-bottom: 24px;
 	}
 }

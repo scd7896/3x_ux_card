@@ -25,7 +25,7 @@ export default function SheetDownloadSection() {
 				<section className={styles.sheetDownloadContainer}>
 					<FadeInUpContainer>
 						<SheetDownload
-							link="/howtouse"
+							link="/howtouse#fileDownload"
 							title="인쇄해서 쓸 수 있는 방법론 카드와 워크 시트를 
 한 곳에 모았어요"
 							imgUrl="/img/main_prints.png"
