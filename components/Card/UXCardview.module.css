@@ -12,7 +12,7 @@
 	justify-content: space-between;
 }
 
-.wrapper .enTitle {
+.container .enTitle {
 	margin-bottom: 2px;
 	display: inline-block;
 }
