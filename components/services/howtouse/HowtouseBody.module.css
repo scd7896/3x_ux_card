@@ -23,6 +23,8 @@
 
 .card {
 	position: relative;
+	display: flex;
+	justify-content: space-between;
 
 	background-color: var(--gray_10);
 	border: 1px solid var(--gray_20);
@@ -31,7 +33,10 @@
 	box-sizing: border-box;
 	width: 1200px;
 	height: 468px;
-	padding: 64px;
+}
+
+.cardContents {
+	padding: 64px 0 0 64px;
 }
 
 .cardWrapper + .cardWrapper {
@@ -56,13 +61,10 @@
 }
 
 .bodyimg {
-	max-width: 740px;
-	width: 61.7%;
+	width: 740px;
 	height: auto;
-	position: absolute;
-	top: 0;
-	right: 0;
 }
+
 .donwloadSection {
 	margin-top: 80px;
 }
@@ -128,6 +130,7 @@
 	}
 
 	.card {
+		flex-direction: column;
 		width: 100%;
 		height: auto;
 		padding: 0;
