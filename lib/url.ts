@@ -6,7 +6,12 @@ export const checkUrlByHtml = (url: string, env?: string) => {
 		if (lastPath === "") {
 			pathname = "/index.html";
 		} else {
-			lastPath = `${lastPath}.html`;
+			if (lastPath?.includes("#")) {
+				const [path, hash] = lastPath.split("#");
+				lastPath = `${path}.html#${hash}`;
+			} else {
+				lastPath = `${lastPath}.html`;
+			}
 			paths.push(lastPath);
 			pathname = paths.join("/");
 		}
