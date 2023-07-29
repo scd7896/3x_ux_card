@@ -37,6 +37,7 @@
 
 .cardContents {
 	padding: 64px 0 0 64px;
+	min-height: 1742px;
 }
 
 .cardWrapper + .cardWrapper {
@@ -67,6 +68,7 @@
 
 .donwloadSection {
 	margin-top: 80px;
+	min-height: 850px;
 }
 
 .downloadCardWrapper {
@@ -119,6 +121,10 @@
 }
 
 @media (max-width: 450px) {
+	.cardWrapper {
+		min-height: 1620px;
+	}
+
 	.wrapper {
 		padding: 64px 16px 120px;
 	}
@@ -154,6 +160,10 @@
 		position: relative;
 		width: 100%;
 		height: auto;
+	}
+
+	.donwloadSection {
+		min-height: 1150px;
 	}
 	
 	.donwloadSection .fileDownloadTitle {
