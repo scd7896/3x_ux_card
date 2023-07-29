@@ -5,7 +5,7 @@ import { Caption } from "../text/Text";
 import Title from "../text/Title";
 import styles from "./UXCardview.module.css";
 
-export default function UXCardview({ title, enTitle, members, icon, process, description, level, duration }: ICard) {
+export default function UXCardview({ title, enTitle, members, process, description, level, duration }: ICard) {
 	return (
 		<section className={`${styles.container} ${styles[process]}`}>
 			<div className={`${styles.wrapper}`}>
@@ -23,7 +23,7 @@ export default function UXCardview({ title, enTitle, members, icon, process, des
 			</div>
 			<div className={`${styles.backWrapper}`}>
 				<section>
-					<Caption>{enTitle}</Caption>
+					<Caption className={styles.enTitle}>{enTitle}</Caption>
 					<Title level={3} className={styles.backTitle}>
 						{title}
 					</Title>
