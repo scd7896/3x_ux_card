@@ -3,7 +3,6 @@ import useWindowSize from "../../../hooks/useWindowSize";
 import { handbookUrl, worksheetUrl } from "../../../lib/env";
 
 import Button from "../../Button/Button";
-import FadeInUpContainer from "../../layout/FadeInUpContainer";
 import Body from "../../text/Body";
 import SubTitle from "../../text/SubTitle";
 import Title from "../../text/Title";
@@ -24,18 +23,15 @@ export default function HowtouseBody() {
 	);
 
 	useEffect(() => {
-		const hash = window.location.hash;
-		if (hash && downloadRef.current) {
-			window.scroll({
-				top: isMobile ? downloadRef.current.offsetTop - 72 : downloadRef.current.offsetTop,
-				behavior: "smooth",
-			});
-		}
-	}, []);
+		if (!isMobile || !window.location.hash) return;
+		setTimeout(() => {
+			window.scroll(0, document.documentElement.scrollTop - 72);
+		}, 150);
+	}, [isMobile]);
 
 	return (
 		<div className={styles.wrapper}>
-			<FadeInUpContainer>
+			<section>
 				<SubTitle level={2} className={styles.title}>
 					3X 활용법
 				</SubTitle>
@@ -49,8 +45,8 @@ export default function HowtouseBody() {
 				<Body level={2} className={styles.description}>
 					UX공부부터 실무까지, 3X를 활용한다면 쉽게 UX방법론을 적용할 수 있어요
 				</Body>
-			</FadeInUpContainer>
-			<FadeInUpContainer className={styles.cardWrapper}>
+			</section>
+			<section className={styles.cardWrapper}>
 				<section className={styles.card}>
 					<div className={styles.cardContents}>
 						<SubTitle level={3} className={styles.orangeTitle}>
@@ -70,8 +66,8 @@ export default function HowtouseBody() {
 					</div>
 					<img className={styles.bodyimg} src="/img/howtouse-body-1.png" />
 				</section>
-			</FadeInUpContainer>
-			<FadeInUpContainer className={styles.cardWrapper}>
+			</section>
+			<section className={styles.cardWrapper}>
 				<section className={styles.card}>
 					<div className={styles.cardContents}>
 						<SubTitle level={3} className={styles.orangeTitle}>
@@ -92,8 +88,8 @@ export default function HowtouseBody() {
 					</div>
 					<img className={styles.bodyimg} src="/img/howtouse-body-2.png" />
 				</section>
-			</FadeInUpContainer>
-			<FadeInUpContainer className={styles.cardWrapper}>
+			</section>
+			<section className={styles.cardWrapper}>
 				<section className={styles.card}>
 					<div className={styles.cardContents}>
 						<SubTitle level={3} className={styles.orangeTitle}>
@@ -114,15 +110,15 @@ export default function HowtouseBody() {
 					</div>
 					<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
 				</section>
-			</FadeInUpContainer>
-			<section ref={downloadRef} className={styles.donwloadSection}>
-				<FadeInUpContainer>
+			</section>
+			<section ref={downloadRef} className={styles.donwloadSection} id="fileDownload">
+				<section>
 					<SubTitle className={styles.fileDownloadTitle} level={2}>
 						파일 다운로드
 					</SubTitle>
 					<Title level={2}>핸드북과 워크시트는 한번에 다운받고, 인쇄해서 활용해보세요</Title>
-				</FadeInUpContainer>
-				<FadeInUpContainer>
+				</section>
+				<section>
 					<section className={styles.downloadCardWrapper}>
 						<div className={`${styles.downloadCard} ${styles.handbook}`}>
 							<Title level={3}>핸드북</Title>
@@ -155,7 +151,7 @@ export default function HowtouseBody() {
 							<img className={styles.downloadImg} src="/img/howto_down_worksheet.png" />
 						</div>
 					</section>
-				</FadeInUpContainer>
+				</section>
 			</section>
 		</div>
 	);
