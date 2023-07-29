@@ -70,9 +70,7 @@ export default function HowtouseBody() {
 							</Body>
 						</section>
 					</div>
-					<div className={styles.imageWrapper}>
-						<img className={styles.bodyimg} src="/img/howtouse-body-1.png" />
-					</div>
+					<img className={styles.bodyimg} src="/img/howtouse-body-1.png" />
 				</section>
 			</FadeInUpContainer>
 			<FadeInUpContainer className={styles.cardWrapper}>
@@ -94,9 +92,7 @@ export default function HowtouseBody() {
 							</Body>
 						</section>
 					</div>
-					<div className={styles.imageWrapper}>
-						<img className={styles.bodyimg} src="/img/howtouse-body-2.png" />
-					</div>
+					<img className={styles.bodyimg} src="/img/howtouse-body-2.png" />
 				</section>
 			</FadeInUpContainer>
 			<FadeInUpContainer className={styles.cardWrapper}>
@@ -118,9 +114,7 @@ export default function HowtouseBody() {
 							</Body>
 						</section>
 					</div>
-					<div className={styles.imageWrapper}>
-						<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
-					</div>
+					<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
 				</section>
 			</FadeInUpContainer>
 			<section ref={downloadRef} className={styles.donwloadSection}>

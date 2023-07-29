@@ -61,20 +61,8 @@
 	max-width: 396px;
 }
 
-.imageWrapper {
-	width: 740px;
-	height: 1px;
-	position: relative;
-	padding-bottom: calc(39% - 1px);
-	overflow: hidden;
-	box-sizing: border-box;
-}
-
 .bodyimg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+	width: 740px;
 	height: auto;
 }
 
@@ -164,10 +152,11 @@
 		line-height: 23px;
 	}
 
-	.imageWrapper {
+	.bodyimg {
+		position: relative;
 		width: 100%;
+		height: auto;
 	}
-	
 	
 	.donwloadSection .fileDownloadTitle {
 		margin-bottom: 8px;
