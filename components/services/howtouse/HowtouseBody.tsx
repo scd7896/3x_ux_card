@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import { handbookUrl, worksheetUrl } from "../../../lib/env";
 
 import Button from "../../Button/Button";
@@ -9,6 +9,7 @@ import Title from "../../text/Title";
 import styles from "./HowtouseBody.module.css";
 
 export default function HowtouseBody() {
+	const downloadRef = useRef<HTMLElement>(null);
 	const downloadClickListener = useCallback(
 		(url: string) => () => {
 			const a = document.createElement("a");
@@ -19,6 +20,18 @@ export default function HowtouseBody() {
 		},
 		[]
 	);
+
+	useEffect(() => {
+		const hash = window.location.hash;
+		console.dir(downloadRef.current);
+		if (hash && downloadRef.current) {
+			window.scroll({
+				top: downloadRef.current.offsetTop - 72,
+				behavior: "smooth",
+			});
+		}
+	}, []);
+
 	return (
 		<div className={styles.wrapper}>
 			<FadeInUpContainer>
@@ -101,7 +114,7 @@ export default function HowtouseBody() {
 					<img className={styles.bodyimg} src="/img/howtouse-body-3.png" />
 				</section>
 			</FadeInUpContainer>
-			<section className={styles.donwloadSection}>
+			<section ref={downloadRef} className={styles.donwloadSection}>
 				<FadeInUpContainer>
 					<SubTitle className={styles.fileDownloadTitle} level={2}>
 						파일 다운로드

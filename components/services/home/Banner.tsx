@@ -24,7 +24,7 @@ function HomeBanner() {
 				)}
 			</div>
 			<div className={styles.buttonWrapper}>
-				<Link href="/howtouse">
+				<Link href="/howtouse#fileDownload">
 					<Button color="line" className={styles.button}>
 						<ButtonText level={1}>3x 이용 방법</ButtonText>
 					</Button>

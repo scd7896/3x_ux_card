@@ -120,7 +120,11 @@ export default function ContactCard({ member }: IProp) {
 function Role({ member }: IProp) {
 	const currentRole = role[member];
 	if (typeof currentRole === "string") {
-		return <Body level={3}>{currentRole}</Body>;
+		return (
+			<Body className={styles.lead} level={3}>
+				{currentRole}
+			</Body>
+		);
 	}
 
 	return (

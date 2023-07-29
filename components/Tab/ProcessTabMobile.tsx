@@ -49,7 +49,7 @@ export default function ProcessTabMobile({ process, onChange, category, currentP
 
 	const subTitleDescription = useMemo(() => {
 		if (!CardSubTitleDescription[currentProcess]) {
-			return "사용자를 이해하고 데이터를 쌓아가는 단계입니다.";
+			return CardSubTitleDescription.empty;
 		}
 
 		return CardSubTitleDescription[currentProcess];
