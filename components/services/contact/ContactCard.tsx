@@ -71,8 +71,8 @@ const role = {
 };
 
 const mail = {
-	mj: "mjmj9400@naver.com",
-	donna: "dahye2011@gamil.com",
+	mj: "mjmj9400@gmail.com",
+	donna: "dahye2011@gmail.com",
 	cha: "-",
 	server: "scd7896@gmail.com",
 	iron: "mylee4605@gmail.com",
