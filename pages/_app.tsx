@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta property="og:description" content="우리의 디자인을 위한 UX 방법론 모음" />
 				<meta property="og:site_name" content="3X:UX Card" />
 				<meta property="og:locale" content="ko_KR" />
+				<meta name="naver-site-verification" content="1083b40c5803c35421c0e4be126674521292e570" />
 			</Head>
 			<PageLayout>
 				{IS_PRODUCTION && (
