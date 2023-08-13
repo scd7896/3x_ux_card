@@ -1,4 +1,5 @@
 import { useState } from "react";
+import gaLogger from "../../lib/log";
 import Title from "../text/Title";
 import styles from "./Tab.module.css";
 
@@ -22,6 +23,7 @@ export default function Tab({ steps, defaultStep, onChange }: IProp) {
 					onClick={() => {
 						setCurrentStep(it.key);
 						onChange?.(it.key);
+						gaLogger.clickCardListCategory(it.key);
 					}}
 					selected={currentStep === it.key}
 					data-cy={`${it.key}_filter`}

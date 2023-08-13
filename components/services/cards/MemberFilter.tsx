@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { members } from "../../../lib/constant";
+import gaLogger from "../../../lib/log";
 import Button from "../../Button/Button";
 import MemberInfoIcon from "../../icon/MemberInfoIcon";
 import Modal from "../../Modal/Modal";
@@ -45,8 +46,10 @@ export default function MemberFilter({ onChange }: IProp) {
 							setSelectedMemebers((prev) => {
 								const findResult = prev.find((member) => it === member);
 								if (findResult) {
+									gaLogger.clickCardListMemberFilter(it, false);
 									return prev.filter((member) => member !== findResult);
 								}
+								gaLogger.clickCardListMemberFilter(it, true);
 								return [...prev, it];
 							});
 						}}

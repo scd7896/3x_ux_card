@@ -8,13 +8,15 @@ interface IProp {
 	url: string;
 	type: "workSheet" | "figma";
 	title: string;
+	onClick?: () => void;
 }
 
-export default function DownloadLine({ title, type, url }: IProp) {
+export default function DownloadLine({ title, type, url, onClick }: IProp) {
 	const description = type === "workSheet" ? "인쇄용 워크시트" : "피그마 워크시트";
 	const doingText = type === "workSheet" ? "다운로드" : "바로가기";
 
 	const handleClickListener = useCallback(() => {
+		onClick?.();
 		const a = document.createElement("a");
 		a.href = url;
 		a.target = "_blank";

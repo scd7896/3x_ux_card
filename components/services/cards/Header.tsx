@@ -1,6 +1,7 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import useCategoryFilter from "../../../hooks/cards/useCategoryFilter";
 import useWindowSize from "../../../hooks/useWindowSize";
+import gaLogger from "../../../lib/log";
 import ProcessTab from "../../Tab/ProcessTab";
 import ProcessTabMobile from "../../Tab/ProcessTabMobile";
 import Tab from "../../Tab/Tab";
@@ -13,6 +14,7 @@ interface IProp {
 
 export default function CardsHeader({ onChange }: IProp) {
 	const { isMobile } = useWindowSize();
+	const isDefaultValueRef = useRef(true);
 	const { value, category, setCategory, process, categories, setValue } = useCategoryFilter();
 
 	useEffect(() => {
@@ -21,6 +23,14 @@ export default function CardsHeader({ onChange }: IProp) {
 			category: category,
 		});
 	}, [onChange, value, category]);
+
+	useEffect(() => {
+		if (isDefaultValueRef.current) {
+			isDefaultValueRef.current = false;
+		} else {
+			gaLogger.clickCardListFilterValue(category, value);
+		}
+	}, [value]);
 
 	return (
 		<div className={styles.wrapper}>

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef } from "react";
 import useWindowSize from "../../../hooks/useWindowSize";
 import { handbookUrl, worksheetUrl } from "../../../lib/env";
+import gaLogger from "../../../lib/log";
 
 import Button from "../../Button/Button";
 import FadeInUpContainer from "../../layout/FadeInUpContainer";
@@ -136,7 +137,14 @@ export default function HowtouseBody() {
 							>
 								전체 다운로드
 							</Title>
-							<Button className={styles.downloadButton} color="solid" onClick={downloadClickListener(handbookUrl)}>
+							<Button
+								className={styles.downloadButton}
+								color="solid"
+								onClick={() => {
+									gaLogger.clickHowtouseHandbookDownload();
+									downloadClickListener(handbookUrl)();
+								}}
+							>
 								다운로드
 							</Button>
 							<img className={styles.downloadImg} src="/img/howto_down_handbook.png" />
@@ -151,7 +159,14 @@ export default function HowtouseBody() {
 							>
 								전체 다운로드
 							</Title>
-							<Button className={styles.downloadButton} color="solid" onClick={downloadClickListener(worksheetUrl)}>
+							<Button
+								className={styles.downloadButton}
+								color="solid"
+								onClick={() => {
+									gaLogger.clickHowtouseWorksheetDownload();
+									downloadClickListener(worksheetUrl)();
+								}}
+							>
 								다운로드
 							</Button>
 							<img className={styles.downloadImg} src="/img/howto_down_worksheet.png" />

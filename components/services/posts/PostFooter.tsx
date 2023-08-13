@@ -1,9 +1,14 @@
 import { handbookUrl, worksheetUrl } from "../../../lib/env";
+import gaLogger from "../../../lib/log";
 import Title from "../../text/Title";
 import DownloadSolid from "./DownloadSolid";
 import styles from "./PostFooter.module.css";
 
-export default function PostFooter() {
+interface IProp {
+	id: string;
+}
+
+export default function PostFooter({ id }: IProp) {
 	return (
 		<section className={styles.wrapper}>
 			<div className={styles.contentWrapper}>
@@ -14,8 +19,16 @@ export default function PostFooter() {
 					한번에 받고 싶다면?
 				</Title>
 			</div>
-			<DownloadSolid title="핸드북 전체" downloadLink={handbookUrl} />
-			<DownloadSolid title="워크시트 전체" downloadLink={worksheetUrl} />
+			<DownloadSolid
+				title="핸드북 전체"
+				downloadLink={handbookUrl}
+				onClick={() => gaLogger.clickCardDetailDownloadAllHandbook(id)}
+			/>
+			<DownloadSolid
+				title="워크시트 전체"
+				downloadLink={worksheetUrl}
+				onClick={() => gaLogger.clickCardDetailDownloadAllWorksheet(id)}
+			/>
 		</section>
 	);
 }

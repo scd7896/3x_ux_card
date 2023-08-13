@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useCallback } from "react";
+import gaLogger from "../../lib/log";
 import MainGnb from "../icon/MainGnb";
 import Link from "../Link/Link";
 import Body from "../text/Body";
@@ -23,16 +24,28 @@ export default function HeaderNav() {
 	return (
 		<header className={styles.header}>
 			<nav className={styles.nav}>
-				<Link href="/" className={styles.link}>
+				<Link href="/" className={styles.link} onClick={() => gaLogger.clickGnbLogo()}>
 					<MainGnb />
 				</Link>
-				<Link className={`${styles.link} ${pathname === "/howtouse" && styles.selected}`} href="/howtouse">
+				<Link
+					className={`${styles.link} ${pathname === "/howtouse" && styles.selected}`}
+					href="/howtouse"
+					onClick={() => gaLogger.clickGnbHowtouse()}
+				>
 					{getText("/howtouse", "How to use")}
 				</Link>
-				<Link className={`${styles.link} ${pathname === "/cards" && styles.selected}`} href="/cards">
+				<Link
+					className={`${styles.link} ${pathname === "/cards" && styles.selected}`}
+					href="/cards"
+					onClick={() => gaLogger.clickGnbCards()}
+				>
 					{getText("/cards", "Cards")}
 				</Link>
-				<Link className={`${styles.link} ${pathname === "/contact" && styles.selected}`} href="/contact">
+				<Link
+					className={`${styles.link} ${pathname === "/contact" && styles.selected}`}
+					href="/contact"
+					onClick={() => gaLogger.clickGnbContact()}
+				>
 					{getText("/contact", "Contact")}
 				</Link>
 			</nav>

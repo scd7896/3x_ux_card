@@ -8,6 +8,7 @@ import MemberInfoIcon from "../../icon/MemberInfoIcon";
 import { CheckIconBlack } from "../../icon/CheckIcon";
 import SubTitle from "../../text/SubTitle";
 import Body from "../../text/Body";
+import gaLogger from "../../../lib/log";
 
 interface IProp {
 	onChange?: (members: string[]) => void;
@@ -78,8 +79,10 @@ export default function MemberFilterMobile({ onChange }: IProp) {
 								setSelectedMemebers((prev) => {
 									const findResult = prev.find((member) => it === member);
 									if (findResult) {
+										gaLogger.clickCardListMemberFilter(it, false);
 										return prev.filter((member) => member !== findResult);
 									}
+									gaLogger.clickCardListMemberFilter(it, true);
 									return [...prev, it];
 								});
 							}}

@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import gaLogger from "../../../lib/log";
 import Button from "../../Button/Button";
 import MailIcon from "../../icon/MailIcon";
 import Body from "../../text/Body";
@@ -88,7 +89,7 @@ const memberName = {
 
 export default function ContactCard({ member }: IProp) {
 	return (
-		<div className={`${styles.wrapper} ${styles[member]}`}>
+		<div className={`${styles.wrapper} ${styles[member]}`} onClick={() => gaLogger.clickContactMember(member)}>
 			<Title level={3} className={styles.title}>
 				{memberName[member]}
 			</Title>
@@ -147,6 +148,7 @@ function Role({ member }: IProp) {
 
 export function ContactEmptyCard() {
 	const sendMailClickHanlder = useCallback(() => {
+		gaLogger.clickContactMail();
 		const a = document.createElement("a");
 		a.href = `mailto:"3x_UXcard@gmail.com"`;
 		a.click();

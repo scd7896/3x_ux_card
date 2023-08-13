@@ -8,10 +8,12 @@ import styles from "./DownloadSolid.module.css";
 interface IProp {
 	title: string;
 	downloadLink: string;
+	onClick?: () => void;
 }
 
-export default function DownloadSolid({ title, downloadLink }: IProp) {
+export default function DownloadSolid({ title, downloadLink, onClick }: IProp) {
 	const handleClick = useCallback(() => {
+		onClick?.();
 		const a = document.createElement("a");
 		a.target = "_blank";
 		a.href = downloadLink;

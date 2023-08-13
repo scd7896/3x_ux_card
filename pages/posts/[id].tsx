@@ -19,8 +19,9 @@ export default function Post({ postData }: any) {
 				title={postData.title}
 				figmaUrl={postData.figmaUrl}
 				workSheetUrl={postData.workSheetUrl}
+				id={postData.id}
 			/>
-			<PostFooter />
+			<PostFooter id={postData.id} />
 		</div>
 	);
 }

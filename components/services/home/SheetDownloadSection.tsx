@@ -1,4 +1,5 @@
 import useWindowSize from "../../../hooks/useWindowSize";
+import gaLogger from "../../../lib/log";
 import FadeInUpContainer from "../../layout/FadeInUpContainer";
 import Title from "../../text/Title";
 import SheetDownload from "./SheetDownload";
@@ -23,7 +24,7 @@ export default function SheetDownloadSection() {
 			</FadeInUpContainer>
 			<div className={styles.sheetDownloadWrapper}>
 				<section className={styles.sheetDownloadContainer}>
-					<FadeInUpContainer>
+					<FadeInUpContainer onClick={() => gaLogger.clickHomePrints()}>
 						<SheetDownload
 							link="/howtouse#fileDownload"
 							title="인쇄해서 쓸 수 있는 방법론 카드와 워크 시트를 
@@ -36,7 +37,7 @@ export default function SheetDownloadSection() {
 							<div className={styles.hr}> </div>
 						</FadeInUpContainer>
 					)}
-					<FadeInUpContainer>
+					<FadeInUpContainer onClick={() => gaLogger.clickHomeCardList()}>
 						<SheetDownload
 							reverse
 							link="/cards"

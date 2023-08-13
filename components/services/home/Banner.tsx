@@ -1,4 +1,5 @@
 import useWindowSize from "../../../hooks/useWindowSize";
+import gaLogger from "../../../lib/log";
 import Button from "../../Button/Button";
 import Link from "../../Link/Link";
 import { ButtonText } from "../../text/Text";
@@ -24,7 +25,7 @@ function HomeBanner() {
 				)}
 			</div>
 			<div className={styles.buttonWrapper}>
-				<Link href="/howtouse">
+				<Link href="/howtouse" onClick={() => gaLogger.clickHomeTopBanner()}>
 					<Button color="line" className={styles.button}>
 						<ButtonText level={1}>3x 이용 방법</ButtonText>
 					</Button>
