@@ -91,11 +91,17 @@ export async function createListJson() {
   fs.writeFileSync(path.join("public", "sitemap.xml"), sitemapResult);
 }
 
+function getTwoDigit(number: number) {
+  return number < 10 ? `0${number}` : number.toString();
+}
+
 function createXML(listJson: any[]) {
   const currentDate = new Date();
-  const dateString = `${currentDate.getFullYear()}-${
+  const dateString = `${currentDate.getFullYear()}-${getTwoDigit(
     currentDate.getMonth() + 1
-  }-${currentDate.getDate()}`;
+  )}-${getTwoDigit(currentDate.getDate())}T${getTwoDigit(
+    currentDate.getHours()
+  )}:${getTwoDigit(currentDate.getMinutes())}+09:00`;
 
   const siteMapContents = listJson.map((it) => ({
     loc: `https://www.3xuxcard.com/posts/${it._id}.html`,
