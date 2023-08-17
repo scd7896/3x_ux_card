@@ -85,17 +85,19 @@ export async function createListJson() {
     });
   }
 
-  const sitemapResult = createXML(listJson);
+  const sitemapResult = createSiteMapXml(listJson);
+  const rssResult = createRSSXml(listJson);
 
   fs.writeFileSync(path.join("public", "list.json"), JSON.stringify(listJson));
   fs.writeFileSync(path.join("public", "sitemap.xml"), sitemapResult);
+  fs.writeFileSync(path.join("public", "rss.xml"), rssResult);
 }
 
 function getTwoDigit(number: number) {
   return number < 10 ? `0${number}` : number.toString();
 }
 
-function createXML(listJson: any[]) {
+function createSiteMapXml(listJson: any[]) {
   const currentDate = new Date();
   const dateString = `${currentDate.getFullYear()}-${getTwoDigit(
     currentDate.getMonth() + 1
@@ -148,6 +150,49 @@ function createXML(listJson: any[]) {
         },
         ...siteMapContents,
       ],
+    },
+  };
+
+  return convert.json2xml(JSON.stringify(json), {
+    compact: true,
+    ignoreComment: true,
+    spaces: 4,
+  });
+}
+
+function createRSSXml(listJson: any[]) {
+  const currentDate = new Date();
+  const dateString = `${currentDate.getFullYear()}-${getTwoDigit(
+    currentDate.getMonth() + 1
+  )}-${getTwoDigit(currentDate.getDate())}T${getTwoDigit(
+    currentDate.getHours()
+  )}:${getTwoDigit(currentDate.getMinutes())}+09:00`;
+
+  const rssItems = listJson.map((it) => ({
+    title: it.data.title,
+    link: `https://www.3xuxcard.com/posts/${it._id}.html`,
+    description: it.data.description,
+    pubDate: dateString,
+    guid: `https://www.3xuxcard.com/posts/${it._id}.html`,
+  }));
+
+  const json = {
+    _declaration: {
+      _attributes: {
+        version: "1.0",
+        encoding: "utf-8",
+      },
+    },
+    rss: {
+      _attributes: {
+        version: "2.0",
+      },
+      channel: {
+        title: "3X:UX Card",
+        link: "https://www.3xuxcard.com/",
+        description: "우리의 디자인을 위한 UX 방법론 모음",
+        item: rssItems,
+      },
     },
   };
 
