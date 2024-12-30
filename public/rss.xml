@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>3X:UX Card</title>
+        <link>https://www.3xuxcard.com/</link>
+        <description>우리의 디자인을 위한 UX 방법론 모음</description>
+        <item>
+            <title>2x2 카노모델</title>
+            <link>https://www.3xuxcard.com/posts/2X2KanoModel.html</link>
+            <description>기능의 우선순위를 매기고 실현 가능한 요소가 몇 개나 되는지 확인해 동료들에게 현실적인 기대치를 갖게 하는 방법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/2X2KanoModel.html</guid>
+        </item>
+        <item>
+            <title>친화도법</title>
+            <link>https://www.3xuxcard.com/posts/AffinityDiagram.html</link>
+            <description>사용자 조사를 통해 수집한 포괄적인 데이터들 사이에서 의미있는 규칙을 발견하는 브레인스토밍 기법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/AffinityDiagram.html</guid>
+        </item>
+        <item>
+            <title>벤치마킹</title>
+            <link>https://www.3xuxcard.com/posts/Benchmarking.html</link>
+            <description>서비스의 경쟁력을 제고하기 위해 다른 회사나 업계의 사례를 탐색하고 참고하는 기법으로 서비스의 방향성을 이끌어낼때 사용</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Benchmarking.html</guid>
+        </item>
+        <item>
+            <title>검은모자들의 미팅</title>
+            <link>https://www.3xuxcard.com/posts/Black Hat Session.html</link>
+            <description>제품 디자인에 관해 솔직하면서도 생산적인 피드백을 주고받을 수 있는 간편한 사고 워크숍</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Black Hat Session.html</guid>
+        </item>
+        <item>
+            <title>비즈니스 캔버스</title>
+            <link>https://www.3xuxcard.com/posts/BusinessCanvas.html</link>
+            <description>제품이나 서비스를 어떻게 소비자에게 제공하고 마케팅하며 돈을 벌 것인가 하는 계획 또는 사업 아이디어</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/BusinessCanvas.html</guid>
+        </item>
+        <item>
+            <title>콘텐츠 분석</title>
+            <link>https://www.3xuxcard.com/posts/ContentPatterns.html</link>
+            <description>제품이나 서비스가 가진 모든 콘텐츠를 분석하여 자주 반복되는 패턴을 파악하는 것.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/ContentPatterns.html</guid>
+        </item>
+        <item>
+            <title>디자인 개요</title>
+            <link>https://www.3xuxcard.com/posts/DesignBrief.html</link>
+            <description>프로젝트가 어떤 방향으로 진행될 것인가에 대한 요약. 사용자 경험에 대한 비전을 구체적으로 보여주고 그 비전이 어떻게 실현될지 큰 그림으로 보여주는 것</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/DesignBrief.html</guid>
+        </item>
+        <item>
+            <title>디자인 원칙</title>
+            <link>https://www.3xuxcard.com/posts/DesignPrinciples.html</link>
+            <description>디자인 정체성(identity). 사용자가 제품을 사용하며 마주할 제품의 성격이나 느낌을 부여하는 것.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/DesignPrinciples.html</guid>
+        </item>
+        <item>
+            <title>엘리베이터 피치</title>
+            <link>https://www.3xuxcard.com/posts/ElevatorPitch.html</link>
+            <description>엘리베이터에서도 가능할만큼 짧은 설명. 어떤 상품, 서비스 혹은 기업과 그 가치에 대한 빠르고 간단한 요약 설명</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/ElevatorPitch.html</guid>
+        </item>
+        <item>
+            <title>5초 테스트</title>
+            <link>https://www.3xuxcard.com/posts/Five-Second Test.html</link>
+            <description>제품 내 정보 계층 구조를 파악하기 위한 것으로, 제품의 특정 순간이 사용자에게 얼마나 기억에 남는지 알 수 있는 테스트</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Five-Second Test.html</guid>
+        </item>
+        <item>
+            <title>플로우차트</title>
+            <link>https://www.3xuxcard.com/posts/FlowChart.html</link>
+            <description>제품 내에서 시간에 따라 어떤 경험이 펼쳐질지 정의하는 방법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/FlowChart.html</guid>
+        </item>
+        <item>
+            <title>게릴라식 사용자 조사</title>
+            <link>https://www.3xuxcard.com/posts/GuerillaUserResearch.html</link>
+            <description>디자인하기 전에 어떤 UX 기법을 이용할 것인지 계획하는 것으로 UX작업이 전체 프로젝트 타임 라인 안에 어떻게 포함되는지 이해하고 UX작업을 어떻게 할 것인지 계획하도록 도와주는 것</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/GuerillaUserResearch.html</guid>
+        </item>
+        <item>
+            <title>발견적 메모</title>
+            <link>https://www.3xuxcard.com/posts/HeuristicMarkup.html</link>
+            <description>사용자의 입장에서 제품을 사용하며 느낄 예상 반응을 기록하고 평가하는 방법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/HeuristicMarkup.html</guid>
+        </item>
+        <item>
+            <title>Hi-fi 프로토타입</title>
+            <link>https://www.3xuxcard.com/posts/Hi-fi Prototype.html</link>
+            <description>제품의 개발 단계에서 만들어보는 대략의 기능을 갖춘 고도화된 테스트 모델</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Hi-fi Prototype.html</guid>
+        </item>
+        <item>
+            <title>인터뷰</title>
+            <link>https://www.3xuxcard.com/posts/Interview.html</link>
+            <description>1명 또는 다수의 응답자와 면접을 통해 심리를 파악하는 정성적 조사법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Interview.html</guid>
+        </item>
+        <item>
+            <title>휴리스틱 평가</title>
+            <link>https://www.3xuxcard.com/posts/Jakob Nielsen Heuristic Evaluation.html</link>
+            <description>서비스의 성능과 품질이 적절한지를 평가하는 발견적 조사 방법. 전문가의 노하우로 빠르게 서비스를 평가하여 문제점 및 개선 방향을 제시할 수 있음</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Jakob Nielsen Heuristic Evaluation.html</guid>
+        </item>
+        <item>
+            <title>린캔버스</title>
+            <link>https://www.3xuxcard.com/posts/LeanCanvas.html</link>
+            <description>비즈니스 캔버스에서 MVP 전략에 맞춰 변형된 형태. 제품이나 서비스를 어떻게 소비자에게 제공하고 마케팅하며, 돈을 벌 것인가 하는 계획 또는 사업 아이디어를 말한다.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/LeanCanvas.html</guid>
+        </item>
+        <item>
+            <title>경청투어</title>
+            <link>https://www.3xuxcard.com/posts/ListeningTour.html</link>
+            <description>동료들이 제품에 대해 중요하게 생각하는 것이 무엇인지 알아보는 정보 수집 활동</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/ListeningTour.html</guid>
+        </item>
+        <item>
+            <title>Lo-Fi 프로토타입</title>
+            <link>https://www.3xuxcard.com/posts/Lo-Fi Prototype.html</link>
+            <description>제품의 개발 단계에서 대략의 기능을 갖춘 테스트 모델. 제품의 느낌을 알아보고 제대로 작동 하는지 확인하는데 사용.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Lo-Fi Prototype.html</guid>
+        </item>
+        <item>
+            <title>무드보드</title>
+            <link>https://www.3xuxcard.com/posts/MoodBoards.html</link>
+            <description>완성된 제품이 전달할 느낌, 보여질 모습과 인상을 대표하는 시각 자료</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/MoodBoards.html</guid>
+        </item>
+        <item>
+            <title>기회 워크숍</title>
+            <link>https://www.3xuxcard.com/posts/OpportunityWorkshop.html</link>
+            <description>UX의 관점에서 볼 때 제품에서 가장 개선이 시급한 부분을 찾기 위한 회의</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/OpportunityWorkshop.html</guid>
+        </item>
+        <item>
+            <title>퍼소나</title>
+            <link>https://www.3xuxcard.com/posts/Persona.html</link>
+            <description>데이터 기반으로 압축된 사용자의 모습으로 만든 가상의 인물 프로필.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Persona.html</guid>
+        </item>
+        <item>
+            <title>기도하기</title>
+            <link>https://www.3xuxcard.com/posts/Pray.html</link>
+            <description>설계하고 디자인한 제품이 문제 없이 구현될 수 있기를 바라며 그동안의 시간을 공물로 기도를 올린다</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Pray.html</guid>
+        </item>
+        <item>
+            <title>서비스 프로젝트 개요</title>
+            <link>https://www.3xuxcard.com/posts/ProjectBrief.html</link>
+            <description>작업에서 가장 우선되어야 하는 목표나 기대가 무엇인지를 직접적으로 명시하는 것</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/ProjectBrief.html</guid>
+        </item>
+        <item>
+            <title>프로토 퍼소나</title>
+            <link>https://www.3xuxcard.com/posts/ProtoPersona.html</link>
+            <description>많은 사용자의 모습을 하나로 합성 및 압축하여 쉽게 상상 가능하게 만든 가상의 인물 프로필.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/ProtoPersona.html</guid>
+        </item>
+        <item>
+            <title>빠른 사용성 테스트</title>
+            <link>https://www.3xuxcard.com/posts/Quick-and-Dirty Usability Test.html</link>
+            <description>가능한 사람 누구에게나 디자인 테스트를 진행해 디자인에 대한 빠른 피드백을 받는 방법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Quick-and-Dirty Usability Test.html</guid>
+        </item>
+        <item>
+            <title>서비스 리서치</title>
+            <link>https://www.3xuxcard.com/posts/ServiceResearch.html</link>
+            <description>사용자가 기대하는 사용성의 표준이 되는 UX 사례에 대한 조사. 실제 경쟁 서비스가 아닌, 사용자들이 일상적으로 사용할만한 제품들을 살펴보는 것.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/ServiceResearch.html</guid>
+        </item>
+        <item>
+            <title>스케치보드</title>
+            <link>https://www.3xuxcard.com/posts/Sketchboards.html</link>
+            <description>스케치들로 만든 그룹 토의용 대형 포스터. 디자인적 사고로 제품의 범위와 흐름을 정리하는 방법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Sketchboards.html</guid>
+        </item>
+        <item>
+            <title>스케치</title>
+            <link>https://www.3xuxcard.com/posts/Sketching.html</link>
+            <description>아이디어에 대한 다양한 가능성을 스케치를 통해 탐색하는 방법</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Sketching.html</guid>
+        </item>
+        <item>
+            <title>전략 워크숍</title>
+            <link>https://www.3xuxcard.com/posts/StrategyWorkshop.html</link>
+            <description>가장 이상적인 사용자 경험에 대한 자사의 '비전'과 '전략'을 구축할 때 사용</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/StrategyWorkshop.html</guid>
+        </item>
+        <item>
+            <title>사용자 조사 계획</title>
+            <link>https://www.3xuxcard.com/posts/User Research Plan.html</link>
+            <description>사용자에 대해 알고 있는 정보를 확인하고 추가로 필요한 정보를 어떻게 알아낼 것인지 계획 하는 것</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/User Research Plan.html</guid>
+        </item>
+        <item>
+            <title>사용자 여정 지도</title>
+            <link>https://www.3xuxcard.com/posts/UserJourneymap.html</link>
+            <description>사용자가 제품/서비스를 사용할 때 경험하게 되는 요소들을 사용자 경험에 따라 순차적으로 나열하여 만드는 지도</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/UserJourneymap.html</guid>
+        </item>
+        <item>
+            <title>사용자조사</title>
+            <link>https://www.3xuxcard.com/posts/UserResearch.html</link>
+            <description>제품 및 서비스와 관련된 사용자의 다양한 정보를 조사하는 활동. 사용자 조사 방식에는 ‘정성적 조사’, ‘정량적 조사’로 나누어진다.</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/UserResearch.html</guid>
+        </item>
+        <item>
+            <title>사용자 시나리오</title>
+            <link>https://www.3xuxcard.com/posts/UserScenario.html</link>
+            <description>고객들이 제품을 사용하며 겪을 경험에 대한 스토리를 문서화 한 것</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/UserScenario.html</guid>
+        </item>
+        <item>
+            <title>UX 프로젝트 계획</title>
+            <link>https://www.3xuxcard.com/posts/UxProjectPlan.html</link>
+            <description>디자인하기 전에 어떤 UX 기법을 이용할 것인지 계획하는 것으로 UX작업이 전체 프로젝트 타임 라인 안에 어떻게 포함되는지 이해하고 UX작업을 어떻게 할 것인지 계획하도록 도와주는 것</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/UxProjectPlan.html</guid>
+        </item>
+        <item>
+            <title>UX 질문지</title>
+            <link>https://www.3xuxcard.com/posts/UxQuestionaire.html</link>
+            <description>본격적인 작업을 시작하기 전, 제품과 사용자 경험에 대해서 알고 있는 내용에 대한 질문 리스트 작성</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/UxQuestionaire.html</guid>
+        </item>
+        <item>
+            <title>와이어프레임</title>
+            <link>https://www.3xuxcard.com/posts/Wireframes.html</link>
+            <description>제품의 모든 부분을 보여주는 흑백으로 그린 개념도나 그림</description>
+            <pubDate>2024-12-30T17:19+09:00</pubDate>
+            <guid>https://www.3xuxcard.com/posts/Wireframes.html</guid>
+        </item>
+    </channel>
+</rss>
